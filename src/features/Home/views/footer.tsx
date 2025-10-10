@@ -73,7 +73,7 @@ export default function Footer() {
                                         <p className="text-white text-opacity-90">
                                             Zone portuaire, Vridi Tri postal,
                                             <br />
-                                            après l'école ESAM.
+                                            après l&apos;école ESAM.
                                         </p>
                                     </div>
                                 </div>
@@ -145,7 +145,7 @@ export default function Footer() {
                                     className="flex-1 px-6 py-3 rounded-lg bg-white bg-opacity-20 border border-white border-opacity-30 text-white placeholder-white placeholder-opacity-60 focus:outline-none focus:bg-opacity-30 transition-all"
                                 />
                                 <button className="bg-white text-[#3193bd] px-8 py-3 rounded-lg font-semibold hover:bg-opacity-90 transition-all">
-                                    S'INSCRIRE
+                                    S&apos;inscrire
                                 </button>
                             </div>
                         </div>
@@ -155,7 +155,7 @@ export default function Footer() {
                     <div className="border-t border-white border-opacity-20 pt-8">
                         <div className="flex flex-col md:flex-row justify-between items-center gap-4">
                             <p className="text-white text-opacity-80 text-sm">
-                                Copyright © 2017 Bienvenue sur SIGLASS Côte d'Ivoire. Une Réalisation Digital Group.
+                                Copyright © 2017 Bienvenue sur SIGLASS Côte d&apos;Ivoire. Une Réalisation Digital Group.
                             </p>
                             <a href="#" className="text-white text-opacity-80 text-sm hover:text-opacity-100 transition-opacity">
                                 Politique de confidentialité
