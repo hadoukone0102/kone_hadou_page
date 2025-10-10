@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono,Roboto,Poppins  } from "next/font/google";
+import { Geist, Geist_Mono,Poppins  } from "next/font/google";
 import "../../app/globals.css";
 
 const geistSans = Geist({
@@ -12,11 +12,6 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-const roboto = Roboto({
-  weight: ["400", "700"],
-  subsets: ["latin"],
-  variable: "--font-roboto",
-});
 
 const poppins = Poppins({
   weight: ["400", "700"],

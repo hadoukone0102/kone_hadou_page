@@ -1,6 +1,7 @@
 "use client";
 import { useState, useEffect } from 'react';
 import { ChevronLeft, ChevronRight, Phone, Mail, ArrowRight } from 'lucide-react';
+import Image from "next/image";
 
 export default function LandingPage() {
     const [currentSlide, setCurrentSlide] = useState(0);
@@ -51,7 +52,7 @@ export default function LandingPage() {
         },
         {
             id: 4,
-            image: "about-1.jpg",
+            image: "/about-1.jpg",
             title: "Qualité & Savoir-faire",
             subtitle: "Plus de 20 ans d'expertise en Côte d'Ivoire",
             description: "Une équipe de professionnels dédiés à réaliser vos projets les plus ambitieux avec précision.",
@@ -61,7 +62,7 @@ export default function LandingPage() {
         },
         {
             id: 5,
-            image: "about-2.jpg",
+            image: "/about-2.jpg",
             title: "Devis Gratuit & Personnalisé",
             subtitle: "Votre projet mérite une attention particulière",
             description: "Contactez-nous dès aujourd'hui pour un devis gratuit et des conseils d'experts adaptés à vos besoins.",
@@ -92,7 +93,7 @@ export default function LandingPage() {
         setCurrentSlide((prev) => (prev + 1) % slides.length);
     };
 
-    const goToSlide = (index:any) => {
+    const goToSlide = (index:number) => {
         setIsAutoPlaying(false);
         setCurrentSlide(index);
     };
@@ -120,9 +121,11 @@ export default function LandingPage() {
                                 : 'opacity-0 scale-105'
                         }`}
                     >
-                        <img
+                        <Image
                             src={slide.image}
                             alt={slide.title}
+                            width={800}
+                            height={600}
                             className="w-full h-full object-cover"
                         />
                         {/* Overlay gradient */}

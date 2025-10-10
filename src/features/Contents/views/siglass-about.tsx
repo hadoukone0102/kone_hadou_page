@@ -36,7 +36,7 @@ export default function SiglassAbout() {
                             <h2 className="text-4xl font-light text-white mb-6">À Propos de SIGLASS</h2>
                             <p className="text-white text-lg leading-relaxed">
                                 Nous sommes spécialisés dans les fenêtres, portes et systèmes de vitrage de qualité supérieure, 
-                                définis par un savoir-faire et des performances exceptionnels, ce qui en fait un choix d'élite 
+                                définis par un savoir-faire et des performances exceptionnels, ce qui en fait un choix d&apos;élite 
                                 pour les propriétaires exigeants ou les professionnels du design.
                             </p>
                         </div>
