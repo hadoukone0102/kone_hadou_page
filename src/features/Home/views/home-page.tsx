@@ -17,12 +17,6 @@ export default function Home_Page(){
             {/****************Body Page**************************** */}
             <main className="flex-grow">
                 <div className="w-full py-16">
-                    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                        <h1 className="text-4xl font-bold text-gray-800 mb-8">Bienvenue chez SIGLASS</h1>
-                        <p className="text-lg text-gray-600 mb-6">
-                            Chez SIGLASS, nous nous engageons à fournir des solutions en verre de haute qualité pour tous vos besoins résidentiels et commerciaux.
-                        </p>
-                    </div>
                     <ContentPage />
                 </div>
             </main>
