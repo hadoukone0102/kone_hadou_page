@@ -50,7 +50,7 @@ export default function Header({ className, onMenuHover }: HeaderProps) {
                                 </div>
                                 <div className="flex items-center gap-2 hover:text-[#3193bd] transition-colors cursor-pointer">
                                     <MapPin size={16} />
-                                    <span>Abidjan, Côte d'Ivoire</span>
+                                    <span>Abidjan, Côte d&apos;Ivoire</span>
                                 </div>
                             </div>
                             <div className="flex items-center gap-4">

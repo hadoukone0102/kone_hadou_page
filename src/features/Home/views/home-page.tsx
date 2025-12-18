@@ -10,7 +10,7 @@ import { useState } from "react";
 
 export default function Home_Page(){
     const [activeMenu, setActiveMenu] = useState<string | null>(null);
-
+    console.log(activeMenu);
     return (
         <div className="flex flex-col gap-0 px-0 m-0">
             {/****************Header Page**************************** */}

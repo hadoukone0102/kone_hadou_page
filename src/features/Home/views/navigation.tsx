@@ -146,7 +146,7 @@ export default function Navigation({ onMenuChange }: NavigationProps) {
                                     </div>
                                 ))}
                                 <div className="bg-gradient-to-br from-[#3193bd] to-[#1c6f8c] text-white p-6 rounded-lg">
-                                    <h3 className="font-bold text-xl mb-3">Besoin d'un conseil ?</h3>
+                                    <h3 className="font-bold text-xl mb-3">Besoin d&apos;un conseil ?</h3>
                                     <p className="text-sm mb-4 text-blue-100">
                                         Nos experts sont à votre disposition pour vous accompagner dans votre projet.
                                     </p>
@@ -274,7 +274,7 @@ export default function Navigation({ onMenuChange }: NavigationProps) {
                                 </div>
                             ))}
                             <div className="bg-gradient-to-br from-[#3193bd] to-[#1c6f8c] text-white p-6 rounded-lg">
-                                <h3 className="font-bold text-xl mb-3">Besoin d'un conseil ?</h3>
+                                <h3 className="font-bold text-xl mb-3">Besoin d&apos;un conseil ?</h3>
                                 <p className="text-sm mb-4 text-blue-100">
                                     Nos experts sont à votre disposition pour vous accompagner dans votre projet.
                                 </p>
