@@ -7,7 +7,6 @@ import Navigation from "./navigation";
 import LandingPage from "./landing-page";
 import { useState } from "react";
 
-
 export default function Home_Page(){
     const [activeMenu, setActiveMenu] = useState<string | null>(null);
     console.log(activeMenu);
