@@ -1,9 +1,11 @@
 "use client";
 import Image from "next/image";
-
-export default function Header() {
+type headerProps ={
+    className?:string
+}
+export default function Header({className}:headerProps) {
     return (
-        <header className="bg-white shadow-sm">
+        <header className={`${className} bg-white shadow-sm`}>
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex justify-between items-center py-4">
                     {/* Logo */}

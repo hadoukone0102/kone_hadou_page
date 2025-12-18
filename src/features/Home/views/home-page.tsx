@@ -11,7 +11,7 @@ export default function Home_Page(){
     return (
         <div className="flex flex-col gap-0 px-0 m-0">
             {/****************Header Page**************************** */}
-            <Header/>
+            <Header className="sticky top-0 left-0 rigth-0 z-100"/>
             <Navigation/>
             <LandingPage/>
             {/****************Body Page**************************** */}
@@ -20,7 +20,6 @@ export default function Home_Page(){
                     <ContentPage />
                 </div>
             </main>
-
             {/****************Footer Page**************************** */}
             <Footer/>
         </div>
