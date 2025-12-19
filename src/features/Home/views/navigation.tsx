@@ -89,7 +89,7 @@ export default function Navigation({ onMenuChange }: NavigationProps) {
             sections: [
                 {
                     title: "Projets résidentiels",
-                    icon: <Image size={24} />,
+                    icon: <Image size={24} height={0} width={0} />,
                     links: [
                         { label: "Maisons individuelles", href: "#" },
                         { label: "Résidences de luxe", href: "#" },
