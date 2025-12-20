@@ -78,7 +78,7 @@ export default function LandingPage() {
 
         const interval = setInterval(() => {
             setCurrentSlide((prev) => (prev + 1) % slides.length);
-        }, 5000);
+        }, 3000);
 
         return () => clearInterval(interval);
     }, [isAutoPlaying, slides.length]);
@@ -190,12 +190,12 @@ export default function LandingPage() {
                         }`}
                     >
                         {/* Badge numéro de slide */}
-                        <div className="inline-flex items-center gap-2 bg-[#3193bd]/10 text-[#3193bd] px-4 py-2 rounded-full text-sm font-semibold mb-6">
+                        {/* <div className="inline-flex items-center gap-2 bg-[#3193bd]/10 text-[#3193bd] px-4 py-2 rounded-full text-sm font-semibold mb-6">
                             <span className="w-6 h-6 bg-[#3193bd] text-white rounded-full flex items-center justify-center text-xs">
                                 {index + 1}
                             </span>
                             Slide {index + 1} / {slides.length}
-                        </div>
+                        </div> */}
 
                         {/* Titre principal */}
                         <h1 className="text-5xl font-bold text-gray-900 mb-4 leading-tight">

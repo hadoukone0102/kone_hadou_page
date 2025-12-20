@@ -7,9 +7,10 @@ import Image from "next/image";
 type HeaderProps = {
     className?: string;
     onMenuHover?: (menu: string | null) => void;
+    onDevisClick?: () => void;
 }
 
-export default function Header({ className, onMenuHover }: HeaderProps) {
+export default function Header({ className, onMenuHover,onDevisClick }: HeaderProps) {
     const [scrolled, setScrolled] = useState(false);
     const [showScrollTop, setShowScrollTop] = useState(false);
 
@@ -134,7 +135,9 @@ export default function Header({ className, onMenuHover }: HeaderProps) {
 
                                 <button className={`relative overflow-hidden group cursor-pointer bg-[#3193bd] text-white font-bold rounded-lg transition-all duration-300 hover:shadow-xl hover:-translate-y-1 ${
                                     scrolled ? 'px-4 py-2 text-sm' : 'px-8 py-4'
-                                }`}>
+                                }`}
+                                onClick={onDevisClick}
+                                >
                                     <span className="relative z-10">
                                         {scrolled ? 'Devis' : 'Demande de devis'}
                                     </span>
