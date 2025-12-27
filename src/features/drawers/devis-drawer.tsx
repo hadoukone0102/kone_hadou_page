@@ -70,7 +70,7 @@ export default function DevisDrawer({ isOpen, onClose }: DevisDrawerProps) {
         <>
             {/* Overlay du drawer */}
             <div 
-                className={`fixed inset-0 bg-black/50 backdrop-blur-sm z-[60] transition-opacity duration-300 ${
+                className={`fixed inset-0 bg-black/50 backdrop-blur-sm z-60 transition-opacity duration-300 ${
                     isOpen ? 'opacity-100' : 'opacity-0 pointer-events-none'
                 }`}
                 onClick={handleOverlayClick}
@@ -78,7 +78,7 @@ export default function DevisDrawer({ isOpen, onClose }: DevisDrawerProps) {
 
             {/* Drawer - Formulaire de devis */}
             <div 
-                className={`fixed top-0 right-0 h-full w-full sm:w-[90%] md:w-[50%] bg-white shadow-2xl z-[70] transform transition-transform duration-500 ease-in-out overflow-y-auto ${
+                className={`fixed top-0 right-0 h-full w-full sm:w-[90%] md:w-[50%] bg-white shadow-2xl z-[200] transform transition-transform duration-500 ease-in-out overflow-y-auto ${
                     isOpen ? 'translate-x-0' : 'translate-x-full'
                 }`}
             >
