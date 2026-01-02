@@ -4,7 +4,7 @@ import { ArrowRight, Award, Users, Briefcase, TrendingUp } from 'lucide-react';
 
 export default function SiglassAbout() {
     const [currentSlide, setCurrentSlide] = useState(0);
-    const [titleVisible, setTitleVisible] = useState(true);
+    const [titleVisible] = useState(true);
     const titleRef = useRef<HTMLDivElement>(null);
     
     const carouselImages = [
@@ -26,18 +26,18 @@ export default function SiglassAbout() {
     }, [carouselImages.length]);
 
     return (
-        <div className="bg-gray-50 py-16 px-4 sm:px-6 lg:px-8">
+        <div className="bg-primary px-4 sm:px-6 lg:px-8">
             <div className="max-w-7xl mx-auto">
                 {/* Titre de la section avec animation */}
                 <div 
                     ref={titleRef}
-                    className={`text-center mb-12 transition-all duration-1000 mb-4 ${
+                    className={`text-center mb-12 transition-all duration-1000${
                         titleVisible 
                             ? 'opacity-100 translate-y-0' 
                             : 'opacity-0 translate-y-10'
                     }`}
                 >
-                    <div className="inline-block">
+                    <div className="inline-block mt-4">
                         <div className="flex items-center gap-3 mb-4">
                             <div className={`h-1 w-12 bg-orange-500 transition-all duration-700 delay-200 ${
                                 titleVisible ? 'scale-x-100' : 'scale-x-0'
@@ -50,7 +50,7 @@ export default function SiglassAbout() {
                             }`}></div>
                         </div>
                     </div>
-                    <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+                    <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4 text-white">
                        Tous savoir en deux minutes 
                     </h2>
                 </div>
@@ -69,10 +69,10 @@ export default function SiglassAbout() {
 
                     {/* Contenu droite */}
                     <div className="flex flex-col justify-center">
-                        <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-6">
+                        <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-6 text-white">
                             Qui est SIGLASS ?
                         </h2>
-                        <div className="space-y-4 text-gray-600 leading-relaxed">
+                        <div className="space-y-4 text-white leading-relaxed ">
                             <p>
                                 SIGLASS est l'un des leaders en Côte d'Ivoire dans la conception, la fabrication et l'installation de systèmes de menuiserie aluminium et PVC. Nous intervenons dans trois domaines majeurs : les produits architecturaux en verre, les solutions résidentielles et les projets commerciaux.
                             </p>

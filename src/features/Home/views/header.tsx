@@ -104,7 +104,7 @@ export default function Header({ onDevisClick }: HeaderProps) {
             >
                 <div className="h-full flex flex-col">
                     {/* Close Button */}
-                    <div className="flex justify-end pt-35 pr-35">
+                    <div className="flex justify-end pt-35 pr-4">
                         <button
                             onClick={() => setSearchOpen(false)}
                             className="w-12 h-12 flex items-center justify-center text-gray-700 hover:text-[#3193bd] transition-colors"

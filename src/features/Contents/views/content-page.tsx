@@ -1,5 +1,7 @@
 "use client";
 
+import SlideContent from "./content-slide";
+import HeadContent from "./head-content";
 import PartnersCarousel from "./partenaire";
 import PresentPage from "./prensent-page";
 import ProjectsGrid from "./realisation";
@@ -8,10 +10,13 @@ import ProjectsGrid from "./realisation";
 export default function ContentPage() {
     return (
         <div className="flex flex-col gap-4">
-            {/** Add more content or components as needed */}
-            <PresentPage/>
-            <ProjectsGrid/>
-            <PartnersCarousel/>
+            <div className="bg-primary">
+                <HeadContent/>
+                <SlideContent/>
+            </div>
+            {/* <PresentPage/>
+            <ProjectsGrid/>*/}
+            <PartnersCarousel/> 
             {/* <SiglassAbout /> */}
         </div>
     );

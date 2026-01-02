@@ -5,6 +5,7 @@ import Footer from "./footer";
 import Header from "./header";
 import { useState } from "react";
 import DevisDrawer from "@/features/drawers/devis-drawer";
+import ScrollingBanner from "../components/banner/scroll-banner";
 
 export default function Home_Page(){
     const [drawerOpen, setDrawerOpen] = useState(false);
@@ -14,7 +15,7 @@ export default function Home_Page(){
             <Header
                 onDevisClick={() => setDrawerOpen(true)}
             />
-            {/* <ScrollingBanner /> */}
+            <ScrollingBanner />
 
             {/* <Navigation onMenuChange={setActiveMenu} /> */}
             {/* Drawer de devis */}
@@ -25,7 +26,7 @@ export default function Home_Page(){
             {/* <LandingPage/> */}
             {/****************************Body Page**************************** */}
             <main className="flex-grow">
-                <div className="w-full py-16">
+                <div className="w-full">
                     <ContentPage />
                 </div>
             </main>
