@@ -1,6 +1,7 @@
 "use client";
 import { useState, useEffect, useRef } from 'react';
 import { ArrowRight, Award, Users, Briefcase, TrendingUp } from 'lucide-react';
+import Image from 'next/image';
 
 export default function SiglassAbout() {
     const [currentSlide, setCurrentSlide] = useState(0);
@@ -59,9 +60,11 @@ export default function SiglassAbout() {
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 mb-16">
                     {/* Image gauche - Bâtiment SIGLASS */}
                     <div className="relative h-[400px] lg:h-[500px] rounded-lg overflow-hidden shadow-xl group">
-                        <img
+                        <Image
                             src="/about-1.jpg"
                             alt="SIGLASS Showroom"
+                            width={50}
+                            height={50}
                             className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                         />
                         <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
@@ -74,13 +77,13 @@ export default function SiglassAbout() {
                         </h2>
                         <div className="space-y-4 text-white leading-relaxed ">
                             <p>
-                                SIGLASS est l'un des leaders en Côte d'Ivoire dans la conception, la fabrication et l'installation de systèmes de menuiserie aluminium et PVC. Nous intervenons dans trois domaines majeurs : les produits architecturaux en verre, les solutions résidentielles et les projets commerciaux.
+                                SIGLASS est l&apos;un des leaders en Côte d&apos;Ivoire dans la conception, la fabrication et l&apos;installation de systèmes de menuiserie aluminium et PVC. Nous intervenons dans trois domaines majeurs : les produits architecturaux en verre, les solutions résidentielles et les projets commerciaux.
                             </p>
                             <p>
-                                Fondée avec une vision d'excellence, SIGLASS s'est imposée comme un partenaire de confiance pour les architectes, promoteurs immobiliers et particuliers. Aujourd'hui, nous réalisons des projets d'envergure à Abidjan et dans toute la Côte d'Ivoire, employant une équipe de professionnels qualifiés et passionnés.
+                                Fondée avec une vision d&apos;excellence, SIGLASS s&apos;vest imposée comme un partenaire de confiance pour les architectes, promoteurs immobiliers et particuliers. Aujourd&apos;hui, nous réalisons des projets d&apos;envergure à Abidjan et dans toute la Côte d&apos;Ivoire, employant une équipe de professionnels qualifiés et passionnés.
                             </p>
                             <p>
-                                Nous opérons dans trois secteurs principaux : l'architecture (fenêtres, portes, façades vitrées), les solutions résidentielles (baies vitrées, verrières, garde-corps) et les projets commerciaux (vitrines, cloisons, aménagements sur mesure). Notre expertise technique inclut également des produits spécialisés comme les parois de douche et les caves à vin.
+                                Nous opérons dans trois secteurs principaux : l&apos;architecture (fenêtres, portes, façades vitrées), les solutions résidentielles (baies vitrées, verrières, garde-corps) et les projets commerciaux (vitrines, cloisons, aménagements sur mesure). Notre expertise technique inclut également des produits spécialisés comme les parois de douche et les caves à vin.
                             </p>
                         </div>
 
@@ -91,7 +94,7 @@ export default function SiglassAbout() {
                                     <Award size={24} />
                                     <span className="text-2xl font-bold">20+</span>
                                 </div>
-                                <p className="text-sm text-gray-600">Ans d'expérience</p>
+                                <p className="text-sm text-gray-600">Ans d&apos;expérience</p>
                             </div>
                             <div className="bg-white p-4 rounded-lg shadow-sm">
                                 <div className="flex items-center gap-2 text-[#3193bd] mb-2">
@@ -113,13 +116,13 @@ export default function SiglassAbout() {
                         </h3>
                         <div className="space-y-6 text-gray-600 leading-relaxed">
                             <p>
-                                Nous détenons des parts de marché importantes dans les secteurs du bâtiment et de la construction en Côte d'Ivoire, avec une présence géographique stratégique nous permettant de répondre aux besoins de nos clients à Abidjan et dans les principales villes du pays.
+                                Nous détenons des parts de marché importantes dans les secteurs du bâtiment et de la construction en Côte d&apos;Ivoire, avec une présence géographique stratégique nous permettant de répondre aux besoins de nos clients à Abidjan et dans les principales villes du pays.
                             </p>
                             <p>
                                 Géographiquement, nous concentrons nos activités principalement à Abidjan (Cocody, Plateau, Marcory, Yopougon), tout en développant notre présence dans les villes secondaires comme Yamoussoukro, Bouaké et San-Pedro.
                             </p>
                             <p>
-                                La mission de SIGLASS est d'être le leader local en solutions innovantes de menuiserie aluminium et PVC haute performance, contribuant à l'amélioration du cadre de vie, à l'efficacité énergétique des bâtiments et au développement durable en Côte d'Ivoire.
+                                La mission de SIGLASS est d&apos;être le leader local en solutions innovantes de menuiserie aluminium et PVC haute performance, contribuant à l&apos;amélioration du cadre de vie, à l&apos;efficacité énergétique des bâtiments et au développement durable en Côte d&apos;Ivoire.
                             </p>
 
                             {/* Points forts */}
@@ -135,7 +138,7 @@ export default function SiglassAbout() {
                                     </li>
                                     <li className="flex items-start gap-2">
                                         <span className="text-orange-400">✓</span>
-                                        <span>Matériaux de qualité supérieure, importés d'Europe</span>
+                                        <span>Matériaux de qualité supérieure, importés d&apos;Europe</span>
                                     </li>
                                     <li className="flex items-start gap-2">
                                         <span className="text-orange-400">✓</span>
@@ -170,10 +173,12 @@ export default function SiglassAbout() {
                                             : 'opacity-0 translate-x-full'
                                     }`}
                                 >
-                                    <img
+                                    <Image
                                         src={image}
                                         alt={`Réalisation SIGLASS ${index + 1}`}
                                         className="w-full h-full object-cover"
+                                        width={100}
+                                        height={50}
                                     />
                                 </div>
                             ))}

@@ -1,6 +1,7 @@
 "use client";
 import { useState, useEffect } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
+import Image from "next/image";
 
 export default function PartnersCarousel() {
     const [currentIndex, setCurrentIndex] = useState(0);
@@ -74,15 +75,15 @@ export default function PartnersCarousel() {
             <div className="max-w-7xl mx-auto">
                 {/* Titre de la section */}
                 <div className="text-center mb-12">
-                    <div className="inline-block">
-                        <div className="flex items-center gap-3 mb-4">
-                            <div className="h-1 w-12 bg-[#3193bd]"></div>
-                            <span className="text-[#3193bd] font-semibold text-sm uppercase tracking-wider">
-                                Nos Partenaires
-                            </span>
-                            <div className="h-1 w-12 bg-[#3193bd]"></div>
-                        </div>
-                    </div>
+                        {/* <div className="inline-block">
+                            <div className="flex items-center gap-3 mb-4">
+                                <div className="h-1 w-12 bg-[#3193bd]"></div>
+                                <span className="text-[#3193bd] font-semibold text-sm uppercase tracking-wider">
+                                    Nos Partenaires
+                                </span>
+                                <div className="h-1 w-12 bg-[#3193bd]"></div>
+                            </div>
+                        </div> */}
                     <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
                         Ils Nous Font Confiance
                     </h2>
@@ -125,9 +126,11 @@ export default function PartnersCarousel() {
                                         {/* Logo Circle */}
                                         <div className="relative mb-6">
                                             <div className="w-32 h-32 rounded-full bg-gradient-to-br from-gray-100 to-gray-200 flex items-center justify-center overflow-hidden shadow-md group-hover:shadow-xl transition-shadow duration-300">
-                                                <img
+                                                <Image
                                                     src={partner.logo}
                                                     alt={`Logo ${partner.name}`}
+                                                    width={96}
+                                                    height={96}
                                                     className="w-24 h-24 object-contain transition-transform duration-300 group-hover:scale-110"
                                                 />
                                             </div>

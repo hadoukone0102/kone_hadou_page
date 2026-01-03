@@ -16,7 +16,7 @@ export default function TopBar ({onDevisClick}:HeadProps){
                         </a>
                         <span className="flex items-center gap-2">
                             <MapPin size={14} />
-                            Abidjan, Côte d'Ivoire
+                            Abidjan, Côte d&apos;Ivoire
                         </span>
                         <a href="mailto:infos@siglass-ci.com" className="flex items-center gap-2 hover:text-[#3193bd] transition-colors">
                             <Mail size={14} />

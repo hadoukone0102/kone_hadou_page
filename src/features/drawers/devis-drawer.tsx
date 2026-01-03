@@ -83,14 +83,14 @@ export default function DevisDrawer({ isOpen, onClose }: DevisDrawerProps) {
                 }`}
             >
                 {/* Header du drawer */}
-                <div className="sticky top-0 bg-gradient-to-r from-[#3193bd] to-[#1c6f8c] text-white p-6 flex justify-between items-center shadow-lg z-10">
+                <div className="sticky top-0 bg-gradient-to-r from-primary text-white p-6 flex justify-between items-center shadow-lg z-10">
                     <div>
                         <h2 className="text-2xl font-bold mb-1">Demande de Devis</h2>
                         <p className="text-sm text-blue-100">Remplissez le formulaire ci-dessous</p>
                     </div>
                     <button 
                         onClick={onClose}
-                        className="w-10 h-10 rounded-full bg-white/20 hover:bg-white/30 flex items-center justify-center transition-colors"
+                        className="w-10 h-10 rounded-full bg-primary cursor-pointer flex items-center justify-center transition-colors"
                         aria-label="Fermer"
                     >
                         <X size={24} />
@@ -259,13 +259,13 @@ export default function DevisDrawer({ isOpen, onClose }: DevisDrawerProps) {
                         <button
                             type="button"
                             onClick={onClose}
-                            className="flex-1 px-6 py-4 border-2 border-gray-300 text-gray-700 rounded-lg font-semibold hover:bg-gray-50 transition-colors"
+                            className="flex-1 px-6 py-4 border-2 border-red-300 text-red-700 rounded-lg font-semibold hover:bg-gray-50 transition-colors"
                         >
                             Annuler
                         </button>
                         <button
                             type="submit"
-                            className="flex-1 px-6 py-4 bg-gradient-to-r from-[#3193bd] to-[#1c6f8c] text-white rounded-lg font-semibold hover:shadow-xl transition-all hover:-translate-y-1 flex items-center justify-center gap-2"
+                            className="flex-1 px-6 py-4 bg-secondary text-white rounded-lg font-semibold hover:shadow-xl transition-all hover:-translate-y-1 flex items-center justify-center gap-2"
                         >
                             <FileText size={20} />
                             Envoyer la demande

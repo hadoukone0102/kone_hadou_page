@@ -1,6 +1,7 @@
 "use client";
 import { useState, useEffect, useRef } from 'react';
 import { ArrowRight } from 'lucide-react';
+import Image from 'next/image';
 
 export default function ProjectsGrid() {
     const [hoveredProject, setHoveredProject] = useState<number | null>(null);
@@ -159,7 +160,7 @@ export default function ProjectsGrid() {
                     {projects.map((project, index) => (
                         <div
                             key={project.id}
-                            ref={el => projectRefs.current[index] = el}
+                            ref={(el:any) => projectRefs.current[index] = el}
                             data-index={index}
                             className={`group relative bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-700 cursor-pointer ${
                                 visibleProjects.includes(index)
@@ -174,9 +175,11 @@ export default function ProjectsGrid() {
                         >
                             {/* Image Container */}
                             <div className="relative h-[400px] md:h-[500px] overflow-hidden">
-                                <img
+                                <Image
                                     src={project.image}
                                     alt={project.title}
+                                    width={50}
+                                    height={50}
                                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                                 />
                                 

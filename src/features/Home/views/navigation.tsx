@@ -1,6 +1,6 @@
 "use client";
 import { useState, useEffect } from 'react';
-import { Twitter, Facebook, Youtube, ChevronDown, Building2, Package, Image, Phone, ArrowRight } from 'lucide-react';
+import { Twitter, Facebook, Youtube, ChevronDown, Building2, Package, Phone, ArrowRight, Images } from 'lucide-react';
 
 type NavigationProps = {
     onMenuChange?: (menu: string | null) => void;
@@ -89,7 +89,7 @@ export default function Navigation({ onMenuChange }: NavigationProps) {
             sections: [
                 {
                     title: "Projets résidentiels",
-                    icon: <Image size={24} height={0} width={0} />,
+                    icon: <Images size={24} height={0} width={0} />,
                     links: [
                         { label: "Maisons individuelles", href: "#" },
                         { label: "Résidences de luxe", href: "#" },
