@@ -10,7 +10,7 @@ export default function StaticHeader (){
     const [searchOpen, setSearchOpen] = useState(false);
     // const [searchQuery, setSearchQuery] = useState('');
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-
+    console.log("searchOpen", searchOpen);
     return (
         <header className="bg-white shadow-md ">
             <div className="mx-auto px-4 sm:px-6 lg:px-8">
