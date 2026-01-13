@@ -4,7 +4,7 @@ import MainHeader from "@/features/shares/main-head";
 
 export default function MenuiseriePourBatimentTertiairePage() {
     return (
-       <>
+        <div className="flex flex-col gap-0 px-0 m-0">
             <MainHeader 
                 className="" 
                 BruncumbTitle="Menuiserie pour le bâtiment & tertiaire" 
@@ -23,6 +23,6 @@ export default function MenuiseriePourBatimentTertiairePage() {
             </main>
             {/****************************Footer Page**************************** */}
             <Footer/>
-        </>
+        </div>
     )
 }

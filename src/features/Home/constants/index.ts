@@ -23,8 +23,8 @@ export const menuItems: menu[] = [
     },
     { 
         label: "PARTICULIERS", 
-        href: '#', 
-        highlight: true 
+        href: Routes.particulier.path, 
+        highlight: true
     },
     { 
         label: "ENTREPRISES", 

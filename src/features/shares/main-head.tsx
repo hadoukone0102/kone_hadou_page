@@ -7,6 +7,7 @@ import Banner from "./banner";
 export default function MainHeader({
     className = '',
     BruncumbTitle = 'Menuiserie pour l\'habitat',
+    BruncumbType = "Produits",
     BannerSrc = '/banner/first.jpg',
     BannerDesc ,
     BannerTitle,
@@ -16,6 +17,8 @@ export default function MainHeader({
     BannerSrc?: string
     BannerDesc?: string
     BannerTitle?: string
+    BruncumbType?:string;
+
 }) {
     const [drawerOpen, setDrawerOpen] = useState(false);
     return (
@@ -31,7 +34,7 @@ export default function MainHeader({
 
             <Banner src={BannerSrc} title={BannerTitle} desc={BannerDesc}/>  
 
-            <Bruncumb className="" title={BruncumbTitle}/>
+            <Bruncumb type={BruncumbType} className="" title={BruncumbTitle}/>
         </div>
     );
 }

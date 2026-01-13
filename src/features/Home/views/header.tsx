@@ -24,7 +24,7 @@ export default function Header({ onDevisClick }: HeaderProps) {
 
     return (
         <>
-            <div className='sticky top-0 z-50'>
+            <div className='sticky top-0 z-500'>
                 <TopBar onDevisClick={onDevisClick} />
                 <header className="bg-white shadow-md">
                     <div className="mx-auto px-4 sm:px-6 lg:px-8">
