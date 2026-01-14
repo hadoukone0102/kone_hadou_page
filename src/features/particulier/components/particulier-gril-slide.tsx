@@ -53,18 +53,18 @@ export default function ParticulierGrildSlide (){
                     <div className="px-10">
                         <p className="text-primary text-start text-base md:text-lg leading-relaxed">
                             Nos menuiseries aluminium SIGLASS sont conçues pour transformer et sublimer votre habitat. 
-                            Que vous envisagiez une construction neuve, une rénovation ou simplement l'amélioration de votre confort, 
+                            Que vous envisagiez une construction neuve, une rénovation ou simplement l&apos;amélioration de votre confort, 
                             nos solutions allient design contemporain, performances thermiques et acoustiques exceptionnelles, 
                             et une durabilité à toute épreuve.
                         </p>
                         <p className="text-primary text-start text-base md:text-lg leading-relaxed mt-4">
-                            De la fenêtre coulissante qui baigne votre salon de lumière naturelle, à la porte d'entrée qui assure 
+                            De la fenêtre coulissante qui baigne votre salon de lumière naturelle, à la porte d&apos;entrée qui assure 
                             votre sécurité tout en affirmant votre style, en passant par les garde-corps élégants pour vos balcons 
                             et les pergolas qui créent de nouveaux espaces de vie en extérieur, chaque réalisation SIGLASS est 
-                            pensée sur mesure pour répondre à vos besoins spécifiques et s'intégrer harmonieusement à votre architecture.
+                            pensée sur mesure pour répondre à vos besoins spécifiques et s&apos;intégrer harmonieusement à votre architecture.
                         </p>
                         <p className="text-primary text-start text-base md:text-lg leading-relaxed mt-4">
-                            Nos équipes vous accompagnent de la conception à l'installation, en vous proposant des solutions 
+                            Nos équipes vous accompagnent de la conception à l&apos;installation, en vous proposant des solutions 
                             personnalisées qui valorisent votre patrimoine et améliorent votre qualité de vie au quotidien.
                         </p>
                     </div>
