@@ -9,5 +9,8 @@ export const Routes = {
     },
     particulier:{
         path:"/siglass/particulier"
+    },
+    entreprise:{
+        path:"/siglass/entreprise"
     }
 }

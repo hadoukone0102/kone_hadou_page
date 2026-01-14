@@ -28,7 +28,7 @@ export const menuItems: menu[] = [
     },
     { 
         label: "ENTREPRISES", 
-        href: '#', 
+        href: Routes.entreprise.path, 
         btn: true 
     },
     // { 
