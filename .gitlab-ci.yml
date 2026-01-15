@@ -1,0 +1,26 @@
+stages:
+  - lint
+  - build
+
+image: node:22-alpine
+
+before_script:
+  - npm install -g corepack
+  - corepack enable
+  - corepack prepare pnpm@latest --activate
+  - pnpm install
+
+lint:
+  stage: lint
+  script:
+    - pnpm lint
+  rules:
+    - if: '$CI_MERGE_REQUEST_TARGET_BRANCH_NAME == "develops"'
+
+build:
+  stage: build
+  script:
+    - pnpm build
+  needs: ["lint"]
+  rules:
+    - if: '$CI_MERGE_REQUEST_TARGET_BRANCH_NAME == "develops"'

@@ -14,7 +14,6 @@ export default function ParticulierGrildVenranda() {
             rootMargin: '0px 0px -50px 0px'
         };
 
-        // Observer pour le titre
         const titleObserver = new IntersectionObserver((entries) => {
             entries.forEach(entry => {
                 if (entry.isIntersecting) {
@@ -23,7 +22,6 @@ export default function ParticulierGrildVenranda() {
             });
         }, observerOptions);
 
-        // Observer pour les cartes
         const cardsObserver = new IntersectionObserver((entries) => {
             entries.forEach(entry => {
                 if (entry.isIntersecting) {
@@ -60,21 +58,21 @@ export default function ParticulierGrildVenranda() {
             id: 1,
             number: "01",
             title: "CARPORT / ABRI VOITURE",
-            image: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&q=80",
+            image: "/banner/first.jpg",
             description: "Protégez votre véhicule avec élégance grâce à nos carports en aluminium, alliant design moderne et résistance aux intempéries."
         },
         {
             id: 2,
             number: "02",
             title: "GARDE-CORPS",
-            image: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&q=80",
+             image: "/banner/second.jpg",
             description: "Sécurisez vos espaces extérieurs avec nos garde-corps en aluminium, combinant sécurité, esthétique et vue dégagée."
         },
         {
             id: 3,
             number: "03",
             title: "PORTAIL & CLÔTURE",
-            image: "https://images.unsplash.com/photo-1570129477492-45c003edd2be?w=800&q=80",
+             image: "/banner/firts.jpg",
             description: "Délimitez et sécurisez votre propriété avec nos portails et clôtures en aluminium sur mesure, durables et design."
         }
     ];

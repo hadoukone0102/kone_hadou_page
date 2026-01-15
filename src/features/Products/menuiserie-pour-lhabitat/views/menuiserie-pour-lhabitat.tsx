@@ -1,6 +1,7 @@
 import HabitatSlide from "@/features/Contents/components/habitats/habitat-slide";
 import Footer from "@/features/Home/views/footer";
 import MainHeader from "@/features/shares/main-head";
+import AboutHabitat from "../components/about-abita";
 
 export default function MenuiseriePourLhabitatPage() {
     return (
@@ -14,7 +15,7 @@ export default function MenuiseriePourLhabitatPage() {
                 <main className="flex-grow">
                     <div className="w-full">
                         <div className="bg-primary pb-30">
-                            {/* <HeadContent/> */}
+                            <AboutHabitat/>
                             <HabitatSlide/>
                         </div>
                     </div>

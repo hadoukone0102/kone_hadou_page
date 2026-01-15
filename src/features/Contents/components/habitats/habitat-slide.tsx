@@ -31,7 +31,7 @@ export default function HabitatSlide() {
             number: "01",
             title: "MAISON",
             subtitle: "INDIVIDUELLE",
-            image: "/banner/first.jpg",
+            image: "/img/003.jpg",
             size: "large" // Occupe 2 colonnes en haut à gauche
         },
         {
@@ -39,7 +39,7 @@ export default function HabitatSlide() {
             number: "02",
             title: "OUTDOOR",
             subtitle: "",
-            image: "/banner/second.jpg",
+             image: "/img/006.jpg",
             size: "large-right" // Occupe 1 colonne mais grande hauteur à droite
         },
         {
@@ -47,7 +47,7 @@ export default function HabitatSlide() {
             number: "03",
             title: "COLLECTIF",
             subtitle: "VERTICAL",
-            image: "/banner/firts.jpg",
+          image: "/img/007.jpg",
             size: "large"
         },
         {
@@ -55,7 +55,7 @@ export default function HabitatSlide() {
             number: "04",
             title: "VILLA",
             subtitle: "ARCHITECTURALE",
-            image: "/banner/four.jpg",
+            image: "/img/009.jpg",
             size: "large"
         },
         {
@@ -63,7 +63,7 @@ export default function HabitatSlide() {
             number: "05",
             title: "TERTIAIRE",
             subtitle: "",
-            image: "/banner/five.jpg",
+             image: "/img/010.jpg",
             size: "small-bottom"
         }
     ];

@@ -1,6 +1,7 @@
 import ExterieuSlide from "@/features/Contents/components/exterieurs/ext-slide";
 import Footer from "@/features/Home/views/footer";
 import MainHeader from "@/features/shares/main-head";
+import AboutExterieur from "../components/about-ext";
 
 export default function MenuiseriePourExterieurPage() {
     return (
@@ -17,6 +18,7 @@ export default function MenuiseriePourExterieurPage() {
             <main className="flex-grow">
                 <div className="w-full">
                     <div className="bg-primary pb-30">
+                        <AboutExterieur/>
                         <ExterieuSlide/>
                     </div>
                 </div>
