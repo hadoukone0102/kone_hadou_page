@@ -15,7 +15,7 @@ lint:
   script:
     - pnpm lint
   rules:
-    - if: '$CI_MERGE_REQUEST_TARGET_BRANCH_NAME == "develops"'
+    - if: '$CI_MERGE_REQUEST_TARGET_BRANCH_NAME == "main"'
 
 build:
   stage: build
@@ -23,4 +23,4 @@ build:
     - pnpm build
   needs: ["lint"]
   rules:
-    - if: '$CI_MERGE_REQUEST_TARGET_BRANCH_NAME == "develops"'
+    - if: '$CI_MERGE_REQUEST_TARGET_BRANCH_NAME == "main"'
