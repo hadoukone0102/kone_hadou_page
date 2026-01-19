@@ -31,7 +31,8 @@ export default function EspacesDeVie() {
             number: "01",
             title: "MAISON",
             subtitle: "INDIVIDUELLE",
-            image: "/banner/first.jpg",
+            // image: "/banner/first.jpg",
+            image: "/siglass/h-04.jpg",
             size: "large" // Occupe 2 colonnes en haut à gauche
         },
         {
@@ -39,7 +40,8 @@ export default function EspacesDeVie() {
             number: "02",
             title: "OUTDOOR",
             subtitle: "",
-            image: "/banner/second.jpg",
+            // image: "/banner/second.jpg",
+            image: "/siglass/h-05.jpg",
             size: "large-right" // Occupe 1 colonne mais grande hauteur à droite
         },
         {
@@ -47,7 +49,8 @@ export default function EspacesDeVie() {
             number: "03",
             title: "COLLECTIF",
             subtitle: "VERTICAL",
-            image: "/banner/firts.jpg",
+            // image: "/banner/firts.jpg",
+            image: "/siglass/001.jpg",
             size: "large"
         },
         {
@@ -55,7 +58,8 @@ export default function EspacesDeVie() {
             number: "04",
             title: "VILLA",
             subtitle: "ARCHITECTURALE",
-            image: "/banner/four.jpg",
+            // image: "/banner/four.jpg",
+            image: "/siglass/h-06.jpg",
             size: "large"
         },
         {
@@ -63,7 +67,8 @@ export default function EspacesDeVie() {
             number: "05",
             title: "TERTIAIRE",
             subtitle: "",
-            image: "/banner/five.jpg",
+            // image: "/banner/five.jpg",
+            image: "/siglass/h-02.jpg",
             size: "small-bottom"
         }
     ];

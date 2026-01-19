@@ -78,7 +78,7 @@ export default function DevisDrawer({ isOpen, onClose }: DevisDrawerProps) {
 
             {/* Drawer - Formulaire de devis */}
             <div 
-                className={`fixed top-0 right-0 h-full w-full sm:w-[90%] md:w-[50%] bg-white shadow-2xl z-[200] transform transition-transform duration-500 ease-in-out overflow-y-auto ${
+                className={`fixed top-0 right-0 h-full w-full sm:w-[90%] md:w-[50%] bg-white shadow-2xl z-[600] transform transition-transform duration-500 ease-in-out overflow-y-auto ${
                     isOpen ? 'translate-x-0' : 'translate-x-full'
                 }`}
             >

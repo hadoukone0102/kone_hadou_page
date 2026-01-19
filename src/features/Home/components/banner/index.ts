@@ -9,7 +9,8 @@ export type Slide = {
 export const banner : Slide[] =[
     {
         id:"01",
-        image:"/banner/first.jpg",
+        // image:"/banner/first.jpg",
+        image:"/siglass/h-04.jpg",
         alt:"Première image",
         title:"Performance Designe, Facilité de fabrication",
         desc:"Découvrez nos systèmes de fenêtres, coulissants, portes, vérandas, murs- rideaux, portails, garde-corps et pergolas",
@@ -23,14 +24,16 @@ export const banner : Slide[] =[
     } ,
     {
         id:"03",
-        image:"/banner/firts.jpg",
+        // image:"/banner/firts.jpg",
+        image:"/siglass/h-06.jpg",
         alt:"Troisième image",
         title:"Fabricants Menuisiers, Nos solutions personnalisées",
         desc:"Fabricant installateur, industriels et préfabricateurs, prescripteurs du bâtiment découvrez nos solutions produits et services pour vous accompagner dans la réussite de vos chantiers.",
     } ,
     {
         id:"04",
-        image:"/banner/four.jpg",
+        // image:"/banner/four.jpg",
+        image:"/siglass/h-10.jpg",
         alt:"Première image",
         title:"Osez la couleur Libérez, votre créativité",
         desc:"Découvrez notre palette de teintes exclusives pour les menuiseries aluminium",
