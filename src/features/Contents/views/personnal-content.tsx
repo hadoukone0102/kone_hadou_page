@@ -12,14 +12,14 @@ export default function PersonnalContent() {
             id: 1,
             category: "Fabricants Installateurs",
             title: "PARTICULIERS",
-            image: "/banner/first.jpg",
+            image: "/images/realese.jpg",
             description: "Solutions résidentielles sur mesure"
         },
         {
             id: 2,
             category: "Fabricants Installateurs",
             title: "CHANTIERS",
-            image: "/banner/second.jpg",
+            image: "/solutions/chantier.jpg",
             description: "Projets de construction et rénovation"
         },
         {

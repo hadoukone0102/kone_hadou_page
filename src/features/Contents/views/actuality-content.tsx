@@ -10,7 +10,7 @@ export default function ActualityContent() {
     const actualites = [
         {
             id: 1,
-            image: "/banner/first.jpg",
+            image: "/images/angle.jpg",
             title: "CATALOGUE SIGLASS 2025 : DÉCOUVREZ NOS NOUVELLES GAMMES",
             date: "15 janvier 2025",
             description: "Explorez notre nouveau catalogue avec des innovations en menuiserie aluminium et PVC pour vos projets résidentiels et commerciaux.",
@@ -18,7 +18,7 @@ export default function ActualityContent() {
         },
         {
             id: 2,
-            image: "/banner/second.jpg",
+            image: "/images/pergola.jpg",
             title: "SIGLASS AU SALON BATIMAT ABIDJAN 2025",
             date: "5 mars 2025",
             description: "Venez nous rencontrer au salon du bâtiment à Abidjan. Découvrez nos dernières innovations et solutions sur mesure.",
@@ -26,7 +26,7 @@ export default function ActualityContent() {
         },
         {
             id: 3,
-            image: "/banner/firts.jpg",
+            image: "/images/veranda.jpg",
             title: "NOUVEAU SHOWROOM À COCODY : VISITEZ-NOUS",
             date: "20 décembre 2024",
             description: "Découvrez notre tout nouveau showroom à Cocody avec des espaces d'exposition modernisés et des conseillers experts à votre service.",

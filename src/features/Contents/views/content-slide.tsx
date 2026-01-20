@@ -56,10 +56,10 @@ export default function EspacesDeVie() {
         {
             id: 4,
             number: "04",
-            title: "VILLA",
-            subtitle: "ARCHITECTURALE",
+            title: "",
+            subtitle: "GARD-CORPS",
             // image: "/banner/four.jpg",
-            image: "/siglass/h-06.jpg",
+            image: "/images/gard_corps.jpg",
             size: "large"
         },
         {
@@ -87,7 +87,7 @@ export default function EspacesDeVie() {
                     <h2 className={`text-white flex items-center justify-center font-bold text-lg md:text-lg uppercase  transition-all duration-700 ${
                         titleVisible ? 'opacity-100' : 'opacity-0'
                     }`}>
-                        VOS ESPACES DE VIE
+                        NOS PRODUITS
                     </h2>
                     <div className={`h-[1px] bg-secondary transition-all duration-700 ${
                         titleVisible ? 'w-1/2 md:w-1/3' : 'w-0'

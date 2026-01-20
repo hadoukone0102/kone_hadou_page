@@ -9,7 +9,7 @@ export default function MenuiseriePourLhabitatPage() {
             <MainHeader 
                 className="" 
                 BruncumbTitle="Menuiserie pour l'habitat" 
-                BannerSrc="/banner/first.jpg"
+                BannerSrc="/images/cloisonement.jpg"
             />
              {/****************************Body Page**************************** */}
                 <main className="flex-grow">
