@@ -23,7 +23,7 @@ export default function Particulier (){
                 <div className="w-full">
                     <div className="bg-primary pb-30">
                         <ParticulierGrildSlide/>
-                        <ParticulierGrildVenranda/>
+                        <ParticulierGrildVenranda className="pb-20"/>
                     </div>
                 </div>
             </main>

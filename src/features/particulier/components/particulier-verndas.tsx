@@ -2,7 +2,7 @@
 import { useEffect, useRef, useState } from "react";
 import Image from 'next/image';
 
-export default function ParticulierGrildVenranda() {
+export default function ParticulierGrildVenranda({className}:{className?:string}) {
     const [titleVisible, setTitleVisible] = useState(false);
     const [cardsVisible, setCardsVisible] = useState([false, false, false]);
     const titleRef = useRef<HTMLDivElement>(null);
@@ -58,27 +58,27 @@ export default function ParticulierGrildVenranda() {
             id: 1,
             number: "01",
             title: "CARPORT / ABRI VOITURE",
-            image: "/banner/first.jpg",
+            image: "/images/coulissant.jpg",
             description: "Protégez votre véhicule avec élégance grâce à nos carports en aluminium, alliant design moderne et résistance aux intempéries."
         },
         {
             id: 2,
             number: "02",
             title: "GARDE-CORPS",
-             image: "/banner/second.jpg",
+             image: "/images/gard_corps.jpg",
             description: "Sécurisez vos espaces extérieurs avec nos garde-corps en aluminium, combinant sécurité, esthétique et vue dégagée."
         },
         {
             id: 3,
             number: "03",
             title: "PORTAIL & CLÔTURE",
-             image: "/banner/firts.jpg",
+             image: "/images/rideaux.jpg",
             description: "Délimitez et sécurisez votre propriété avec nos portails et clôtures en aluminium sur mesure, durables et design."
         }
     ];
 
     return (
-        <div className="bg-white md:px-10 pb-20">
+        <div className={`bg-white md:px-10 ${className}`}>
             {/* Section titre */}
             <div 
                 ref={titleRef}
@@ -123,7 +123,7 @@ export default function ParticulierGrildVenranda() {
                     {/* Carport */}
                     <div 
                         ref={(el:any) => cardRefs.current[0] = el}
-                        className={`relative overflow-hidden rounded-lg shadow-lg group cursor-pointer transition-all duration-700 ${
+                        className={`relative overflow-hidden shadow-lg group cursor-pointer transition-all duration-700 ${
                             cardsVisible[0] 
                                 ? 'opacity-100 translate-y-0' 
                                 : 'opacity-0 translate-y-20'
@@ -155,7 +155,7 @@ export default function ParticulierGrildVenranda() {
                     {/* Garde-corps */}
                     <div 
                         ref={(el:any) => cardRefs.current[1] = el}
-                        className={`relative overflow-hidden rounded-lg shadow-lg group cursor-pointer transition-all duration-700 ${
+                        className={`relative overflow-hidden shadow-lg group cursor-pointer transition-all duration-700 ${
                             cardsVisible[1] 
                                 ? 'opacity-100 translate-y-0' 
                                 : 'opacity-0 translate-y-20'
@@ -188,7 +188,7 @@ export default function ParticulierGrildVenranda() {
                 {/* Deuxième ligne - Portail & Clôture (pleine largeur) */}
                 <div 
                     ref={(el:any) => cardRefs.current[2] = el}
-                    className={`relative overflow-hidden rounded-lg shadow-lg group cursor-pointer transition-all duration-700 ${
+                    className={`relative overflow-hidden shadow-lg group cursor-pointer transition-all duration-700 ${
                         cardsVisible[2] 
                             ? 'opacity-100 translate-y-0' 
                             : 'opacity-0 translate-y-20'

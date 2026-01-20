@@ -1,5 +1,6 @@
 "use client";
 
+import ParticulierGrildVenranda from "@/features/particulier/components/particulier-verndas";
 import AboutContent from "./about-content";
 import ActualityContent from "./actuality-content";
 import SlideContent from "./content-slide";
@@ -25,8 +26,9 @@ export default function ContentPage() {
             <div className="bg-white">
                 <ActualityContent/>
             </div>
-            {/* <PresentPage/>
-            <ProjectsGrid/>*/}
+            {/* <PresentPage/>*/}
+            <ParticulierGrildVenranda/>
+              {/*<ProjectsGrid/>*/}
             <PartnersCarousel/> 
             {/* <SiglassAbout /> */}
         </div>
