@@ -52,7 +52,7 @@ export default function Header({ onDevisClick }: HeaderProps) {
                                             item.login ? "underline text-primary hover:text-primary/80" :
                                             'text-gray-700 hover:text-primary'
                                         }`}
-                                    >
+                                    >   
                                         {item.label.split(",").map((word, i) => (
                                             <span key={i} className="block text-center leading-tight">
                                                 {word}

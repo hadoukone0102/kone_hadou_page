@@ -10,15 +10,15 @@ export type menu = {
 
 export const menuItems: menu[] = [
     { 
-        label: "MENUISERIES,POUR L'HABITAT", 
+         label: "SYSTÈMES RÉSIDENTIELS", 
         href: Routes.product.menuiseriePourLhabitat
     },
     { 
-        label: "MENUISERIES,EXTÉRIEURES & OUTDOOR", 
+        label: "SYSTÈMES EXTÉRIEURS", 
         href: Routes.product.menuiserieExterieuresEtOutdoor 
     },
     { 
-        label: "MENUISERIES,BÂTIMENTS & TERTIAIRES", 
+       label: "SYSTÈMES TERTIAIRES",
         href: Routes.product.menuiserieBatimentsEtTertiaires 
     },
     { 
@@ -27,7 +27,7 @@ export const menuItems: menu[] = [
         highlight: true
     },
     { 
-        label: "ENTREPRISES", 
+        label: "PROFESSIONNELS", 
         href: Routes.entreprise.path, 
         btn: true 
     },
@@ -36,4 +36,4 @@ export const menuItems: menu[] = [
     //     href: '#', 
     //     login: true 
     // },
-];
+];  

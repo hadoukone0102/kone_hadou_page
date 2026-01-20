@@ -45,7 +45,7 @@ export default function ScrollingBanner({ className }: BannerProps) {
   }, [nextSlide]);
 
   return (
-    <div className={`relative w-full h-[500px] bg-primary overflow-hidden ${className}`}>
+    <div className={`relative w-full h-[550px] bg-primary overflow-hidden ${className}`}>
       {/* Images du banner */}
       {banner.map((slide, index) => (
         <div
@@ -62,21 +62,21 @@ export default function ScrollingBanner({ className }: BannerProps) {
             <div className="absolute inset-0 bg-black/30" />
           </div>
 
-          {/* Contenu textuel */}
-          <div className="relative h-full flex items-center justify-center">
-            <div className="container mx-auto px-4 md:px-8 lg:px-16">
-              <div className="max-w-3xl flex-col ml-20">
-                <h1 className="text-white text-xl md:text-2xl lg:text-3xl font-light leading-tight mb-6 uppercase">
-                  {slide.title.split(",").map((word, i) => (
-                    <span key={i} className="block ">
-                      {word}
-                    </span>
-                  ))}
-                </h1>
-                <p className="text-white text-base md:text-lg lg:text-xl font-light max-w-2xl">
-                  {slide.desc}
-                </p>
-              </div>
+          {/* Contenu textuel centré */}
+          <div className="relative w-full h-full flex items-center justify-center">
+            <div className="bg-white/10 backdrop-blur-xs px-8 py-6 md:px-12 md:py-8 lg:px-16 lg:py-10 lg:w-5xl lg:h-100 flex flex-col items-center justify-center max-w-4xl mx-4">
+              <h1 className="text-white text-xl md:text-2xl lg:text-3xl font-light leading-tight mb-4 uppercase text-center">
+                {slide.title.split(",").map((word, i) => (
+                  <span key={i} className="block">
+                    {word}
+                  </span>
+                ))}
+              </h1>
+              <p className="text-white italic text-lg leading-relaxed text-base md:text-lg lg:text-xl font-light text-center">
+                <small className="text-sm px-2">{"<<"}</small>
+                {slide.desc}
+                <small className="text-sm px-2">{">>"}</small>
+              </p>
             </div>
           </div>
         </div>

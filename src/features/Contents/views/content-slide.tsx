@@ -29,19 +29,19 @@ export default function EspacesDeVie() {
         {
             id: 1,
             number: "01",
-            title: "MAISON",
-            subtitle: "INDIVIDUELLE",
+            title: "",
+            subtitle: "PERSONNELLE",
             // image: "/banner/first.jpg",
-            image: "/siglass/h-04.jpg",
+            image: "/siglass/h-12.jpg",
             size: "large" // Occupe 2 colonnes en haut à gauche
         },
         {
             id: 2,
             number: "02",
-            title: "OUTDOOR",
+            title: "PLEIN AIR",
             subtitle: "",
             // image: "/banner/second.jpg",
-            image: "/siglass/h-05.jpg",
+            image: "/siglass/h-13.jpg",
             size: "large-right" // Occupe 1 colonne mais grande hauteur à droite
         },
         {
@@ -50,7 +50,7 @@ export default function EspacesDeVie() {
             title: "COLLECTIF",
             subtitle: "VERTICAL",
             // image: "/banner/firts.jpg",
-            image: "/siglass/001.jpg",
+            image: "/siglass/h-15.jpg",
             size: "large"
         },
         {
@@ -74,29 +74,109 @@ export default function EspacesDeVie() {
     ];
 
     return (
-        <div className="bg-primary px-4 sm:px-6 lg:px-8">
-            <div className="max-w-7xl mx-auto">
+        <div className="bg-primary px-4 sm:px-6 ">
+            <div className="w-full">
                 {/* Titre avec barres */}
                 <div 
                     ref={titleRef}
                     className="flex items-center justify-center gap-4 mb-12"
                 >
-                    <div className={`h-[1px] bg-gray-600 transition-all duration-700 ${
-                        titleVisible ? 'w-32 md:w-64' : 'w-0'
+                    <div className={`h-[1px] bg-secondary transition-all duration-700 ${
+                        titleVisible ? 'w-1/2 md:w-1/3' : 'w-0'
                     }`}></div>
-                    <h2 className={`text-orange-500 font-bold text-xl md:text-2xl uppercase tracking-[0.3em] transition-all duration-700 ${
+                    <h2 className={`text-white flex items-center justify-center font-bold text-lg md:text-lg uppercase  transition-all duration-700 ${
                         titleVisible ? 'opacity-100' : 'opacity-0'
                     }`}>
                         VOS ESPACES DE VIE
                     </h2>
-                    <div className={`h-[1px] bg-gray-600 transition-all duration-700 ${
-                        titleVisible ? 'w-32 md:w-64' : 'w-0'
+                    <div className={`h-[1px] bg-secondary transition-all duration-700 ${
+                        titleVisible ? 'w-1/2 md:w-1/3' : 'w-0'
                     }`}></div>
                 </div>
 
+                <div className="grid grid-cols-2 md:grid-cols-2 gap-4 auto-rows-[400px]">
+                    <div className="md:col-span-1 md:row-span-1 relative group overflow-hidden">
+                        <Image
+                            src={spaces[0].image}
+                            alt={spaces[0].title}
+                            fill
+                            className=" transition-transform duration-500"
+                        />
+                        <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
+                        
+                        <div className="absolute top-6 left-6 bg-white/20 px-6 py-3 rounded-sm">
+                            <div className="flex items-center gap-3">
+                                <span className="text-4xl font-bold text-orange-500">{spaces[0].number}</span>
+                                <div>
+                                    <h3 className="text-lg font-bold text-gray-900 leading-tight">{spaces[0].title}</h3>
+                                    {spaces[0].subtitle && (
+                                        <p className="text-lg font-bold text-gray-900 leading-tight">{spaces[0].subtitle}</p>
+                                    )}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div className="md:col-span-1 md:row-span-1 relative group overflow-hidden">
+                        <Image
+                            src={spaces[1].image}
+                            alt={spaces[1].title}
+                            fill
+                           className=" transition-transform duration-500"
+                        />
+                        <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
+                        
+                        <div className="absolute top-6 left-6 bg-white/20 px-6 py-3">
+                            <div className="flex items-center gap-3">
+                                <span className="text-4xl font-bold text-orange-500">{spaces[1].number}</span>
+                                <h3 className="text-lg font-bold text-gray-900 leading-tight">{spaces[1].title}</h3>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="md:col-span-1 md:row-span-1 relative group overflow-hidden">
+                        <Image
+                            src={spaces[2].image}
+                            alt={spaces[2].title}
+                            fill
+                            className=" transition-transform duration-500"
+                        />
+                        <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
+                        
+                        <div className="absolute top-6 left-6 bg-white/20 px-6 py-3 rounded-sm">
+                            <div className="flex items-center gap-3">
+                                <span className="text-4xl font-bold text-orange-500">{spaces[2].number}</span>
+                                <div>
+                                    <h3 className="text-lg font-bold text-gray-900 leading-tight">{spaces[2].title}</h3>
+                                    <p className="text-lg font-bold text-gray-900 leading-tight">{spaces[2].subtitle}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="md:col-span-1 md:row-span-1 relative group overflow-hidden">
+                        <Image
+                            src={spaces[3].image}
+                            alt={spaces[3].title}
+                            fill
+                            className=" transition-transform duration-500"
+                        />
+                        <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
+                        
+                        <div className="absolute top-6 left-6 bg-white/20 px-6 py-3 rounded-sm">
+                            <div className="flex items-center gap-3">
+                                <span className="text-4xl font-bold text-orange-500">{spaces[3].number}</span>
+                                <div>
+                                    <h3 className="text-lg font-bold text-gray-900 leading-tight">{spaces[3].title}</h3>
+                                    <p className="text-lg font-bold text-gray-900 leading-tight">{spaces[3].subtitle}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
                 {/* Grille asymétrique */}
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-4 auto-rows-[300px]">
-                    {/* 01 - MAISON INDIVIDUELLE (Grande - 2 colonnes, 1 rangée) */}
+                {/* <div className="grid grid-cols-1 md:grid-cols-3 gap-4 auto-rows-[300px]">
                     <div className="md:col-span-2 md:row-span-1 relative group overflow-hidden">
                         <Image
                             src={spaces[0].image}
@@ -106,7 +186,6 @@ export default function EspacesDeVie() {
                         />
                         <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
                         
-                        {/* Label */}
                         <div className="absolute top-6 left-6 bg-white px-6 py-3 rounded-sm">
                             <div className="flex items-center gap-3">
                                 <span className="text-4xl font-bold text-orange-500">{spaces[0].number}</span>
@@ -120,7 +199,6 @@ export default function EspacesDeVie() {
                         </div>
                     </div>
 
-                    {/* 02 - OUTDOOR (Grande hauteur - 1 colonne, 2 rangées) */}
                     <div className="md:col-span-1 md:row-span-2 relative group overflow-hidden">
                         <Image
                             src={spaces[1].image}
@@ -130,7 +208,6 @@ export default function EspacesDeVie() {
                         />
                         <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
                         
-                        {/* Label */}
                         <div className="absolute top-6 left-6 bg-white px-6 py-3">
                             <div className="flex items-center gap-3">
                                 <span className="text-4xl font-bold text-orange-500">{spaces[1].number}</span>
@@ -139,7 +216,6 @@ export default function EspacesDeVie() {
                         </div>
                     </div>
 
-                    {/* 03 - COLLECTIF VERTICAL */}
                     <div className="md:col-span-1 md:row-span-2 relative group overflow-hidden">
                         <Image
                             src={spaces[2].image}
@@ -149,7 +225,6 @@ export default function EspacesDeVie() {
                         />
                         <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
                         
-                        {/* Label */}
                         <div className="absolute top-6 left-6 bg-white px-6 py-3 rounded-sm">
                             <div className="flex items-center gap-3">
                                 <span className="text-4xl font-bold text-orange-500">{spaces[2].number}</span>
@@ -161,7 +236,6 @@ export default function EspacesDeVie() {
                         </div>
                     </div>
 
-                    {/* 04 - VILLA ARCHITECTURALE */}
                     <div className="md:col-span-1 md:row-span-2 relative group overflow-hidden">
                         <Image
                             src={spaces[3].image}
@@ -171,7 +245,6 @@ export default function EspacesDeVie() {
                         />
                         <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
                         
-                        {/* Label */}
                         <div className="absolute top-6 left-6 bg-white px-6 py-3 rounded-sm">
                             <div className="flex items-center gap-3">
                                 <span className="text-4xl font-bold text-orange-500">{spaces[3].number}</span>
@@ -183,7 +256,6 @@ export default function EspacesDeVie() {
                         </div>
                     </div>
 
-                    {/* 05 - TERTIAIRE */}
                     <div className="md:col-span-1 md:row-span-1 relative group overflow-hidden">
                         <Image
                             src={spaces[4].image}
@@ -193,7 +265,6 @@ export default function EspacesDeVie() {
                         />
                         <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
                         
-                        {/* Label */}
                         <div className="absolute top-6 left-6 bg-white px-6 py-3 rounded-sm">
                             <div className="flex items-center gap-3">
                                 <span className="text-4xl font-bold text-orange-500">{spaces[4].number}</span>
@@ -201,7 +272,7 @@ export default function EspacesDeVie() {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>
     );
