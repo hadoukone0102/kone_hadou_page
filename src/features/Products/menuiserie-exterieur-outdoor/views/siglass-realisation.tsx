@@ -3,14 +3,13 @@ import Footer from "@/features/Home/views/footer";
 import MainHeader from "@/features/shares/main-head";
 // import AboutExterieur from "../components/about-ext";
 import ParticulierGrildVenranda from "@/features/particulier/components/particulier-verndas";
-import { Projects } from "@/features/Contents";
+import { Realisation } from "@/features/Contents";
 import GrildSlide from "@/features/particulier/components/gril-slide";
 import PartnersCarousel from "@/features/Contents/views/partenaire";
 
 export default function SiglassRealisation() {
     return (
         <div className="flex flex-col gap-0 px-0 m-0">
-            
             <MainHeader 
                 className="" 
                 BruncumbTitle="Nos realisations" 
@@ -29,16 +28,15 @@ export default function SiglassRealisation() {
             {/****************************Body Page**************************** */}
             <main className="flex-grow mb-4">
                 <div className="w-full">
-                    <div className="bg-primary ">
+                    <div className="bg-primary">
                         <ParticulierGrildVenranda className="pb-10"/>
-                        <GrildSlide produits={Projects} className=""/>
+                        <GrildSlide produits={Realisation} className=""/>
                         {/* <AboutExterieur/> */}
                         {/* <ExterieuSlide/> */}
                     </div>
                 </div>
             </main>
             <PartnersCarousel/> 
-
             {/****************************Footer Page**************************** */}
             <Footer/>
         </div>

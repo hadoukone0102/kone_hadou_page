@@ -136,28 +136,25 @@ export default function AboutHabitat() {
                     ref={textRef}
                     className={`space-y-6 text-center border-l-4 border-secondary px-2 italic text-gray-700 text-base md:text-lg leading-relaxed transition-all duration-1000 delay-300 ${
                         textVisible 
-                            ? 'opacity-100 translate-y-0' 
-                            : 'opacity-0 translate-y-10'
+                        ? 'opacity-100 translate-y-0' 
+                        : 'opacity-0 translate-y-10'
                     }`}
-                >
-                    <p className="">
-                        Parce que la maison représente l&apos;espace de vie le plus cher à nos yeux, on aime y passer du temps, 
-                        s&apos;y sentir bien et en sécurité. <strong>Siglass</strong> fabricant de menuiseries en alu propose 
-                        les meilleures solutions de menuiseries aluminium pour correspondre à vos exigences de vie.
+                    >
+                    <p>
+                        Parce que l&apos;habitat est avant tout un espace de bien-être, de confort et de sécurité, 
+                        <strong> SIGLASS</strong> conçoit et fabrique des solutions de menuiserie aluminium et de vitrerie pensées pour améliorer durablement votre cadre de vie.
                     </p>
 
                     <p>
-                        La finesse des profils aluminium Sepalumic vous permet de profiter d&apos;un apport de lumière naturelle 
-                        important pour éclairer et réchauffer les pièces de vie de la maison. Grâce à leurs lignes planes, 
-                        les finitions soignées et leurs couleurs personnalisables à souhait, elles s&apos;intègrent harmonieusement 
-                        dans votre habitat.
+                        La finesse de nos profils en aluminium permet de maximiser l&apos;apport de lumière naturelle, 
+                        tout en garantissant solidité, isolation et élégance. Les lignes épurées, les finitions soignées 
+                        et les nombreuses possibilités de personnalisation assurent une parfaite intégration à votre intérieur comme à votre extérieur.
                     </p>
 
                     <p>
-                        Nous disposons d&apos;une gamme complète de fenêtres alu, baies coulissantes, portes harmonieuses et 
-                        contemporaines qui apporteront du style à votre intérieur. Quant à nos offres de façade vitrée et 
-                        verrière d&apos;intérieur, elles feront le bonheur des architectes pour une intégration remarquable dans 
-                        les villas les plus somptueuses.
+                        Fenêtres aluminium, portes, baies vitrées coulissantes, façades vitrées ou verrières sur mesure : 
+                        SIGLASS propose une gamme complète de solutions contemporaines, appréciées aussi bien par les particuliers 
+                        que par les architectes et professionnels du bâtiment pour des réalisations esthétiques, modernes et durables.
                     </p>
                 </div>
             </div>
