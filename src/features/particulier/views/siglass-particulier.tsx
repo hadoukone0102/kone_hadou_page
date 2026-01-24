@@ -19,14 +19,14 @@ export default function Particulier (){
                     }
                 }
             />
-            <main className="flex-grow">
+            {/* <main className="flex-grow">
                 <div className="w-full">
                     <div className="bg-primary pb-30">
                         <ParticulierGrildSlide/>
                         <ParticulierGrildVenranda className="pb-20"/>
                     </div>
                 </div>
-            </main>
+            </main> */}
             <Footer/>
         </>
     )

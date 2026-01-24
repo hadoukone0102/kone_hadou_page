@@ -1,9 +1,9 @@
 "use client";
 
-import MenuiseriePourExterieurPage from "@/features/Products/menuiserie-exterieur-outdoor/views/menuiserie-exterieur-outdoor";
+import SiglassRealisation from "@/features/Products/menuiserie-exterieur-outdoor/views/siglass-realisation";
 
 export default function Page() {
     return (
-        <MenuiseriePourExterieurPage/>
+        <SiglassRealisation/>
     )
 }

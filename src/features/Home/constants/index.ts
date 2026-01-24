@@ -28,11 +28,11 @@ export const menuItems: menu[] = [
     //     href: Routes.product.menuiserieBatimentsEtTertiaires 
     // },
 
-    { 
-        label: "PROFESSIONNELS", 
-        href: Routes.entreprise.path, 
-        btn: true 
-    },
+    // { 
+    //     label: "PROFESSIONNELS", 
+    //     href: Routes.entreprise.path, 
+    //     btn: true 
+    // },
     // { 
     //     label: "Mon Compte", 
     //     href: '#', 
