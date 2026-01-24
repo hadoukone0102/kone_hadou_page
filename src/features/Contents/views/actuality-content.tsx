@@ -143,16 +143,20 @@ export default function ActualityContent() {
             </div>
 
             {/* Section engagement (comme sur Sepalumic) */}
-            <div className="max-w-7xl mx-auto mt-16 pt-16 border-t border-gray-200">
+           <div className="max-w-7xl mx-auto mt-16 pt-16 border-t border-gray-200">
                 <div className="text-center mb-8">
                     <h3 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-                        Notre engagement d&apos;entreprise ivoirienne pour la menuiserie aluminium
+                    Notre engagement d&apos;entreprise ivoirienne en vitrerie et menuiserie
                     </h3>
                 </div>
+
                 <p className="text-lg text-gray-700 leading-relaxed text-center max-w-5xl mx-auto">
-                    La fabrication de fenêtres, portes et baies vitrées en aluminium exige un savoir-faire précis et une parfaite maîtrise du matériau. Présents à chaque étape – de la conception à l&apos;installation – nous sommes un partenaire durable des acteurs de la construction et de l&apos;aménagement en Côte d&apos;Ivoire. Notre approche favorise une collaboration étroite avec les architectes, entrepreneurs et particuliers pour garantir des solutions de qualité qui répondent aux standards les plus élevés.
+                    Spécialisée dans la vitrerie et la menuiserie aluminium et PVC, SIGLASS met son savoir-faire au service de projets durables, esthétiques et performants. De la conception à la fabrication, jusqu&apos;à l&apos;installation, nous maîtrisons chaque étape afin de garantir des solutions sur mesure répondant aux exigences techniques, sécuritaires et architecturales actuelles.
+                    <br /><br />
+                    Acteur engagé du secteur du bâtiment en Côte d&apos;Ivoire, SIGLASS accompagne professionnels et particuliers dans la réalisation de fenêtres, portes, baies vitrées, murs-rideaux, vérandas et autres ouvrages, en privilégiant la qualité, la fiabilité et la satisfaction client.
                 </p>
             </div>
+
         </div>
     );
 }

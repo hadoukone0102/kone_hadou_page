@@ -1,7 +1,7 @@
 import Footer from "@/features/Home/views/footer";
 import MainHeader from "@/features/shares/main-head";
-import ParticulierGrildSlide from "../components/particulier-gril-slide";
-import ParticulierGrildVenranda from "../components/particulier-verndas";
+// import ParticulierGrildSlide from "../components/particulier-gril-slide";
+// import ParticulierGrildVenranda from "../components/particulier-verndas";
 
 export default function Particulier (){
     return (

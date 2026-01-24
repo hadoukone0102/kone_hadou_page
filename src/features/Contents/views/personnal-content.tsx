@@ -1,49 +1,101 @@
 "use client";
 import { useState, useEffect, useRef } from 'react';
 import Image from "next/image";
-import { ArrowRight } from 'lucide-react';
 
 export default function PersonnalContent() {
     const [visibleCards, setVisibleCards] = useState<number[]>([]);
     const cardsRef = useRef<(HTMLDivElement | null)[]>([]);
 
-    const solutions = [
-        {
-            id: 1,
-            category: "Fabricants Installateurs",
-            title: "PARTICULIERS",
-            image: "/images/realese.jpg",
-            description: "Solutions résidentielles sur mesure"
-        },
-        {
-            id: 2,
-            category: "Fabricants Installateurs",
-            title: "CHANTIERS",
-            image: "/solutions/chantier.jpg",
-            description: "Projets de construction et rénovation"
-        },
-        {
-            id: 3,
-            category: "Fabricants Installateurs",
-            title: "INDUSTRIELS",
-            image: "/banner/firts.jpg",
-            description: "Solutions pour sites industriels"
-        },
-        {
-            id: 4,
-            category: "Fabricants Internationaux et",
-            title: "ULTRAMARINS",
-            image: "/banner/four.jpg",
-            description: "Projets d'envergure internationale"
-        },
-        {
-            id: 5,
-            category: "Prescripteurs du",
-            title: "BÂTIMENT",
-            image: "/banner/five.jpg",
-            description: "Architectes et bureaux d'études"
-        }
-    ];
+//     const solutions = [
+//   {
+//     id: 1,
+//     category: "Fabricants Installateurs",
+//     title: "PARTICULIERS",
+//     image: "/solutions/particuliers.jpg",
+//     description: "Solutions de menuiserie et vitrerie sur mesure pour un habitat confortable, lumineux et durable."
+//   },
+//   {
+//     id: 2,
+//     category: "Fabricants Installateurs",
+//     title: "CHANTIERS",
+//     image: "/solutions/chantiers.jpg",
+//     description: "Accompagnement technique et solutions performantes pour vos projets de construction et de rénovation."
+//   },
+//   {
+//     id: 3,
+//     category: "Fabricants Installateurs",
+//     title: "INDUSTRIELS",
+//     image: "/solutions/industriels.jpg",
+//     description: "Solutions robustes et sécurisées adaptées aux exigences des sites industriels et tertiaires."
+//   },
+//   {
+//     id: 4,
+//     category: "Fabricants Internationaux et",
+//     title: "ULTRAMARINS",
+//     image: "/solutions/internationaux.jpg",
+//     description: "Projets d’envergure internationale réalisés avec des solutions vitrées fiables et sur mesure."
+//   },
+//   {
+//     id: 5,
+//     category: "Prescripteurs du",
+//     title: "BÂTIMENT",
+//     image: "/solutions/architectes.jpg",
+//     description: "Un partenaire de confiance pour les architectes et bureaux d’études, au service de projets innovants."
+//   },
+//   {
+//     id: 6,
+//     category: "Promoteurs &",
+//     title: "INVESTISSEURS",
+//     image: "/solutions/promoteurs.jpg",
+//     description: "Des solutions durables et esthétiques pour valoriser vos programmes immobiliers."
+//   }
+// ];
+
+
+const solutions = [
+  {
+    id: 1,
+    category: "Fabricants Installateurs",
+    title: "PARTICULIERS",
+    image: "/img/one.jpeg",
+    description: "Solutions de menuiserie et vitrerie sur mesure pour un habitat confortable, lumineux et durable."
+  },
+  {
+    id: 2,
+    category: "Fabricants Installateurs",
+    title: "CHANTIERS",
+    image: "/img/tow.jpeg",
+    description: "Accompagnement technique et solutions performantes pour vos projets de construction et de rénovation."
+  },
+  {
+    id: 3,
+    category: "Fabricants Installateurs",
+    title: "INDUSTRIELS",
+    image: "/img/three.jpeg",
+    description: "Solutions robustes et sécurisées adaptées aux exigences des sites industriels et tertiaires."
+  },
+  {
+    id: 4,
+    category: "Fabricants Internationaux et",
+    title: "ULTRAMARINS",
+    image: "/img/four.jpeg",
+    description: "Projets d'envergure internationale réalisés avec des solutions vitrées fiables et sur mesure."
+  },
+  {
+    id: 5,
+    category: "Prescripteurs du",
+    title: "BÂTIMENT",
+    image: "/img/five.jpeg",
+    description: "Un partenaire de confiance pour les architectes et bureaux d'études, au service de projets innovants."
+  },
+  {
+    id: 6,
+    category: "Promoteurs &",
+    title: "INVESTISSEURS",
+    image: "/img/sixe.jpeg",
+    description: "Des solutions durables et esthétiques pour valoriser vos programmes immobiliers."
+  }
+];
 
     useEffect(() => {
         const observers = cardsRef.current.map((ref, index) => {
@@ -79,11 +131,11 @@ export default function PersonnalContent() {
                 <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
                     {/* PARTIE GAUCHE - Texte (4 colonnes) */}
                     <div className="lg:col-span-4 text-white">
-                        <h2 className="text-3xl md:text-4xl font-bold mb-6 leading-tight">
+                        <h2 className="text-3xl md:text-4xl font-bold mb-6 leading-tight text-center italic">
                             DES SOLUTIONS POUR LES PROFESSIONNELS DE LA MENUISERIE
                         </h2>
-                        <p className="text-lg text-gray-300 leading-relaxed">
-                            Un accompagnement de qualité et des solutions personnalisées pour contribuer ensemble à la réussite de tous vos projets.
+                        <p className="text-lg text-gray-300 leading-relaxed border-l-4 border-secondary px-2">
+                            {"« "}Un accompagnement de qualité et des solutions personnalisées pour contribuer ensemble à la réussite de tous vos projets.{" »"}
                         </p>
 
                         {/* Statistiques */}

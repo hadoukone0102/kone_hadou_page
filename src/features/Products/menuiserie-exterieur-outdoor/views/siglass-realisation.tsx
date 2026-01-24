@@ -1,7 +1,7 @@
-import ExterieuSlide from "@/features/Contents/components/exterieurs/ext-slide";
+// import ExterieuSlide from "@/features/Contents/components/exterieurs/ext-slide";
 import Footer from "@/features/Home/views/footer";
 import MainHeader from "@/features/shares/main-head";
-import AboutExterieur from "../components/about-ext";
+// import AboutExterieur from "../components/about-ext";
 import ParticulierGrildVenranda from "@/features/particulier/components/particulier-verndas";
 import { Projects } from "@/features/Contents";
 import GrildSlide from "@/features/particulier/components/gril-slide";

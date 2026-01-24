@@ -1,12 +1,13 @@
 "use client";
 
-import ParticulierGrildVenranda from "@/features/particulier/components/particulier-verndas";
+// import ParticulierGrildVenranda from "@/features/particulier/components/particulier-verndas";
 import AboutContent from "./about-content";
 import ActualityContent from "./actuality-content";
 import SlideContent from "./content-slide";
 import HeadContent from "./head-content";
 import PartnersCarousel from "./partenaire";
 import PersonnalContent from "./personnal-content";
+import GrildthreeSlide from "@/features/particulier/components/grild-three";
 // import PresentPage from "./prensent-page";
 // import ProjectsGrid from "./realisation";
 
@@ -27,7 +28,9 @@ export default function ContentPage() {
                 <ActualityContent/>
             </div>
             {/* <PresentPage/>*/}
-            <ParticulierGrildVenranda/>
+            <GrildthreeSlide/>
+            
+            {/* <ParticulierGrildVenranda/> */}
               {/*<ProjectsGrid/>*/}
             <PartnersCarousel/> 
             {/* <SiglassAbout /> */}

@@ -51,11 +51,12 @@ export default function AboutContent() {
                         isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-10'
                     }`}>
                         {/* Titre principal */}
-                        <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4 leading-tight">
+                        <h2 className="text-4xl text-center md:text-5xl font-bold text-gray-900 mb-4 leading-tight">
                             SIGLASS
                         </h2>
-                        <h3 className="text-2xl md:text-3xl font-bold text-gray-800 mb-6">
-                            GAMMISTE ALUMINIUM ET PVC
+                        <h3 className="text-2xl md:text-xl text-center font-bold text-gray-800 mb-6 uppercase">
+                            {/* GAMMISTE ALUMINIUM ET PVC */}
+                            Vitreries & Menuiseries SIGLASS-CI s&apos;engage à vous fournir Des produits de qualité sur tous les plans
                         </h3>
                         <h4 className="text-xl md:text-2xl font-bold text-[#3193bd] mb-8">
                             DEPUIS PLUS DE 20 ANS
@@ -63,16 +64,16 @@ export default function AboutContent() {
 
                         {/* Description */}
                         <div className="space-y-4 text-gray-700 leading-relaxed">
-                            <p className="text-lg">
-                                SIGLASS est concepteur, producteur et distributeur de systèmes de menuiseries en aluminium et PVC à destination des professionnels du bâtiment et des particuliers en Côte d&apos;Ivoire.
+                           <p className="text-lg">
+                                SIGLASS conçoit, fabrique et installe des solutions de vitrerie et de menuiserie en aluminium et PVC, destinées aussi bien aux professionnels du bâtiment qu&apos;aux particuliers en Côte d&apos;Ivoire.
                             </p>
 
                             <p className="text-lg">
-                                Parce que la force de SIGLASS repose dans sa capacité à comprendre votre marché, vos attentes, vos ambitions ; nous concevons des fenêtres, portes, baies coulissantes, mur-rideau, vérandas mais aussi pergola, portail, garde-corps et brise soleil, au plus haut des standards actuels en termes de performances normatives et de design.
+                                Grâce à une parfaite compréhension de vos besoins, de vos contraintes techniques et de vos ambitions architecturales, SIGLASS propose des fenêtres, portes, baies vitrées coulissantes, murs-rideaux, vérandas, pergolas, garde-corps et brise-soleil alliant performance, sécurité et esthétisme.
                             </p>
 
                             <p className="text-lg">
-                                Découvrez nos solutions sur mesure pour une baie vitrée aluminium, une pergola bioclimatique alu ou en choisissant un fabricant fenêtre aluminium pour tous vos projets résidentiels et commerciaux.
+                                Nos solutions sur mesure s&apos;adaptent à tous vos projets résidentiels et commerciaux, en garantissant une excellente luminosité, une durabilité optimale et une finition soignée, répondant aux standards actuels de qualité et de design.
                             </p>
 
                             {/* Citation en italique avec bordure gauche */}

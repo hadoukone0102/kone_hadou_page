@@ -7,40 +7,39 @@ export type Slide = {
 }
 
 export const banner: Slide[] = [
-    {
-        id: "01",
-        image: "/images/angle.jpg",
-        alt: "Solutions menuiserie aluminium",
-        title: "Design Performant, Fabrication Simplifiée",
-        desc: "Explorez notre gamme complète de solutions en aluminium : fenêtres haute performance, portes coulissantes élégantes, vérandas lumineuses, murs-rideaux architecturaux, portails sécurisés, garde-corps design et pergolas bioclimatiques. Des produits pensés pour allier esthétique moderne, efficacité énergétique et facilité de mise en œuvre.",
-    },
-    {
-        id: "02",
-        image: "/images/coulissant.jpg",
-        alt: "Projets réalisés en menuiserie aluminium",
-        title: "Réalisations & Inspirations",
-        desc: "Plongez au cœur de nos plus belles réalisations et laissez-vous inspirer par des projets architecturaux remarquables. De la résidence privée aux grands ensembles commerciaux, découvrez comment nos menuiseries aluminium transforment les espaces et subliment chaque construction. Votre projet mérite l'excellence.",
-    },
-    {
-        id: "03",
-        image: "/images/pergola.jpg",
-        alt: "Solutions pour professionnels",
-        title: "Solutions Sur Mesure pour Professionnels",
-        desc: "Fabricants, installateurs, industriels et prescripteurs du bâtiment : bénéficiez de notre expertise et de nos solutions personnalisées. Nous vous accompagnons à chaque étape de vos chantiers avec des produits techniques performants, un service de qualité et un support dédié pour garantir la réussite de tous vos projets.",
-    },
-    {
-        id: "04",
-        image: "/images/veranda.jpg",
-        alt: "Palette de couleurs aluminium",
-        title: "Osez la Couleur, Libérez Votre Créativité",
-        desc: "Donnez une identité unique à vos projets avec notre palette exclusive de teintes pour menuiseries aluminium. Du classique au contemporain, du sobre à l'audacieux, explorez un large éventail de couleurs et de finitions pour créer des ambiances qui vous ressemblent et qui marquent les esprits.",
-    },
-    {
-        id: "05",
-        // image: "/banner/five.jpg",
-        image: "/images/rideaux.jpg",
-        alt: "Engagement et innovation",
-        title: "Innover avec Engagement",
-        desc: "L'innovation est au cœur de notre démarche : nous créons avec conscience environnementale, nous collaborons étroitement avec nos clients pour répondre à leurs besoins, nous générons un impact positif sur le secteur et nous construisons des solutions durables pour les générations futures. Ensemble, bâtissons l'avenir.",
-    }
-]
+  {
+    id: "01",
+    image: "/images/angle.jpg",
+    alt: "elegance",
+    title: "Élégance, innovation et performance",
+    desc: "Des murs rideaux conçus pour sublimer vos bâtiments, alliant design moderne, solidité et durabilité.",
+  },
+  {
+    id: "02",
+    image: "/images/coulissant.jpg",
+    alt: "accessoires",
+    title: "Accessoires de qualité",
+    desc: "Des accessoires fiables et performants, pensés pour renforcer l’esthétique, la robustesse et la longévité de vos installations.",
+  },
+  {
+    id: "03",
+    image: "/images/pergola.jpg",
+    alt: "pergola",
+    title: "Notre savoir-faire",
+    desc: "Une expertise maîtrisée dans la conception et l’installation de solutions vitrées et menuisées sur mesure.",
+  },
+  {
+    id: "04",
+    image: "/images/veranda.jpg",
+    alt: "espace optimisé",
+    title: "Espace optimisé",
+    desc: "Des vérandas et structures vitrées qui maximisent la luminosité et le confort, sans compromis sur la sécurité.",
+  },
+  {
+    id: "05",
+    image: "/images/rideaux.jpg",
+    alt: "exterieur elegant",
+    title: "Extérieur élégant",
+    desc: "Des solutions extérieures modernes et durables, conçues pour valoriser vos espaces et résister au temps.",
+  },
+];
