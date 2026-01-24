@@ -10,22 +10,24 @@ export type menu = {
 
 export const menuItems: menu[] = [
     { 
-         label: "SYSTÈMES RÉSIDENTIELS", 
+        label: "PRODUITS", 
         href: Routes.product.menuiseriePourLhabitat
     },
     { 
-        label: "SYSTÈMES EXTÉRIEURS", 
+        label: "REALISATIONS", 
         href: Routes.product.menuiserieExterieuresEtOutdoor 
     },
     { 
-       label: "SYSTÈMES TERTIAIRES",
-        href: Routes.product.menuiserieBatimentsEtTertiaires 
-    },
-    { 
-        label: "PARTICULIERS", 
+        label: "ENTREPRISE", 
         href: Routes.particulier.path, 
         highlight: true
     },
+    
+    // { 
+    //    label: "SYSTÈMES TERTIAIRES",
+    //     href: Routes.product.menuiserieBatimentsEtTertiaires 
+    // },
+
     { 
         label: "PROFESSIONNELS", 
         href: Routes.entreprise.path, 

@@ -1,11 +1,15 @@
 "use client";
 import { useState, useEffect, useRef } from 'react';
 import Image from "next/image";
+import { ArrowRight } from 'lucide-react';
+import { Routes } from '@/lib/utils/route';
+import { useRouter } from 'next/navigation';
 
 export default function EspacesDeVie() {
     const [titleVisible, setTitleVisible] = useState(false);
     const titleRef = useRef<HTMLDivElement>(null);
-
+    const router = useRouter();
+    
     useEffect(() => {
         const observer = new IntersectionObserver(
             (entries) => {
@@ -74,7 +78,7 @@ export default function EspacesDeVie() {
     ];
 
     return (
-        <div className="bg-primary px-4 sm:px-6 ">
+        <div className="bg-primary px-4 sm:px-6 mx-10">
             <div className="w-full">
                 {/* Titre avec barres */}
                 <div 
@@ -94,7 +98,7 @@ export default function EspacesDeVie() {
                     }`}></div>
                 </div>
 
-                <div className="grid grid-cols-2 md:grid-cols-2 gap-4 auto-rows-[400px]">
+                <div className="grid grid-cols-2 md:grid-cols-2 gap-4 auto-rows-[500px]">
                     <div className="md:col-span-1 md:row-span-1 relative group overflow-hidden">
                         <Image
                             src={spaces[0].image}
@@ -173,6 +177,19 @@ export default function EspacesDeVie() {
                             </div>
                         </div>
                     </div>
+                </div>
+
+                {/* Bouton "En savoir plus" */}
+                <div className="pt-4">
+                    <button 
+                        onClick={() => router.push(Routes.product.menuiseriePourLhabitat)}
+                        className="group inline-flex items-center gap-3 bg-orange-500 hover:bg-orange-600 text-white font-bold px-8 py-4 rounded transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
+                        <span className="text-lg">en savoir</span>
+                        <span className="w-6 h-6 bg-white text-orange-500 rounded-full flex items-center justify-center font-bold text-xl">
+                            +
+                        </span>
+                        <ArrowRight className="transform group-hover:translate-x-2 transition-transform" size={20} />
+                    </button>
                 </div>
 
                 {/* Grille asymétrique */}

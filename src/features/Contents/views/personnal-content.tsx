@@ -139,10 +139,10 @@ export default function PersonnalContent() {
                                         </div>
 
                                         {/* Bouton (visible au hover) */}
-                                        <button className="flex items-center gap-2 text-white opacity-0 group-hover:opacity-100 transition-all duration-500 transform translate-y-4 group-hover:translate-y-0">
+                                        {/* <button className="flex items-center gap-2 text-white opacity-0 group-hover:opacity-100 transition-all duration-500 transform translate-y-4 group-hover:translate-y-0">
                                             <span className="text-sm font-semibold">En savoir plus</span>
                                             <ArrowRight size={16} className="transform group-hover:translate-x-2 transition-transform" />
-                                        </button>
+                                        </button> */}
                                     </div>
 
                                     {/* Badge numéro */}

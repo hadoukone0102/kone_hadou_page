@@ -3,8 +3,8 @@ export const Routes = {
         home:"/"
     },
     product:{
-        menuiseriePourLhabitat:"/produit_cat/menuiserie-pour-lhabitat",
-        menuiserieExterieuresEtOutdoor:"/produit_cat/menuiserie-exterieur-outdoor",
+        menuiseriePourLhabitat:"/produit_cat/siglass-product",
+        menuiserieExterieuresEtOutdoor:"/produit_cat/siglass-realisation",
         menuiserieBatimentsEtTertiaires:"/produit_cat/menuiserie-batiment-tertiaire"
     },
     particulier:{

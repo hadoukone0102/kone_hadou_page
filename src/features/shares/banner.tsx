@@ -36,7 +36,7 @@ export default function Banner({
                             <div className="flex flex-col items-center justify-center">
 
                                 <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
-                                    {activeData?.title || (particulier ? "Particuliers" : "Entreprises")}
+                                    {activeData?.title || (particulier ? "Produits" : "Entreprises")}
                                 </h1>
 
                                 <h2 className="text-lg text-center md:text-3xl font-semibold text-white/90 mb-6">

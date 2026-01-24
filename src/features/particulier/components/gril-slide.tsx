@@ -1,14 +1,16 @@
-import { Projects } from "@/features/Contents";
 import { useState } from "react";
 import Image from 'next/image';
 
-
-export default function GrildSlide (){
+export default function GrildSlide ({
+    produits
+}:{
+    produits:any[]
+}){
     const [hoveredProject, setHoveredProject] = useState<number | null>(null);
 
     return (
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12 p-10">
-            {Projects.map((project) => (
+            {produits.map((project) => (
                 <div
                     key={project.id}
                     className="bg-white transition-all duration-700 cursor-pointer"

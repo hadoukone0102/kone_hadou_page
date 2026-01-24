@@ -134,13 +134,13 @@ export default function AboutHabitat() {
                 {/* Section Texte */}
                 <div 
                     ref={textRef}
-                    className={`space-y-6 text-gray-700 text-base md:text-lg leading-relaxed transition-all duration-1000 delay-300 ${
+                    className={`space-y-6 text-center border-l-4 border-secondary px-2 italic text-gray-700 text-base md:text-lg leading-relaxed transition-all duration-1000 delay-300 ${
                         textVisible 
                             ? 'opacity-100 translate-y-0' 
                             : 'opacity-0 translate-y-10'
                     }`}
                 >
-                    <p>
+                    <p className="">
                         Parce que la maison représente l&apos;espace de vie le plus cher à nos yeux, on aime y passer du temps, 
                         s&apos;y sentir bien et en sécurité. <strong>Siglass</strong> fabricant de menuiseries en alu propose 
                         les meilleures solutions de menuiseries aluminium pour correspondre à vos exigences de vie.

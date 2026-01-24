@@ -1,6 +1,7 @@
 //import ProjectsGrid from "@/features/Contents/views/realisation";
 import { useEffect, useRef, useState } from "react";
 import GrildSlide from "./gril-slide";
+import { Projects } from "@/features/Contents";
 
 export default function ParticulierGrildSlide (){
     const [titleVisible, setTitleVisible] = useState(false);
@@ -69,7 +70,7 @@ export default function ParticulierGrildSlide (){
                         </p>
                     </div>
                 </div>
-            <GrildSlide/>
+            <GrildSlide produits={Projects}/>
         </div>
     )
 }
