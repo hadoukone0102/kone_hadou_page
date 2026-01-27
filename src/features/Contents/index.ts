@@ -136,7 +136,7 @@ export const Produits = [
 export const Realisation = [
 {
     id: 1,
-    image: "/siglass/001.jpg",
+    image: "/realisation/001.jpg",
     title: "Résidence Les Jardins de Cocody",
     category: "Architecture Résidentielle",
     description: "Façades vitrées et baies coulissantes aluminium",
@@ -144,7 +144,7 @@ export const Realisation = [
 },
 {
     id: 2,
-    image: "/siglass/003.jpg",
+    image: "/realisation/002.jpg",
     title: "Immeuble Tour Ivoire",
     category: "Architecture Commerciale",
     description: "Mur-rideau complet et portes automatiques",
@@ -152,7 +152,7 @@ export const Realisation = [
 },
 {
     id: 3,
-    image: "/siglass/006.jpg",
+    image: "/realisation/006.jpg",
     title: "Villa Moderne Riviera Golf",
     category: "Architecture Résidentielle",
     description: "Verrières sur mesure et portes coulissantes",
@@ -160,7 +160,7 @@ export const Realisation = [
 },
 {
     id: 4,
-    image: "/siglass/007.jpg",
+    image: "/realisation/009.jpg",
     title: "Centre Commercial Playce Marcory",
     category: "Architecture Commerciale",
     description: "Vitrines et façades en aluminium",
@@ -168,7 +168,7 @@ export const Realisation = [
 },
 {
     id: 5,
-    image: "/siglass/009.jpg",
+    image: "/realisation/011.jpg",
     title: "Hôtel Pullman Abidjan",
     category: "Architecture Hôtelière",
     description: "Menuiserie aluminium et garde-corps verre",
@@ -176,7 +176,7 @@ export const Realisation = [
 },
 {
     id: 6,
-    image: "/siglass/011.jpg",
+    image: "/realisation/012.jpg",
     title: "Bureaux Plateau - Tour Administrative",
     category: "Architecture Commerciale",
     description: "Cloisons vitrées et portes coupe-feu",
@@ -184,10 +184,88 @@ export const Realisation = [
 },
 {
     id: 7,
-    image: "/siglass/012.jpg",
+    image: "/realisation/013.jpg",
     title: "Bureaux Plateau - Tour Administrative",
     category: "Architecture Commerciale",
     description: "Cloisons vitrées et portes coupe-feu",
     color: "text-gray-900"
-}
+},
+{
+    id: 8,
+    image: "/realisation/014.jpg",
+    title: "Hôtel Pullman Abidjan",
+    category: "Architecture Hôtelière",
+    description: "Menuiserie aluminium et garde-corps verre",
+    color: "text-orange-500"
+},
+{
+    id: 9,
+    image: "/realisation/015.jpg",
+    title: "Bureaux Plateau - Tour Administrative",
+    category: "Architecture Commerciale",
+    description: "Cloisons vitrées et portes coupe-feu",
+    color: "text-gray-900"
+},
+{
+    id: 10,
+    image: "/realisation/018.jpg",
+    title: "Bureaux Plateau - Tour Administrative",
+    category: "Architecture Commerciale",
+    description: "Cloisons vitrées et portes coupe-feu",
+    color: "text-gray-900"
+},
+{
+    id: 11,
+    image: "/realisation/019.jpg",
+    title: "Bureaux Plateau - Tour Administrative",
+    category: "Architecture Commerciale",
+    description: "Cloisons vitrées et portes coupe-feu",
+    color: "text-gray-900"
+},{
+    id: 12,
+    image: "/realisation/022.jpg",
+    title: "Bureaux Plateau - Tour Administrative",
+    category: "Architecture Commerciale",
+    description: "Cloisons vitrées et portes coupe-feu",
+    color: "text-gray-900"
+},
+{
+    id: 13,
+    image: "/realisation/026.jpg",
+    title: "Bureaux Plateau - Tour Administrative",
+    category: "Architecture Commerciale",
+    description: "Cloisons vitrées et portes coupe-feu",
+    color: "text-gray-900"
+},{
+    id: 14,
+    image: "/realisation/031.jpg",
+    title: "Bureaux Plateau - Tour Administrative",
+    category: "Architecture Commerciale",
+    description: "Cloisons vitrées et portes coupe-feu",
+    color: "text-gray-900"
+},
+{
+    id: 16,
+    image: "/realisation/038.jpeg",
+    title: "Bureaux Plateau - Tour Administrative",
+    category: "Architecture Commerciale",
+    description: "Cloisons vitrées et portes coupe-feu",
+    color: "text-gray-900"
+},
+{
+    id: 17,
+    image: "/realisation/039.jpeg",
+    title: "Bureaux Plateau - Tour Administrative",
+    category: "Architecture Commerciale",
+    description: "Cloisons vitrées et portes coupe-feu",
+    color: "text-gray-900"
+},
+{
+    id: 15,
+    image: "/realisation/035.jpg",
+    title: "Bureaux Plateau - Tour Administrative",
+    category: "Architecture Commerciale",
+    description: "Cloisons vitrées et portes coupe-feu",
+    color: "text-gray-900"
+},
 ];
