@@ -52,9 +52,10 @@
 export const Produits = [
 {
     id: 1,
-    image: "/products/aa.jpg",
+    // image: "/products/aa.jpg",
+    image: "/products/mur-de-verre.webp",
     title: "Résidence Les Jardins de Cocody",
-    category: "Architecture Résidentielle",
+    category: "Mur-de-verre",
     description: "Façades vitrées et baies coulissantes aluminium",
     color: "text-orange-500"
 },
@@ -76,33 +77,57 @@ export const Produits = [
 },
 {
     id: 4,
-    image: "/products/lit.jpg",
+    image: "/products/douche-en-verre-noir.webp",
     title: "Centre Commercial Playce Marcory",
-    category: "Architecture Commerciale",
+    category: "Douche-en-verre-noir",
     description: "Vitrines et façades en aluminium",
     color: "text-gray-900"
 },
 {
     id: 5,
-    image: "/products/OIP.jpg",
+    image: "/products/rampe-en-verre-escalier.webp",
     title: "Hôtel Pullman Abidjan",
-    category: "Architecture Hôtelière",
+    category: "Rampe-en-verre-escalier",
     description: "Menuiserie aluminium et garde-corps verre",
     color: "text-orange-500"
 },
 {
     id: 6,
-    image: "/products/R.jpg",
+    image: "/products/azerty-1.jpg",
     title: "Bureaux Plateau - Tour Administrative",
-    category: "Architecture Commerciale",
+    category: "Menuserie",
     description: "Cloisons vitrées et portes coupe-feu",
     color: "text-gray-900"
 },
 {
     id: 7,
-    image: "/products/rangi05.jpg",
+    image: "/products/piscine.webp",
     title: "Bureaux Plateau - Tour Administrative",
-    category: "Architecture Commerciale",
+    category: "Piscine",
+    description: "Cloisons vitrées et portes coupe-feu",
+    color: "text-gray-900"
+},
+{
+    id: 8,
+    image: "/products/spigot.webp",
+    title: "Bureaux Plateau - Tour Administrative",
+    category: "Spigot",
+    description: "Cloisons vitrées et portes coupe-feu",
+    color: "text-gray-900"
+},
+{
+    id: 9,
+    image: "/products/rampe-en-verre-1.webp",
+    title: "Bureaux Plateau - Tour Administrative",
+    category: "Rampe-en-verre",
+    description: "Cloisons vitrées et portes coupe-feu",
+    color: "text-gray-900"
+},
+{
+    id: 10,
+    image: "/products/descente-escalier.webp",
+    title: "Bureaux Plateau - Tour Administrative",
+    category: "Escente-escalier",
     description: "Cloisons vitrées et portes coupe-feu",
     color: "text-gray-900"
 }

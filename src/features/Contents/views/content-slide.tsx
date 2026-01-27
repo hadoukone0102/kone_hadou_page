@@ -34,9 +34,10 @@ export default function EspacesDeVie() {
             id: 1,
             number: "01",
             title: "",
-            subtitle: "PERSONNELLE",
+            subtitle: "DOUCHE EN VERRE",
             // image: "/banner/first.jpg",
-            image: "/siglass/h-12.jpg",
+            // image: "/siglass/h-12.jpg",
+            image: "/products/douche.webp",
             size: "large" // Occupe 2 colonnes en haut à gauche
         },
         {
@@ -51,10 +52,11 @@ export default function EspacesDeVie() {
         {
             id: 3,
             number: "03",
-            title: "COLLECTIF",
-            subtitle: "VERTICAL",
+            title: "CLOTURE",
+            subtitle: "DE PISCINE",
             // image: "/banner/firts.jpg",
-            image: "/siglass/h-15.jpg",
+            image: "/products/piscine.webp",
+            // image: "/siglass/h-15.jpg",
             size: "large"
         },
         {

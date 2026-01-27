@@ -73,17 +73,7 @@ export default function PartnersCarousel() {
     return (
         <div className="bg-gradient-to-b from-gray-50 to-white py-16 px-4 sm:px-6 lg:px-8">
             <div className="max-w-7xl mx-auto">
-                {/* Titre de la section */}
                 <div className="text-center mb-12">
-                        {/* <div className="inline-block">
-                            <div className="flex items-center gap-3 mb-4">
-                                <div className="h-1 w-12 bg-[#3193bd]"></div>
-                                <span className="text-[#3193bd] font-semibold text-sm uppercase tracking-wider">
-                                    Nos Partenaires
-                                </span>
-                                <div className="h-1 w-12 bg-[#3193bd]"></div>
-                            </div>
-                        </div> */}
                     <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
                         Ils Nous Font Confiance
                     </h2>
