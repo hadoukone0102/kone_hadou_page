@@ -11,7 +11,7 @@
             id: 2,
             image: "/about-3.jpg",
             title: "Immeuble Tour Ivoire",
-            category: "Architecture Commerciale",
+            category: " ",
             description: "Mur-rideau complet et portes automatiques",
             color: "text-gray-900"
         },
@@ -27,7 +27,7 @@
             id: 4,
             image: "/about-2.jpg",
             title: "Centre Commercial Playce Marcory",
-            category: "Architecture Commerciale",
+            category: " ",
             description: "Vitrines et façades en aluminium",
             color: "text-gray-900"
         },
@@ -43,7 +43,7 @@
             id: 6,
             image: "/about-2.jpg",
             title: "Bureaux Plateau - Tour Administrative",
-            category: "Architecture Commerciale",
+            category: " ",
             description: "Cloisons vitrées et portes coupe-feu",
             color: "text-gray-900"
         }
@@ -63,7 +63,7 @@ export const Produits = [
     id: 2,
     image: "/products/BBS.jpg",
     title: "Immeuble Tour Ivoire",
-    category: "Architecture Commerciale",
+    category: " ",
     description: "Mur-rideau complet et portes automatiques",
     color: "text-gray-900"
 },
@@ -146,7 +146,7 @@ export const Realisation = [
     id: 2,
     image: "/realisation/002.jpg",
     title: "Immeuble Tour Ivoire",
-    category: "Architecture Commerciale",
+    category: " ",
     description: "Mur-rideau complet et portes automatiques",
     color: "text-gray-900"
 },
@@ -162,7 +162,7 @@ export const Realisation = [
     id: 4,
     image: "/realisation/009.jpg",
     title: "Centre Commercial Playce Marcory",
-    category: "Architecture Commerciale",
+    category: " ",
     description: "Vitrines et façades en aluminium",
     color: "text-gray-900"
 },
@@ -178,7 +178,7 @@ export const Realisation = [
     id: 6,
     image: "/realisation/012.jpg",
     title: "Bureaux Plateau - Tour Administrative",
-    category: "Architecture Commerciale",
+    category: " ",
     description: "Cloisons vitrées et portes coupe-feu",
     color: "text-gray-900"
 },
@@ -186,7 +186,7 @@ export const Realisation = [
     id: 7,
     image: "/realisation/013.jpg",
     title: "Bureaux Plateau - Tour Administrative",
-    category: "Architecture Commerciale",
+    category: " ",
     description: "Cloisons vitrées et portes coupe-feu",
     color: "text-gray-900"
 },
@@ -202,7 +202,7 @@ export const Realisation = [
     id: 9,
     image: "/realisation/015.jpg",
     title: "Bureaux Plateau - Tour Administrative",
-    category: "Architecture Commerciale",
+    category: " ",
     description: "Cloisons vitrées et portes coupe-feu",
     color: "text-gray-900"
 },
@@ -210,7 +210,7 @@ export const Realisation = [
     id: 10,
     image: "/realisation/018.jpg",
     title: "Bureaux Plateau - Tour Administrative",
-    category: "Architecture Commerciale",
+    category: " ",
     description: "Cloisons vitrées et portes coupe-feu",
     color: "text-gray-900"
 },
@@ -218,29 +218,7 @@ export const Realisation = [
     id: 11,
     image: "/realisation/019.jpg",
     title: "Bureaux Plateau - Tour Administrative",
-    category: "Architecture Commerciale",
-    description: "Cloisons vitrées et portes coupe-feu",
-    color: "text-gray-900"
-},{
-    id: 12,
-    image: "/realisation/022.jpg",
-    title: "Bureaux Plateau - Tour Administrative",
-    category: "Architecture Commerciale",
-    description: "Cloisons vitrées et portes coupe-feu",
-    color: "text-gray-900"
-},
-{
-    id: 13,
-    image: "/realisation/026.jpg",
-    title: "Bureaux Plateau - Tour Administrative",
-    category: "Architecture Commerciale",
-    description: "Cloisons vitrées et portes coupe-feu",
-    color: "text-gray-900"
-},{
-    id: 14,
-    image: "/realisation/031.jpg",
-    title: "Bureaux Plateau - Tour Administrative",
-    category: "Architecture Commerciale",
+    category: " ",
     description: "Cloisons vitrées et portes coupe-feu",
     color: "text-gray-900"
 },
@@ -248,24 +226,297 @@ export const Realisation = [
     id: 16,
     image: "/realisation/038.jpeg",
     title: "Bureaux Plateau - Tour Administrative",
-    category: "Architecture Commerciale",
+    category: " ",
     description: "Cloisons vitrées et portes coupe-feu",
     color: "text-gray-900"
 },
 {
-    id: 17,
-    image: "/realisation/039.jpeg",
+    id: 18,
+    image: "/realisation/059.jpg",
     title: "Bureaux Plateau - Tour Administrative",
-    category: "Architecture Commerciale",
+    category: " ",
     description: "Cloisons vitrées et portes coupe-feu",
     color: "text-gray-900"
 },
 {
-    id: 15,
-    image: "/realisation/035.jpg",
+    id: 19,
+    image: "/realisation/060.jpg",
     title: "Bureaux Plateau - Tour Administrative",
-    category: "Architecture Commerciale",
+    category: " ",
     description: "Cloisons vitrées et portes coupe-feu",
     color: "text-gray-900"
 },
+{
+    id: 20,
+    image: "/realisation/061.jpg",
+    title: "Bureaux Plateau - Tour Administrative",
+    category: " ",
+    description: "Cloisons vitrées et portes coupe-feu",
+    color: "text-gray-900"
+},
+{
+    id: 22,
+    image: "/realisation/063.jpg",
+    title: "Bureaux Plateau - Tour Administrative",
+    category: " ",
+    description: "Cloisons vitrées et portes coupe-feu",
+    color: "text-gray-900"
+},
+{
+    id: 23,
+    image: "/realisation/064.jpg",
+    title: "Bureaux Plateau - Tour Administrative",
+    category: " ",
+    description: "Cloisons vitrées et portes coupe-feu",
+    color: "text-gray-900"
+},
+{
+    id: 24,
+    image: "/realisation/065.jpg",
+    title: "Bureaux Plateau - Tour Administrative",
+    category: " ",
+    description: "Cloisons vitrées et portes coupe-feu",
+    color: "text-gray-900"
+},
+{
+    id: 25,
+    image: "/realisation/066.jpg",
+    title: "Bureaux Plateau - Tour Administrative",
+    category: " ",
+    description: "Cloisons vitrées et portes coupe-feu",
+    color: "text-gray-900"
+},
+{
+    id: 26,
+    image: "/realisation/067.jpg",
+    title: "Bureaux Plateau - Tour Administrative",
+    category: " ",
+    description: "Cloisons vitrées et portes coupe-feu",
+    color: "text-gray-900"
+},
+{
+    id: 27,
+    image: "/realisation/068.jpg",
+    title: "Bureaux Plateau - Tour Administrative",
+    category: " ",
+    description: "Cloisons vitrées et portes coupe-feu",
+    color: "text-gray-900"
+},
+{
+    id: 28,
+    image: "/realisation/069.jpg",
+    title: "Bureaux Plateau - Tour Administrative",
+    category: " ",
+    description: "Cloisons vitrées et portes coupe-feu",
+    color: "text-gray-900"
+},
+{
+    id: 29,
+    image: "/realisation/070.jpg",
+    title: "Bureaux Plateau - Tour Administrative",
+    category: " ",
+    description: "Cloisons vitrées et portes coupe-feu",
+    color: "text-gray-900"
+},
+{
+    id: 30,
+    image: "/realisation/071.jpg",
+    title: "Bureaux Plateau - Tour Administrative",
+    category: " ",
+    description: "Cloisons vitrées et portes coupe-feu",
+    color: "text-gray-900"
+},
+{
+    id: 21,
+    image: "/realisation/062.jpg",
+    title: "Bureaux Plateau - Tour Administrative",
+    category: " ",
+    description: "Cloisons vitrées et portes coupe-feu",
+    color: "text-gray-900"
+},
+// {
+//     id: 12,
+//     image: "/realisation/022.jpg",
+//     title: "Bureaux Plateau - Tour Administrative",
+//     category: " ",
+//     description: "Cloisons vitrées et portes coupe-feu",
+//     color: "text-gray-900"
+// },
+// {
+//     id: 13,
+//     image: "/realisation/026.jpg",
+//     title: "Bureaux Plateau - Tour Administrative",
+//     category: " ",
+//     description: "Cloisons vitrées et portes coupe-feu",
+//     color: "text-gray-900"
+// },{
+//     id: 14,
+//     image: "/realisation/031.jpg",
+//     title: "Bureaux Plateau - Tour Administrative",
+//     category: " ",
+//     description: "Cloisons vitrées et portes coupe-feu",
+//     color: "text-gray-900"
+// },
+// {
+//     id: 17,
+//     image: "/realisation/039.jpeg",
+//     title: "Bureaux Plateau - Tour Administrative",
+//     category: " ",
+//     description: "Cloisons vitrées et portes coupe-feu",
+//     color: "text-gray-900"
+// },
 ];
+
+export const REALISATIONS = [
+    {
+        id:"001",
+        projet:"Villa S",
+        couverture:"/realisation/v-s/059.jpg",
+        groups:[
+            {
+                id: 1,
+                image: "/realisation/v-s/060.jpg",
+                title: "Bureaux Plateau - Tour Administrative",
+                category: " ",
+                description: "Cloisons vitrées et portes coupe-feu",
+                color: "text-gray-900"
+            },
+            {
+                id: 2,
+                image: "/realisation/v-s/061.jpg",
+                title: "Bureaux Plateau - Tour Administrative",
+                category: " ",
+                description: "Cloisons vitrées et portes coupe-feu",
+                color: "text-gray-900"
+            },{
+                id: 3,
+                image: "/realisation/v-s/062.jpg",
+                title: "Bureaux Plateau - Tour Administrative",
+                category: " ",
+                description: "Cloisons vitrées et portes coupe-feu",
+                color: "text-gray-900"
+            },
+        ]
+    },
+    {
+        id:"002",
+        projet:"Villa B",
+        couverture:"/realisation/v-b/029.jpg",
+        groups:[
+            {
+                id: 1,
+                image: "/realisation/v-b/030.jpg",
+                title: "Bureaux Plateau - Tour Administrative",
+                category: " ",
+                description: "Cloisons vitrées et portes coupe-feu",
+                color: "text-gray-900"
+            },
+            {
+                id: 2,
+                image: "/realisation/v-b/031.jpg",
+                title: "Bureaux Plateau - Tour Administrative",
+                category: " ",
+                description: "Cloisons vitrées et portes coupe-feu",
+                color: "text-gray-900"
+            },{
+                id: 3,
+                image: "/realisation/v-b/032.jpg",
+                title: "Bureaux Plateau - Tour Administrative",
+                category: " ",
+                description: "Cloisons vitrées et portes coupe-feu",
+                color: "text-gray-900"
+            },
+        ]
+    },
+    {
+        id:"003",
+        projet:"Cloisonnement",
+        couverture:"/realisation/csl/0001.jpg",
+        groups:[
+            {
+                id: 1,
+                image: "/realisation/csl/0002.jpg",
+                title: "Bureaux Plateau - Tour Administrative",
+                category: " ",
+                description: "Cloisons vitrées et portes coupe-feu",
+                color: "text-gray-900"
+            },
+            {
+                id: 2,
+                image: "/realisation/csl/0003.jpg",
+                title: "Bureaux Plateau - Tour Administrative",
+                category: " ",
+                description: "Cloisons vitrées et portes coupe-feu",
+                color: "text-gray-900"
+            },
+            {
+                id: 3,
+                image: "/realisation/csl/0004.jpg",
+                title: "Bureaux Plateau - Tour Administrative",
+                category: " ",
+                description: "Cloisons vitrées et portes coupe-feu",
+                color: "text-gray-900"
+            },
+        ]
+    },
+    {
+        id:"004",
+        projet:"Villa CR",
+        couverture:"/realisation/v-cr/039.jpg",
+        groups:[
+            {
+                id: 1,
+                image: "/realisation/v-cr/040.jpg",
+                title: "Bureaux Plateau - Tour Administrative",
+                category: " ",
+                description: "Cloisons vitrées et portes coupe-feu",
+                color: "text-gray-900"
+            },{
+                id: 2,
+                image: "/realisation/v-cr/041.jpg",
+                title: "Bureaux Plateau - Tour Administrative",
+                category: " ",
+                description: "Cloisons vitrées et portes coupe-feu",
+                color: "text-gray-900"
+            },
+            {
+                id: 3,
+                image: "/realisation/v-cr/042.jpg",
+                title: "Bureaux Plateau - Tour Administrative",
+                category: " ",
+                description: "Cloisons vitrées et portes coupe-feu",
+                color: "text-gray-900"
+            },
+        ]
+    },
+    {
+        id:"005",
+        projet:"Villa Ramy-D",
+        couverture:"/realisation/v-ramy-d/049.jpg",
+        groups:[
+            {
+                id: 1,
+                image: "/realisation/v-ramy-d/050.jpg",
+                title: "Bureaux Plateau - Tour Administrative",
+                category: " ",
+                description: "Cloisons vitrées et portes coupe-feu",
+                color: "text-gray-900"
+            },
+            {
+                id: 2,
+                image: "/realisation/v-ramy-d/051.jpg",
+                title: "Bureaux Plateau - Tour Administrative",
+                category: " ",
+                description: "Cloisons vitrées et portes coupe-feu",
+                color: "text-gray-900"
+            },{
+                id: 3,
+                image: "/realisation/v-ramy-d/052.jpg",
+                title: "Bureaux Plateau - Tour Administrative",
+                category: "",
+                description: "Cloisons vitrées et portes coupe-feu",
+                color: "text-gray-900"
+            },
+        ]
+    }
+]

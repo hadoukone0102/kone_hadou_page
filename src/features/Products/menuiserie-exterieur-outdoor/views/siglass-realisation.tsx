@@ -2,10 +2,11 @@
 import Footer from "@/features/Home/views/footer";
 import MainHeader from "@/features/shares/main-head";
 // import AboutExterieur from "../components/about-ext";
-import ParticulierGrildVenranda from "@/features/particulier/components/particulier-verndas";
-import { Realisation } from "@/features/Contents";
+// import ParticulierGrildVenranda from "@/features/particulier/components/particulier-verndas";
+// import { Realisation, REALISATIONS } from "@/features/Contents";
 import PartnersCarousel from "@/features/Contents/views/partenaire";
 import RealisationGrildSlide from "@/features/particulier/components/realisation-grild";
+import { REALISATIONS } from "@/features/Contents";
 
 export default function SiglassRealisation() {
     return (
@@ -29,7 +30,7 @@ export default function SiglassRealisation() {
             <main className="flex-grow mb-4">
                 <div className="w-full">
                     <div className="bg-primary">
-                        <RealisationGrildSlide produits={Realisation} className=""/>
+                        <RealisationGrildSlide produits={REALISATIONS} className=""/>
                         {/* <AboutExterieur/> */}
                         {/* <ExterieuSlide/> */}
                     </div>
