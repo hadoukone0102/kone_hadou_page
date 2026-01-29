@@ -429,6 +429,36 @@ export const REALISATIONS = [
         ]
     },
     {
+        id:"004",
+        projet:"Villa CR",
+        couverture:"/realisation/v-cr/039.jpg",
+        groups:[
+            {
+                id: 1,
+                image: "/realisation/v-cr/040.jpg",
+                title: "Bureaux Plateau - Tour Administrative",
+                category: " ",
+                description: "Cloisons vitrées et portes coupe-feu",
+                color: "text-gray-900"
+            },{
+                id: 2,
+                image: "/realisation/v-cr/041.jpg",
+                title: "Bureaux Plateau - Tour Administrative",
+                category: " ",
+                description: "Cloisons vitrées et portes coupe-feu",
+                color: "text-gray-900"
+            },
+            {
+                id: 3,
+                image: "/realisation/v-cr/042.jpg",
+                title: "Bureaux Plateau - Tour Administrative",
+                category: " ",
+                description: "Cloisons vitrées et portes coupe-feu",
+                color: "text-gray-900"
+            },
+        ]
+    },
+    {
         id:"003",
         projet:"Cloisonnement",
         couverture:"/realisation/csl/0001.jpg",
@@ -459,36 +489,7 @@ export const REALISATIONS = [
             },
         ]
     },
-    {
-        id:"004",
-        projet:"Villa CR",
-        couverture:"/realisation/v-cr/039.jpg",
-        groups:[
-            {
-                id: 1,
-                image: "/realisation/v-cr/040.jpg",
-                title: "Bureaux Plateau - Tour Administrative",
-                category: " ",
-                description: "Cloisons vitrées et portes coupe-feu",
-                color: "text-gray-900"
-            },{
-                id: 2,
-                image: "/realisation/v-cr/041.jpg",
-                title: "Bureaux Plateau - Tour Administrative",
-                category: " ",
-                description: "Cloisons vitrées et portes coupe-feu",
-                color: "text-gray-900"
-            },
-            {
-                id: 3,
-                image: "/realisation/v-cr/042.jpg",
-                title: "Bureaux Plateau - Tour Administrative",
-                category: " ",
-                description: "Cloisons vitrées et portes coupe-feu",
-                color: "text-gray-900"
-            },
-        ]
-    },
+    
     {
         id:"005",
         projet:"Villa Ramy-D",

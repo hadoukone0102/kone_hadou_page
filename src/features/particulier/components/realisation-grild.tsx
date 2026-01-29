@@ -74,7 +74,7 @@ export default function RealisationGrildSlide({
                 {produits.map((project) => (
                     <div
                         key={project.id}
-                        className="relative bg-white h-[400px] rounded-lg overflow-hidden cursor-pointer group shadow-lg hover:shadow-2xl transition-all duration-500"
+                        className="relative bg-white h-full w-full rounded-lg overflow-hidden cursor-pointer group shadow-lg hover:shadow-2xl transition-all duration-500"
                         onClick={() => openModal(project)}
                         onMouseEnter={() => setHoveredId(project.id)}
                         onMouseLeave={() => setHoveredId(null)}
@@ -82,8 +82,10 @@ export default function RealisationGrildSlide({
                         <Image
                             src={project.couverture}
                             alt={project.projet}
-                            fill
-                            className="object-cover transition-transform duration-700 group-hover:scale-110"
+                            height={300}
+                            width={300}
+                            // fill
+                            className="object-cover transition-transform duration-700 group-hover:scale-110 w-[100%]"
                         />
                         
                         {/* Overlay avec effet hover */}
