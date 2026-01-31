@@ -1,4 +1,4 @@
- export const Projects = [
+export const Projects = [
         {
             id: 1,
             image: "/about-3.jpg",
@@ -49,6 +49,57 @@
         }
     ];
 
+export const NOSPRODUITS = [
+    {
+        id: 1,
+        image: "/products/aa.jpg",
+        title: "",
+        category: "",
+        description: "",
+        color: "text-orange-500"
+    },
+    {
+        id: 2,
+        image: "/products/c-Kevin.jpg",
+        title: "",
+        category: "",
+        description: "",
+        color: "text-orange-500"
+    },
+    {
+        id: 3,
+        image: "/siglass/h-02.jpg",
+        title: "",
+        category: "",
+        description: "",
+        color: "text-orange-500"
+    },
+    {
+        id: 4,
+        image: "/products/R.jpg",
+        title: "",
+        category: "",
+        description: "",
+        color: "text-orange-500"
+    },
+    {
+        id: 5,
+        image: "/siglass/h-01.png",
+        title: "",
+        category: "",
+        description: "",
+        color: "text-orange-500"
+    },
+    {
+        id: 6,
+        image: "/siglass/h-06.jpg",
+        title: "",
+        category: "",
+        description: "",
+        color: "text-orange-500"
+    },
+]
+
 export const Produits = [
 {
     id: 1,
@@ -67,14 +118,7 @@ export const Produits = [
     description: "Mur-rideau complet et portes automatiques",
     color: "text-gray-900"
 },
-{
-    id: 3,
-    image: "/products/c-Kevin.jpg",
-    title: "Villa Moderne Riviera Golf",
-    category: "Architecture Résidentielle",
-    description: "Verrières sur mesure et portes coulissantes",
-    color: "text-orange-500"
-},
+
 {
     id: 4,
     image: "/products/douche-en-verre-noir.webp",

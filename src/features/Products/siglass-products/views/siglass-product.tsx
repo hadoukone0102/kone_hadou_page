@@ -5,7 +5,7 @@ import AboutHabitat from "../components/about-abita";
 // import ParticulierGrildSlide from "@/features/particulier/components/particulier-gril-slide";
 import GrildSlide from "@/features/particulier/components/gril-slide";
 import PartnersCarousel from "@/features/Contents/views/partenaire";
-import { Produits } from "@/features/Contents";
+import { NOSPRODUITS, Produits } from "@/features/Contents";
 
 export default function SiglassProducts() {
     return (
@@ -28,7 +28,9 @@ export default function SiglassProducts() {
                     <div className="w-full">
                         <div className="bg-primary">
                             <AboutHabitat/>
-                            <GrildSlide produits={Produits}/>
+                            <GrildSlide title="Nos produits" produits={NOSPRODUITS}/>
+
+                            <GrildSlide title="Autres categorie de produits" produits={Produits}/>
                             {/* <ParticulierGrildSlide/> */}
                             {/* <HabitatSlide/> */}
                             <PartnersCarousel/> 

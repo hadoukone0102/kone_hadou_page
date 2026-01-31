@@ -96,15 +96,20 @@ export default function AboutHabitat() {
                     {/* Titre */}
                     <div 
                         ref={titleRef}
-                        className={`flex items-center transition-all duration-1000 ${
+                        className={`flex gap-1 items-center transition-all duration-1000 ${
                             titleVisible 
                                 ? 'opacity-100 translate-x-0' 
                                 : 'opacity-0 -translate-x-10'
                         }`}
                     >
-                        <h2 className="text-xl text-center md:text-4xl lg:text-4xl font-bold text-gray-900 leading-tight">
-                            UNE GAMME DE MENUISERIES ALUMINIUM POUR ÉQUIPER L&apos;HABITAT
-                        </h2>
+                        <div className="flex flex-col">
+                            <h2 className="text-xl uppercase text-center md:text-4xl lg:text-4xl font-bold text-gray-900 leading-tight">
+                               Avec Siglass, vos besoins deviennent notre mission.
+                            </h2>
+                            <small className="text-sm italic text-primary text-center">
+                               {"«"} Votre confort, notre satisfaction {"»"}
+                            </small>
+                        </div>
                     </div>
 
                     {/* Grille d'images */}
