@@ -435,9 +435,57 @@ export const REALISATIONS = [
             },{
                 id: 3,
                 image: "/realisation/v-s/062.jpg",
-                title: "Bureaux Plateau - Tour Administrative",
+                title: "",
                 category: " ",
-                description: "Cloisons vitrées et portes coupe-feu",
+                description: "",
+                color: "text-gray-900"
+            },
+            {
+                id: 4,
+                image: "/realisation/v-s/063.jpg",
+                title: "",
+                category: " ",
+                description: "",
+                color: "text-gray-900"
+            },
+            {
+                id: 5,
+                image: "/realisation/v-s/064.jpg",
+                title: "",
+                category: " ",
+                description: "",
+                color: "text-gray-900"
+            },
+            {
+                id: 6,
+                image: "/realisation/v-s/065.jpg",
+                title: "",
+                category: " ",
+                description: "",
+                color: "text-gray-900"
+            },
+            {
+                id: 7,
+                image: "/realisation/v-s/066.jpg",
+                title: "",
+                category: " ",
+                description: "",
+                color: "text-gray-900"
+            },
+            {
+                id: 8,
+                image: "/realisation/v-s/067.jpg",
+                title: "",
+                category: " ",
+                description: "",
+                color: "text-gray-900"
+            },
+            {
+                id: 9,
+                image: "/realisation/v-s/068.jpg",
+                title: "",
+                category: " ",
+                description: "",
                 color: "text-gray-900"
             },
         ]
@@ -470,6 +518,46 @@ export const REALISATIONS = [
                 description: "Cloisons vitrées et portes coupe-feu",
                 color: "text-gray-900"
             },
+            {
+                id: 4,
+                image: "/realisation/v-b/033.jpg",
+                title: "",
+                category: " ",
+                description: "",
+                color: "text-gray-900"
+            },
+            {
+                id: 5,
+                image: "/realisation/v-b/034.jpg",
+                title: "",
+                category: " ",
+                description: "",
+                color: "text-gray-900"
+            },
+            {
+                id: 6,
+                image: "/realisation/v-b/035.jpg",
+                title: "",
+                category: " ",
+                description: "",
+                color: "text-gray-900"
+            },
+            {
+                id: 7,
+                image: "/realisation/v-s/036.jpg",
+                title: "",
+                category: " ",
+                description: "",
+                color: "text-gray-900"
+            },
+            {
+                id: 8,
+                image: "/realisation/v-s/037.jpg",
+                title: "",
+                category: " ",
+                description: "",
+                color: "text-gray-900"
+            },
         ]
     },
     {
@@ -495,9 +583,41 @@ export const REALISATIONS = [
             {
                 id: 3,
                 image: "/realisation/v-cr/042.jpg",
-                title: "Bureaux Plateau - Tour Administrative",
+                title: "",
                 category: " ",
-                description: "Cloisons vitrées et portes coupe-feu",
+                description: "",
+                color: "text-gray-900"
+            },
+            {
+                id:4 ,
+                image: "/realisation/v-cr/044.jpg",
+                title: "",
+                category: " ",
+                description: "",
+                color: "text-gray-900"
+            },
+            {
+                id: 5,
+                image: "/realisation/v-cr/045.jpg",
+                title: "",
+                category: " ",
+                description: "",
+                color: "text-gray-900"
+            },
+            {
+                id: 6,
+                image: "/realisation/v-cr/046.jpg",
+                title: "",
+                category: " ",
+                description: "",
+                color: "text-gray-900"
+            },
+            {
+                id: 7,
+                image: "/realisation/v-cr/047.jpg",
+                title: "",
+                category: " ",
+                description: "",
                 color: "text-gray-900"
             },
         ]
@@ -526,14 +646,21 @@ export const REALISATIONS = [
             {
                 id: 3,
                 image: "/realisation/csl/0004.jpg",
-                title: "Bureaux Plateau - Tour Administrative",
+                title: "",
                 category: " ",
-                description: "Cloisons vitrées et portes coupe-feu",
+                description: "",
+                color: "text-gray-900"
+            },
+            {
+                id: 4,
+                image: "/realisation/csl/0005.jpg",
+                title: "",
+                category: " ",
+                description: "",
                 color: "text-gray-900"
             },
         ]
     },
-    
     {
         id:"005",
         projet:"Villa Ramy-D",
@@ -554,12 +681,53 @@ export const REALISATIONS = [
                 category: " ",
                 description: "Cloisons vitrées et portes coupe-feu",
                 color: "text-gray-900"
-            },{
+            },
+            {
                 id: 3,
                 image: "/realisation/v-ramy-d/052.jpg",
-                title: "Bureaux Plateau - Tour Administrative",
+                title: "",
                 category: "",
-                description: "Cloisons vitrées et portes coupe-feu",
+                description: "",
+                color: "text-gray-900"
+            },
+             {
+                id: 4,
+                image: "/realisation/v-ramy-d/053.jpg", 
+                title: "",
+                category: "",
+                description: "",
+                color: "text-gray-900"
+            },
+            {
+                id: 5,
+                image: "/realisation/v-ramy-d/054.jpg",
+                title: "",
+                category: "",
+                description: "",
+                color: "text-gray-900"
+            },
+             {
+                id: 6,
+                image: "/realisation/v-ramy-d/055.jpg",
+                title: "",
+                category: "",
+                description: "",
+                color: "text-gray-900"
+            },
+             {
+                id: 7,
+                image: "/realisation/v-ramy-d/056.jpg",
+                title: "",
+                category: "",
+                description: "",
+                color: "text-gray-900"
+            },
+             {
+                id: 8,
+                image: "/realisation/v-ramy-d/057.jpg",
+                title: "",
+                category: "",
+                description: "",
                 color: "text-gray-900"
             },
         ]
