@@ -102,7 +102,10 @@ export default function Footer() {
                         <div>
                             <h3 className="text-2xl font-bold mb-6">Téléchargements</h3>
                             <a 
-                                href="#" 
+                                href="https://siglass-ci.com/site/wp-content/uploads/2017/11/catalogue_siglass.pdf" 
+                                download="CATALOGUE-SIGLASS.pdf"
+                                target="_blank"
+                                rel="noopener noreferrer"
                                 className="inline-block bg-white text-[#3193bd] px-6 py-4 rounded-lg hover:bg-opacity-90 transition-all shadow-lg"
                             >
                                 <div className="flex items-center gap-3">
