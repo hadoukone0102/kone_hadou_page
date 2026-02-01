@@ -416,6 +416,9 @@ export const REALISATIONS = [
         id:"001",
         projet:"Villa S",
         couverture:"/realisation/v-s/059.jpg",
+        description:
+      "Un projet phare qui a mis en lumière notre savoir-faire en menuiserie aluminium. Des baies vitrées panoramiques et des portes coupe-feu élégantes, fusionnant fonctionnalité et esthétique.",
+        star:5,
         groups:[
             {
                 id: 1,
@@ -493,6 +496,7 @@ export const REALISATIONS = [
     {
         id:"002",
         projet:"Villa B",
+        description:"Une villa moderne avec des façades vitrées toute hauteur. Notre équipe a réalisé les menuiseries extérieures avec des profils aluminium thermique haute performance.",        star:4,
         couverture:"/realisation/v-b/029.jpg",
         groups:[
             {
@@ -544,7 +548,7 @@ export const REALISATIONS = [
             },
             {
                 id: 7,
-                image: "/realisation/v-s/036.jpg",
+                image: "/realisation/v-b/036.jpg",
                 title: "",
                 category: " ",
                 description: "",
@@ -552,7 +556,7 @@ export const REALISATIONS = [
             },
             {
                 id: 8,
-                image: "/realisation/v-s/037.jpg",
+                image: "/realisation/v-b/037.jpg",
                 title: "",
                 category: " ",
                 description: "",
@@ -563,6 +567,7 @@ export const REALISATIONS = [
     {
         id:"004",
         projet:"Villa CR",
+        description:"Projet résidentiel de standing avec des volets roulants aluminium et des fenêtres à coulissant dernier cri. Une finition soignée sur chaque détail.",        star:5,
         couverture:"/realisation/v-cr/039.jpg",
         groups:[
             {
@@ -625,6 +630,7 @@ export const REALISATIONS = [
     {
         id:"003",
         projet:"Cloisonnement",
+        description:"Aménagement en espaces de travail avec des cloisons vitrées modularisées. Une solution adaptative qui offre à la fois ouverture visuelle et isolation phonique.",        star:5,
         couverture:"/realisation/csl/0001.jpg",
         groups:[
             {
@@ -664,6 +670,7 @@ export const REALISATIONS = [
     {
         id:"005",
         projet:"Villa Ramy-D",
+        description:"Une réalisation emblématique avec des portes d'entrée monumentales en aluminium et verre feuilleté. Le mariage de la solidité et du design contemporain.",        star:5,
         couverture:"/realisation/v-ramy-d/049.jpg",
         groups:[
             {

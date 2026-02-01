@@ -17,8 +17,6 @@ export default function Home_Page(){
             />
             <ScrollingBanner />
 
-            {/* <Navigation onMenuChange={setActiveMenu} /> */}
-            {/* Drawer de devis */}
             <DevisDrawer 
                 isOpen={drawerOpen}
                 onClose={() => setDrawerOpen(false)}

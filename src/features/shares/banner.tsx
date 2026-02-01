@@ -6,7 +6,8 @@ export default function Banner({
     desc = "Profitez de nos offres spéciales sur les menuiseries en aluminium ce mois-ci !",
     src,
     particulier,
-    entreprise
+    entreprise,
+    onDevisClick
 }: {
     className?: string,
     title?: string,
@@ -14,6 +15,8 @@ export default function Banner({
     desc?: string,
     particulier?: AccountType,
     entreprise?: AccountType
+    onDevisClick?: () => void;
+
 }) {
     const isSpecialMode = particulier || entreprise;
     const activeData = particulier || entreprise;
@@ -48,7 +51,7 @@ export default function Banner({
                                 </p>
 
                                 <div className="mt-8">
-                                    <button className="px-8 py-4 bg-white/10 backdrop-blur-sm text-white font-semibold rounded-lg hover:bg-white/20 transition-all duration-300 border-2 border-white/50 hover:border-white text-lg">
+                                    <button onClick={onDevisClick} className="px-8 py-4 bg-white/10 backdrop-blur-sm text-white font-semibold rounded-lg hover:bg-white/20 transition-all duration-300 border-2 border-white/50 hover:border-white text-lg">
                                         Demander un devis
                                     </button>
                                 </div>

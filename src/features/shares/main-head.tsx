@@ -34,9 +34,20 @@ export default function MainHeader({
                 onClose={() => setDrawerOpen(false)}
             />
 
-            <Banner src={BannerSrc} title={BannerTitle} desc={BannerDesc} particulier={BannerType} entreprise={BannerType}/>  
+            <Banner 
+                src={BannerSrc} 
+                title={BannerTitle} 
+                desc={BannerDesc} 
+                particulier={BannerType} 
+                entreprise={BannerType}
+                onDevisClick={() => setDrawerOpen(true)}
+            />  
 
-            <Bruncumb type={BruncumbType} className="" title={BruncumbTitle}/>
+            <Bruncumb 
+                type={BruncumbType} 
+                className="" 
+                title={BruncumbTitle}
+            />
         </div>
     );
 }
