@@ -48,7 +48,7 @@ export default function SiglassRealisation() {
                             Projets réalisés
                             </h2>
                             <p style={{ color: "#6b7280", fontSize: 13 }}>
-                            Découvrez l'ensemble de nos projets en menuiserie aluminium et produits verriers.
+                            Découvrez l&apos;ensemble de nos projets en menuiserie aluminium et produits verriers.
                             </p>
                         </div>
                         <RealisationGrildSlide produits={REALISATIONS} className=""/>
