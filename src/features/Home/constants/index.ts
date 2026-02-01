@@ -10,6 +10,10 @@ export type menu = {
 
 export const menuItems: menu[] = [
     { 
+       label: "ACCUEIL",
+        href: "/" 
+    },
+    { 
         label: "PRODUITS", 
         href: Routes.product.menuiseriePourLhabitat
     },
@@ -17,11 +21,11 @@ export const menuItems: menu[] = [
         label: "REALISATIONS", 
         href: Routes.product.menuiserieExterieuresEtOutdoor 
     },
-    { 
-        label: "ENTREPRISE", 
-        href: Routes.particulier.path, 
-        highlight: true
-    },
+    // { 
+    //     label: "ENTREPRISE", 
+    //     href: Routes.particulier.path, 
+    //     highlight: true
+    // },
     
     // { 
     //    label: "SYSTÈMES TERTIAIRES",

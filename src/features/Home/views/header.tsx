@@ -112,7 +112,7 @@ export default function Header({ onDevisClick }: HeaderProps) {
                 </header>
             </div>
 
-            <div className={`fixed inset-0 bg-white z-[100] transition-all duration-500 ${searchOpen ? 'opacity-100 visible' : 'opacity-0 invisible'}`}>
+            <div className={`fixed inset-0 bg-white z-[1000] transition-all duration-500 ${searchOpen ? 'opacity-100 visible' : 'opacity-0 invisible'}`}>
                 <div className="h-full flex flex-col">
                     <div className="flex justify-end p-4 lg:p-6">
                         <button
@@ -135,7 +135,7 @@ export default function Header({ onDevisClick }: HeaderProps) {
                                     value={searchQuery}
                                     onChange={(e) => setSearchQuery(e.target.value)}
                                     placeholder="Rechercher..."
-                                    className="w-full px-4 lg:px-6 py-4 lg:py-6 text-xl lg:text-2xl border-b-4 border-primary focus:outline-none focus:border-primary/80 transition-colors"
+                                    className="w-full text-primary px-4 lg:px-6 py-4 lg:py-6 text-xl lg:text-2xl border-b-4 border-primary focus:outline-none focus:border-primary/80 transition-colors"
                                     autoFocus
                                 />
                                 <button
@@ -147,13 +147,13 @@ export default function Header({ onDevisClick }: HeaderProps) {
                             </div>
 
                             <div className="mt-8 lg:mt-12">
-                                <p className="text-gray-600 mb-4 text-sm lg:text-base">Suggestions populaires :</p>
+                                <p className="text-primary mb-4 text-sm lg:text-base">Suggestions populaires :</p>
                                 <div className="flex flex-wrap gap-2 lg:gap-3">
                                     {['Fenêtres aluminium', 'Portes coulissantes', 'Baies vitrées', 'Parois de douche', 'Vérandas'].map((suggestion) => (
                                         <button
                                             key={suggestion}
                                             onClick={() => setSearchQuery(suggestion)}
-                                            className="px-3 lg:px-4 py-2 bg-gray-100 hover:bg-primary hover:text-white rounded-full text-xs lg:text-sm transition-colors"
+                                            className="px-3 lg:px-4 py-2 bg-primary hover:bg-primary hover:text-white rounded-full text-xs lg:text-sm transition-colors"
                                         >
                                             {suggestion}
                                         </button>
