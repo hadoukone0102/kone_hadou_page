@@ -53,48 +53,64 @@ export const NOSPRODUITS = [
     {
         id: 1,
         image: "/products/aa.jpg",
-        title: "",
-        category: "",
+        title: "Aménagements",
+        category: "Aménagements",
         description: "",
         color: "text-orange-500"
     },
     {
         id: 2,
         image: "/products/c-Kevin.jpg",
-        title: "",
-        category: "",
+        title: "Fenêtres et portes-fenêtres",
+        category: "Fenêtres et portes-fenêtres",
         description: "",
         color: "text-orange-500"
     },
     {
         id: 3,
         image: "/siglass/h-02.jpg",
-        title: "",
-        category: "",
+        title: "Portes",
+        category: "Portes",
         description: "",
         color: "text-orange-500"
     },
     {
         id: 4,
         image: "/products/R.jpg",
-        title: "",
-        category: "",
+        title: "Garde-Corps",
+        category: "Garde-Corps",
         description: "",
         color: "text-orange-500"
     },
     {
         id: 5,
         image: "/siglass/h-01.png",
-        title: "",
-        category: "",
+        title: "Verandas",
+        category: "Verandas",
         description: "",
         color: "text-orange-500"
     },
     {
         id: 6,
         image: "/siglass/h-06.jpg",
-        title: "",
-        category: "",
+        title: "Solutions pour zones Tropicales",
+        category: "Solutions pour zones Tropicales",
+        description: "",
+        color: "text-orange-500"
+    },
+    {
+        id: 7,
+        image: "/products/rangi05.jpg",
+        title: "Façades",
+        category: "Façades",
+        description: "",
+        color: "text-orange-500"
+    },
+    {
+        id: 8,
+        image: "/products/lit.jpg",
+        title: "Baies Coulissantes",
+        category: "Baies Coulissantes",
         description: "",
         color: "text-orange-500"
     },
@@ -738,5 +754,483 @@ export const REALISATIONS = [
                 color: "text-gray-900"
             },
         ]
-    }
+    },
+    {
+        id:"006",
+        projet:"Tulipe Residence",
+        description:"Une residence de luxe mettant en avant des balustrades en verre sans cadre et des fenêtres panoramiques. Chaque élément a été conçu pour maximiser la vue et la lumière naturelle.",        
+        star:5,
+        couverture:"/realisation/tulipe/01.jpg",
+        groups:[
+            {
+                id: 1,
+                image: "/realisation/tulipe/02.jpg",
+                title: "Bureaux Plateau - Tour Administrative",
+                category: " ",
+                description: "Cloisons vitrées et portes coupe-feu",
+                color: "text-gray-900"
+            },
+            {
+                id: 2,
+                image: "/realisation/tulipe/03.jpg",
+                title: "Bureaux Plateau - Tour Administrative",
+                category: " ",
+                description: "Cloisons vitrées et portes coupe-feu",
+                color: "text-gray-900"
+            },
+            {
+                id: 3,
+                image: "/realisation/tulipe/04.jpg",
+                title: "",
+                category: "",
+                description: "",
+                color: "text-gray-900"
+            },
+             {
+                id: 4,
+                image: "/realisation/tulipe/05.jpg", 
+                title: "",
+                category: "",
+                description: "",
+                color: "text-gray-900"
+            },
+            {
+                id: 5,
+                image: "/realisation/tulipe/06.jpg",
+                title: "",
+                category: "",
+                description: "",
+                color: "text-gray-900"
+            },
+             {
+                id: 6,
+                image: "/realisation/tulipe/07.jpg",
+                title: "",
+                category: "",
+                description: "",
+                color: "text-gray-900"
+            },
+             {
+                id: 7,
+                image: "/realisation/tulipe/08.jpg",
+                title: "",
+                category: "",
+                description: "",
+                color: "text-gray-900"
+            },
+             {
+                id: 8,
+                image: "/realisation/tulipe/09.jpg",
+                title: "",
+                category: "",
+                description: "",
+                color: "text-gray-900"
+            },
+            {
+                id: 9,
+                image: "/realisation/tulipe/10.jpg",
+                title: "",
+                category: "",
+                description: "",
+                color: "text-gray-900"
+            },
+            {
+                id: 10,
+                image: "/realisation/tulipe/11.jpg",
+                title: "",
+                category: "",
+                description: "",
+                color: "text-gray-900"
+            },
+            {
+                id: 11,
+                image: "/realisation/tulipe/12.jpg",
+                title: "",
+                category: "",
+                description: "",
+                color: "text-gray-900"
+            },
+        ]
+    },
+    {
+        id:"007",
+        projet:"Villa anna",
+        description:"Une villa contemporaine avec des solutions de menuiserie aluminium innovantes. Des portes pliantes et des fenêtres à haute isolation thermique pour un confort optimal.",        
+        star:5,
+        couverture:"/realisation/villa-anna/022.jpg",
+        groups:[
+            {
+                id: 1,
+                image: "/realisation/villa-anna/023.jpg",
+                title: "Bureaux Plateau - Tour Administrative",
+                category: " ",
+                description: "Cloisons vitrées et portes coupe-feu",
+                color: "text-gray-900"
+            },
+            {
+                id: 2,
+                image: "/realisation/villa-anna/024.jpg",
+                title: "Bureaux Plateau - Tour Administrative",
+                category: " ",
+                description: "Cloisons vitrées et portes coupe-feu",
+                color: "text-gray-900"
+            },
+            {
+                id: 3,
+                image: "/realisation/villa-anna/025.jpg",
+                title: "",
+                category: "",
+                description: "",
+                color: "text-gray-900"
+            },
+             {
+                id: 4,
+                image: "/realisation/villa-anna/026.jpg", 
+                title: "",
+                category: "",
+                description: "",
+                color: "text-gray-900"
+            },
+            {
+                id: 5,
+                image: "/realisation/villa-anna/027.jpg",
+                title: "",
+                category: "",
+                description: "",
+                color: "text-gray-900"
+            },
+             {
+                id: 6,
+                image: "/realisation/villa-anna/028.jpg",
+                title: "",
+                category: "",
+                description: "",
+                color: "text-gray-900"
+            }
+        ]
+    },
+    {
+        id:"008",
+        projet:"INJF Yamoussoukro",
+        description:"Une institut de formation avec des solutions de menuiserie aluminium innovantes. Des portes pliantes et des fenêtres à haute isolation thermique pour un confort optimal.",        
+        star:5,
+        couverture:"/realisation/injf-yamoussoukro/010.jpg",
+        groups:[
+            {
+                id: 1,
+                image: "/realisation/injf-yamoussoukro/011.jpg",
+                title: "Bureaux Plateau - Tour Administrative",
+                category: " ",
+                description: "Cloisons vitrées et portes coupe-feu",
+                color: "text-gray-900"
+            },
+            {
+                id: 2,
+                image: "/realisation/injf-yamoussoukro/012.jpg",
+                title: "Bureaux Plateau - Tour Administrative",
+                category: " ",
+                description: "Cloisons vitrées et portes coupe-feu",
+                color: "text-gray-900"
+            },
+            {
+                id: 3,
+                image: "/realisation/injf-yamoussoukro/013.jpg",
+                title: "",
+                category: "",
+                description: "",
+                color: "text-gray-900"
+            },
+             {
+                id: 4,
+                image: "/realisation/injf-yamoussoukro/014.jpg", 
+                title: "",
+                category: "",
+                description: "",
+                color: "text-gray-900"
+            },
+            {
+                id: 5,
+                image: "/realisation/injf-yamoussoukro/015.jpg",
+                title: "",
+                category: "",
+                description: "",
+                color: "text-gray-900"
+            },
+             {
+                id: 6,
+                image: "/realisation/injf-yamoussoukro/016.jpg",
+                title: "",
+                category: "",
+                description: "",
+                color: "text-gray-900"
+            },
+             {
+                id: 7,
+                image: "/realisation/injf-yamoussoukro/017.jpg",
+                title: "",
+                category: "",
+                description: "",
+                color: "text-gray-900"
+            },
+             {
+                id: 8,
+                image: "/realisation/injf-yamoussoukro/018.jpg",
+                title: "",
+                category: "",
+                description: "",
+                color: "text-gray-900"
+            },
+            {
+                id: 9,
+                image: "/realisation/injf-yamoussoukro/019.jpg",
+                title: "",
+                category: "",
+                description: "",
+                color: "text-gray-900"
+            },
+            {
+                id: 10,
+                image: "/realisation/injf-yamoussoukro/020.jpg",
+                title: "",
+                category: "",
+                description: "",
+                color: "text-gray-900"
+            },
+            {
+                id: 11,
+                image: "/realisation/injf-yamoussoukro/021.jpg",
+                title: "",
+                category: "",
+                description: "",
+                color: "text-gray-900"
+            },
+        ]
+    },
+    {
+        id:"009",
+        projet:"Immeuble la villa",
+        description:"Un immeuble résidentiel avec des solutions de menuiserie aluminium innovantes. Des portes pliantes et des fenêtres à haute isolation thermique pour un confort optimal.",        
+        star:5,
+        couverture:"/realisation/immeuble-la-villa/001.jpg",
+        groups:[
+            {
+                id: 2,
+                image: "/realisation/immeuble-la-villa/002.jpg",
+                title: "Bureaux Plateau - Tour Administrative",
+                category: " ",
+                description: "Cloisons vitrées et portes coupe-feu",
+                color: "text-gray-900"
+            },
+            {
+                id: 3,
+                image: "/realisation/immeuble-la-villa/006.jpg",
+                title: "",
+                category: "",
+                description: "",
+                color: "text-gray-900"
+            },
+             {
+                id: 4,
+                image: "/realisation/immeuble-la-villa/009.jpg", 
+                title: "",
+                category: "",
+                description: "",
+                color: "text-gray-900"
+            },
+            {
+                id: 5,
+                image: "/realisation/immeuble-la-villa/011.jpg",
+                title: "",
+                category: "",
+                description: "",
+                color: "text-gray-900"
+            },
+             {
+                id: 6,
+                image: "/realisation/immeuble-la-villa/012.jpg",
+                title: "",
+                category: "",
+                description: "",
+                color: "text-gray-900"
+            },
+             {
+                id: 7,
+                image: "/realisation/immeuble-la-villa/013.jpg",
+                title: "",
+                category: "",
+                description: "",
+                color: "text-gray-900"
+            },
+             {
+                id: 8,
+                image: "/realisation/immeuble-la-villa/014.jpg",
+                title: "",
+                category: "",
+                description: "",
+                color: "text-gray-900"
+            },
+            {
+                id: 9,
+                image: "/realisation/immeuble-la-villa/015.jpg",
+                title: "",
+                category: "",
+                description: "",
+                color: "text-gray-900"
+            },
+            {
+                id: 10,
+                image: "/realisation/immeuble-la-villa/018.jpg",
+                title: "",
+                category: "",
+                description: "",
+                color: "text-gray-900"
+            },
+            {
+                id: 11,
+                image: "/realisation/immeuble-la-villa/019.jpg",
+                title: "",
+                category: "",
+                description: "",
+                color: "text-gray-900"
+            },
+        ]
+    },
+    {
+        id:"010",
+        projet:"Hotel la clarté",
+        description:"Un hôtel moderne avec des solutions de menuiserie aluminium innovantes. Des portes pliantes et des fenêtres à haute isolation thermique pour un confort optimal.",        
+        star:5,
+        couverture:"/realisation/hotel-la-clarte/022.jpg",
+        groups:[
+            {
+                id: 2,
+                image: "/realisation/hotel-la-clarte/026.jpg",
+                title: "Bureaux Plateau - Tour Administrative",
+                category: " ",
+                description: "Cloisons vitrées et portes coupe-feu",
+                color: "text-gray-900"
+            },
+            {
+                id: 3,
+                image: "/realisation/hotel-la-clarte/031.jpg",
+                title: "",
+                category: "",
+                description: "",
+                color: "text-gray-900"
+            },
+             {
+                id: 4,
+                image: "/realisation/hotel-la-clarte/035.jpg", 
+                title: "",
+                category: "",
+                description: "",
+                color: "text-gray-900"
+            },
+            {
+                id: 5,
+                image: "/realisation/hotel-la-clarte/036.jpg",
+                title: "",
+                category: "",
+                description: "",
+                color: "text-gray-900"
+            },
+             {
+                id: 6,
+                image: "/realisation/hotel-la-clarte/037.jpeg",
+                title: "",
+                category: "",
+                description: "",
+                color: "text-gray-900"
+            },
+            {
+                id: 7,
+                image: "/realisation/hotel-la-clarte/038.jpeg",
+                title: "",
+                category: "",
+                description: "",
+                color: "text-gray-900"
+            },
+        ]
+    },
+    {
+        id:"011",
+        projet:"Continentale",
+        description:"Un projet de construction résidentielle moderne avec des solutions de menuiserie aluminium innovantes.",        
+        star:5,
+        couverture:"/realisation/Continental/001-A.jpg",
+        groups:[
+            {
+                id: 2,
+                image: "/realisation/Continental/002.jpg",
+                title: "Bureaux Plateau - Tour Administrative",
+                category: " ",
+                description: "Cloisons vitrées et portes coupe-feu",
+                color: "text-gray-900"
+            },
+            {
+                id: 3,
+                image: "/realisation/Continental/003.jpg",
+                title: "",
+                category: "",
+                description: "",
+                color: "text-gray-900"
+            },
+             {
+                id: 4,
+                image: "/realisation/Continental/004.jpg", 
+                title: "",
+                category: "",
+                description: "",
+                color: "text-gray-900"
+            },
+            {
+                id: 5,
+                image: "/realisation/Continental/005.jpg",
+                title: "",
+                category: "",
+                description: "",
+                color: "text-gray-900"
+            },
+             {
+                id: 6,
+                image: "/realisation/Continental/006.jpg",
+                title: "",
+                category: "",
+                description: "",
+                color: "text-gray-900"
+            },
+            {
+                id: 7,
+                image: "/realisation/Continental/007.jpg",
+                title: "",
+                category: "",
+                description: "",
+                color: "text-gray-900"
+            },
+             {
+                id: 8,
+                image: "/realisation/Continental/008.jpg",
+                title: "",
+                category: "",
+                description: "",
+                color: "text-gray-900"
+            },
+            {
+                id: 9,
+                image: "/realisation/Continental/009.jpg",
+                title: "",
+                category: "",
+                description: "",
+                color: "text-gray-900"
+            },
+             {
+                id: 10,
+                image: "/realisation/Continental/010.jpg",
+                title: "",
+                category: "",
+                description: "",
+                color: "text-gray-900"
+            },
+        ]
+    },
 ]
