@@ -1,6 +1,6 @@
 "use client";
 
-import { ArrowBigDown, Facebook, Mail, Navigation, Twitter, Youtube } from "lucide-react";
+import { ArrowBigDown, Facebook, Instagram, Mail, Navigation, Twitter, Youtube } from "lucide-react";
 import Image from "next/image";
 
 export default function Footer() {
@@ -102,7 +102,8 @@ export default function Footer() {
                         <div>
                             <h3 className="text-2xl font-bold mb-6">Téléchargements</h3>
                             <a 
-                                href="https://siglass-ci.com/site/wp-content/uploads/2017/11/catalogue_siglass.pdf" 
+                                // href="https://siglass-ci.com/site/wp-content/uploads/2017/11/catalogue_siglass.pdf" 
+                                href="/CATALOGUE-compresse.pdf"
                                 download="CATALOGUE-SIGLASS.pdf"
                                 target="_blank"
                                 rel="noopener noreferrer"
@@ -116,18 +117,32 @@ export default function Footer() {
                                 </div>
                             </a>
 
-                            {/* Réseaux sociaux */}
+                            {/* Réseaux sociaux https://www.instagram.com/siglass.ci?igsh=eHVlYmVoZ21tbmp4&utm_source=qr */}
                             <div className="mt-12">
                                 <h4 className="text-lg font-semibold mb-4">Suivez-nous</h4>
                                 <div className="flex gap-3">
-                                    <a href="#" className="w-10 h-10 bg-white text-[#3193bd] bg-opacity-20 rounded-full flex items-center justify-center hover:bg-opacity-30 transition-all">
+                                    <a 
+                                        href="https://www.facebook.com/profile.php?id=100066527658255#" 
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="w-10 h-10 bg-white text-[#3193bd] bg-opacity-20 rounded-full flex items-center justify-center hover:bg-opacity-30 transition-all">
                                         <Facebook size={20} />
                                     </a>
                                     <a href="#" className="w-10 h-10 bg-white text-[#3193bd] bg-opacity-20 rounded-full flex items-center justify-center hover:bg-opacity-30 transition-all">
                                         <Twitter size={20} />
                                     </a>
-                                    <a href="#" className="w-10 h-10 bg-white text-[#3193bd] bg-opacity-20 rounded-full flex items-center justify-center hover:bg-opacity-30 transition-all">
+                                    <a 
+                                        href="https://www.youtube.com/watch?v=mDIsu5PvHpU" 
+                                        target="_blank" rel="noopener noreferrer" 
+                                        className="w-10 h-10 bg-white text-[#3193bd] bg-opacity-20 rounded-full flex items-center justify-center hover:bg-opacity-30 transition-all">
                                         <Youtube size={20} />
+                                    </a>
+                                    <a 
+                                        href="https://www.instagram.com/siglass.ci?igsh=eHVlYmVoZ21tbmp4&utm_source=qr" 
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="w-10 h-10 bg-white text-[#3193bd] bg-opacity-20 rounded-full flex items-center justify-center hover:bg-opacity-30 transition-all">
+                                        <Instagram size={20} />
                                     </a>
                                 </div>
                             </div>

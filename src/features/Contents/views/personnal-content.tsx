@@ -132,7 +132,8 @@ const solutions = [
                     {/* PARTIE GAUCHE - Texte (4 colonnes) */}
                     <div className="lg:col-span-4 text-white">
                         <h2 className="text-3xl md:text-4xl font-bold mb-6 leading-tight text-center italic">
-                            DES SOLUTIONS POUR LES PROFESSIONNELS DE LA MENUISERIE
+                            {/* DES SOLUTIONS POUR LES PROFESSIONNELS DE LA MENUISERIE */}
+                            CONCEPTEUR ET PRODUCTEUR DE SYSTEME MENUISERIE.
                         </h2>
                         <p className="text-lg text-gray-300 leading-relaxed border-l-4 border-secondary px-2">
                             {"« "}Un accompagnement de qualité et des solutions personnalisées pour contribuer ensemble à la réussite de tous vos projets.{" »"}

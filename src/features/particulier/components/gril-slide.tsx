@@ -1,4 +1,7 @@
+import { Routes } from '@/lib/utils/route';
+import { Router } from 'lucide-react';
 import Image from 'next/image';
+import { useRouter } from 'next/navigation';
 
 export default function GrildSlide ({
     produits,
@@ -9,7 +12,7 @@ export default function GrildSlide ({
     className?:string
     title?:string
 }){
-
+    const router = useRouter();
     return (
         <div className='flex flex-col gap-4'>
             <div className="flex items-center justify-center pt-10 ">
@@ -20,6 +23,7 @@ export default function GrildSlide ({
                     <div
                         key={project.id}
                         className="bg-white transition-all duration-700 cursor-pointer"
+                        onClick={() => router.push(`${Routes.product.menuiseriePourLhabitat}/${project.id}`)}
                     >
                         {/* Image Container */}
                         <div className="relative h-[400px] md:h-[500px] overflow-hidden">
