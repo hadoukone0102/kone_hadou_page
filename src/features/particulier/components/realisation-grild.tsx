@@ -284,7 +284,7 @@ export default function RealisationGrildSlide({
                         className="relative w-full sm:max-w-5xl overflow-hidden flex flex-col"
                         style={{
                             background: '#1a1f2e',
-                            height: '100%',
+                            height: '70%',
                             maxHeight: '100vh',
                         }}
                         onClick={(e) => e.stopPropagation()}
@@ -370,21 +370,24 @@ export default function RealisationGrildSlide({
                                     style={{
                                         transform: `translateX(-${currentIndex * cardWidth}%)`,
                                         transition: 'transform 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)',
+                                        
                                     }}
                                 >
                                     {selectedProject.groups.map((item) => (
                                         <div
                                             key={item.id}
                                             className="flex-shrink-0 px-1.5 sm:px-2 h-full flex items-center"
-                                            style={{ width: `${cardWidth}%` }}
+                                            style={{ width: 500 }}
                                         >
-                                            <div className="relative w-full h-full rounded-xl overflow-hidden" style={{ background: '#111520' }}>
+                                            <div className="relative  overflow-hidden">
                                                 <Image
                                                     src={item.image}
                                                     alt={item.title || selectedProject.projet}
-                                                    fill
-                                                    sizes="(max-width: 640px) 95vw, (max-width: 1024px) 45vw, 30vw"
-                                                    className="object-cover"
+                                                    width={100}
+                                                    height={100}
+                                                    // fill
+                                                    // sizes="(max-width: 640px) 95vw, (max-width: 1024px) 45vw, 30vw object-cover"
+                                                    className=" w-full h-1/2"
                                                 />
                                                 {/* Overlay bas avec titre si présent */}
                                                 {item.title && (

@@ -770,14 +770,14 @@ export const REALISATIONS = [
                 description: "Cloisons vitrées et portes coupe-feu",
                 color: "text-gray-900"
             },
-            {
-                id: 2,
-                image: "/realisation/tulipe/03.jpg",
-                title: "Bureaux Plateau - Tour Administrative",
-                category: " ",
-                description: "Cloisons vitrées et portes coupe-feu",
-                color: "text-gray-900"
-            },
+            // {
+            //     id: 2,
+            //     image: "/realisation/tulipe/03.jpg",
+            //     title: "Bureaux Plateau - Tour Administrative",
+            //     category: " ",
+            //     description: "Cloisons vitrées et portes coupe-feu",
+            //     color: "text-gray-900"
+            // },
             {
                 id: 3,
                 image: "/realisation/tulipe/04.jpg",
