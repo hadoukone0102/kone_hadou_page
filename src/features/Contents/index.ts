@@ -462,333 +462,6 @@ export const Realisation = [
 export const REALISATIONS = [
     {
         id:"001",
-        projet:"Villa S",
-        couverture:"/realisation/v-s/059.jpg",
-        description:
-      "Un projet phare qui a mis en lumière notre savoir-faire en menuiserie aluminium. Des baies vitrées panoramiques et des portes coupe-feu élégantes, fusionnant fonctionnalité et esthétique.",
-        star:5,
-        groups:[
-            {
-                id: 1,
-                image: "/realisation/v-s/060.jpg",
-                title: "Bureaux Plateau - Tour Administrative",
-                category: " ",
-                description: "Cloisons vitrées et portes coupe-feu",
-                color: "text-gray-900"
-            },
-            {
-                id: 2,
-                image: "/realisation/v-s/061.jpg",
-                title: "Bureaux Plateau - Tour Administrative",
-                category: " ",
-                description: "Cloisons vitrées et portes coupe-feu",
-                color: "text-gray-900"
-            },{
-                id: 3,
-                image: "/realisation/v-s/062.jpg",
-                title: "",
-                category: " ",
-                description: "",
-                color: "text-gray-900"
-            },
-            {
-                id: 4,
-                image: "/realisation/v-s/063.jpg",
-                title: "",
-                category: " ",
-                description: "",
-                color: "text-gray-900"
-            },
-            {
-                id: 5,
-                image: "/realisation/v-s/064.jpg",
-                title: "",
-                category: " ",
-                description: "",
-                color: "text-gray-900"
-            },
-            {
-                id: 6,
-                image: "/realisation/v-s/065.jpg",
-                title: "",
-                category: " ",
-                description: "",
-                color: "text-gray-900"
-            },
-            {
-                id: 7,
-                image: "/realisation/v-s/066.jpg",
-                title: "",
-                category: " ",
-                description: "",
-                color: "text-gray-900"
-            },
-            {
-                id: 8,
-                image: "/realisation/v-s/067.jpg",
-                title: "",
-                category: " ",
-                description: "",
-                color: "text-gray-900"
-            },
-            {
-                id: 9,
-                image: "/realisation/v-s/068.jpg",
-                title: "",
-                category: " ",
-                description: "",
-                color: "text-gray-900"
-            },
-        ]
-    },
-    {
-        id:"002",
-        projet:"Villa B",
-        description:"Une villa moderne avec des façades vitrées toute hauteur. Notre équipe a réalisé les menuiseries extérieures avec des profils aluminium thermique haute performance.",        star:4,
-        couverture:"/realisation/v-b/029.jpg",
-        groups:[
-            {
-                id: 1,
-                image: "/realisation/v-b/030.jpg",
-                title: "Bureaux Plateau - Tour Administrative",
-                category: " ",
-                description: "Cloisons vitrées et portes coupe-feu",
-                color: "text-gray-900"
-            },
-            {
-                id: 2,
-                image: "/realisation/v-b/031.jpg",
-                title: "Bureaux Plateau - Tour Administrative",
-                category: " ",
-                description: "Cloisons vitrées et portes coupe-feu",
-                color: "text-gray-900"
-            },{
-                id: 3,
-                image: "/realisation/v-b/032.jpg",
-                title: "Bureaux Plateau - Tour Administrative",
-                category: " ",
-                description: "Cloisons vitrées et portes coupe-feu",
-                color: "text-gray-900"
-            },
-            {
-                id: 4,
-                image: "/realisation/v-b/033.jpg",
-                title: "",
-                category: " ",
-                description: "",
-                color: "text-gray-900"
-            },
-            {
-                id: 5,
-                image: "/realisation/v-b/034.jpg",
-                title: "",
-                category: " ",
-                description: "",
-                color: "text-gray-900"
-            },
-            {
-                id: 6,
-                image: "/realisation/v-b/035.jpg",
-                title: "",
-                category: " ",
-                description: "",
-                color: "text-gray-900"
-            },
-            {
-                id: 7,
-                image: "/realisation/v-b/036.jpg",
-                title: "",
-                category: " ",
-                description: "",
-                color: "text-gray-900"
-            },
-            {
-                id: 8,
-                image: "/realisation/v-b/037.jpg",
-                title: "",
-                category: " ",
-                description: "",
-                color: "text-gray-900"
-            },
-        ]
-    },
-    {
-        id:"004",
-        projet:"Villa CR",
-        description:"Projet résidentiel de standing avec des volets roulants aluminium et des fenêtres à coulissant dernier cri. Une finition soignée sur chaque détail.",        star:5,
-        couverture:"/realisation/v-cr/039.jpg",
-        groups:[
-            {
-                id: 1,
-                image: "/realisation/v-cr/040.jpg",
-                title: "Bureaux Plateau - Tour Administrative",
-                category: " ",
-                description: "Cloisons vitrées et portes coupe-feu",
-                color: "text-gray-900"
-            },{
-                id: 2,
-                image: "/realisation/v-cr/041.jpg",
-                title: "Bureaux Plateau - Tour Administrative",
-                category: " ",
-                description: "Cloisons vitrées et portes coupe-feu",
-                color: "text-gray-900"
-            },
-            {
-                id: 3,
-                image: "/realisation/v-cr/042.jpg",
-                title: "",
-                category: " ",
-                description: "",
-                color: "text-gray-900"
-            },
-            {
-                id:4 ,
-                image: "/realisation/v-cr/044.jpg",
-                title: "",
-                category: " ",
-                description: "",
-                color: "text-gray-900"
-            },
-            {
-                id: 5,
-                image: "/realisation/v-cr/045.jpg",
-                title: "",
-                category: " ",
-                description: "",
-                color: "text-gray-900"
-            },
-            {
-                id: 6,
-                image: "/realisation/v-cr/046.jpg",
-                title: "",
-                category: " ",
-                description: "",
-                color: "text-gray-900"
-            },
-            {
-                id: 7,
-                image: "/realisation/v-cr/047.jpg",
-                title: "",
-                category: " ",
-                description: "",
-                color: "text-gray-900"
-            },
-        ]
-    },
-    {
-        id:"003",
-        projet:"Cloisonnement",
-        description:"Aménagement en espaces de travail avec des cloisons vitrées modularisées. Une solution adaptative qui offre à la fois ouverture visuelle et isolation phonique.",        star:5,
-        couverture:"/realisation/csl/0001.jpg",
-        groups:[
-            {
-                id: 1,
-                image: "/realisation/csl/0002.jpg",
-                title: "Bureaux Plateau - Tour Administrative",
-                category: " ",
-                description: "Cloisons vitrées et portes coupe-feu",
-                color: "text-gray-900"
-            },
-            {
-                id: 2,
-                image: "/realisation/csl/0003.jpg",
-                title: "Bureaux Plateau - Tour Administrative",
-                category: " ",
-                description: "Cloisons vitrées et portes coupe-feu",
-                color: "text-gray-900"
-            },
-            {
-                id: 3,
-                image: "/realisation/csl/0004.jpg",
-                title: "",
-                category: " ",
-                description: "",
-                color: "text-gray-900"
-            },
-            {
-                id: 4,
-                image: "/realisation/csl/0005.jpg",
-                title: "",
-                category: " ",
-                description: "",
-                color: "text-gray-900"
-            },
-        ]
-    },
-    {
-        id:"005",
-        projet:"Villa Ramy-D",
-        description:"Une réalisation emblématique avec des portes d'entrée monumentales en aluminium et verre feuilleté. Le mariage de la solidité et du design contemporain.",        star:5,
-        couverture:"/realisation/v-ramy-d/049.jpg",
-        groups:[
-            {
-                id: 1,
-                image: "/realisation/v-ramy-d/050.jpg",
-                title: "Bureaux Plateau - Tour Administrative",
-                category: " ",
-                description: "Cloisons vitrées et portes coupe-feu",
-                color: "text-gray-900"
-            },
-            {
-                id: 2,
-                image: "/realisation/v-ramy-d/051.jpg",
-                title: "Bureaux Plateau - Tour Administrative",
-                category: " ",
-                description: "Cloisons vitrées et portes coupe-feu",
-                color: "text-gray-900"
-            },
-            {
-                id: 3,
-                image: "/realisation/v-ramy-d/052.jpg",
-                title: "",
-                category: "",
-                description: "",
-                color: "text-gray-900"
-            },
-             {
-                id: 4,
-                image: "/realisation/v-ramy-d/053.jpg", 
-                title: "",
-                category: "",
-                description: "",
-                color: "text-gray-900"
-            },
-            {
-                id: 5,
-                image: "/realisation/v-ramy-d/054.jpg",
-                title: "",
-                category: "",
-                description: "",
-                color: "text-gray-900"
-            },
-             {
-                id: 6,
-                image: "/realisation/v-ramy-d/055.jpg",
-                title: "",
-                category: "",
-                description: "",
-                color: "text-gray-900"
-            },
-             {
-                id: 7,
-                image: "/realisation/v-ramy-d/056.jpg",
-                title: "",
-                category: "",
-                description: "",
-                color: "text-gray-900"
-            },
-             {
-                id: 8,
-                image: "/realisation/v-ramy-d/057.jpg",
-                title: "",
-                category: "",
-                description: "",
-                color: "text-gray-900"
-            },
-        ]
-    },
-    {
-        id:"006",
         projet:"Tulipe Residence",
         description:"Une residence de luxe mettant en avant des balustrades en verre sans cadre et des fenêtres panoramiques. Chaque élément a été conçu pour maximiser la vue et la lumière naturelle.",        
         star:5,
@@ -885,161 +558,7 @@ export const REALISATIONS = [
         ]
     },
     {
-        id:"007",
-        projet:"Villa anna",
-        description:"Une villa contemporaine avec des solutions de menuiserie aluminium innovantes. Des portes pliantes et des fenêtres à haute isolation thermique pour un confort optimal.",        
-        star:5,
-        couverture:"/realisation/villa-anna/022.jpg",
-        groups:[
-            {
-                id: 1,
-                image: "/realisation/villa-anna/023.jpg",
-                title: "Bureaux Plateau - Tour Administrative",
-                category: " ",
-                description: "Cloisons vitrées et portes coupe-feu",
-                color: "text-gray-900"
-            },
-            {
-                id: 2,
-                image: "/realisation/villa-anna/024.jpg",
-                title: "Bureaux Plateau - Tour Administrative",
-                category: " ",
-                description: "Cloisons vitrées et portes coupe-feu",
-                color: "text-gray-900"
-            },
-            {
-                id: 3,
-                image: "/realisation/villa-anna/025.jpg",
-                title: "",
-                category: "",
-                description: "",
-                color: "text-gray-900"
-            },
-             {
-                id: 4,
-                image: "/realisation/villa-anna/026.jpg", 
-                title: "",
-                category: "",
-                description: "",
-                color: "text-gray-900"
-            },
-            {
-                id: 5,
-                image: "/realisation/villa-anna/027.jpg",
-                title: "",
-                category: "",
-                description: "",
-                color: "text-gray-900"
-            },
-             {
-                id: 6,
-                image: "/realisation/villa-anna/028.jpg",
-                title: "",
-                category: "",
-                description: "",
-                color: "text-gray-900"
-            }
-        ]
-    },
-    {
-        id:"008",
-        projet:"INJF Yamoussoukro",
-        description:"Une institut de formation avec des solutions de menuiserie aluminium innovantes. Des portes pliantes et des fenêtres à haute isolation thermique pour un confort optimal.",        
-        star:5,
-        couverture:"/realisation/injf-yamoussoukro/010.jpg",
-        groups:[
-            {
-                id: 1,
-                image: "/realisation/injf-yamoussoukro/011.jpg",
-                title: "Bureaux Plateau - Tour Administrative",
-                category: " ",
-                description: "Cloisons vitrées et portes coupe-feu",
-                color: "text-gray-900"
-            },
-            {
-                id: 2,
-                image: "/realisation/injf-yamoussoukro/012.jpg",
-                title: "Bureaux Plateau - Tour Administrative",
-                category: " ",
-                description: "Cloisons vitrées et portes coupe-feu",
-                color: "text-gray-900"
-            },
-            {
-                id: 3,
-                image: "/realisation/injf-yamoussoukro/013.jpg",
-                title: "",
-                category: "",
-                description: "",
-                color: "text-gray-900"
-            },
-             {
-                id: 4,
-                image: "/realisation/injf-yamoussoukro/014.jpg", 
-                title: "",
-                category: "",
-                description: "",
-                color: "text-gray-900"
-            },
-            {
-                id: 5,
-                image: "/realisation/injf-yamoussoukro/015.jpg",
-                title: "",
-                category: "",
-                description: "",
-                color: "text-gray-900"
-            },
-             {
-                id: 6,
-                image: "/realisation/injf-yamoussoukro/016.jpg",
-                title: "",
-                category: "",
-                description: "",
-                color: "text-gray-900"
-            },
-             {
-                id: 7,
-                image: "/realisation/injf-yamoussoukro/017.jpg",
-                title: "",
-                category: "",
-                description: "",
-                color: "text-gray-900"
-            },
-             {
-                id: 8,
-                image: "/realisation/injf-yamoussoukro/018.jpg",
-                title: "",
-                category: "",
-                description: "",
-                color: "text-gray-900"
-            },
-            {
-                id: 9,
-                image: "/realisation/injf-yamoussoukro/019.jpg",
-                title: "",
-                category: "",
-                description: "",
-                color: "text-gray-900"
-            },
-            {
-                id: 10,
-                image: "/realisation/injf-yamoussoukro/020.jpg",
-                title: "",
-                category: "",
-                description: "",
-                color: "text-gray-900"
-            },
-            {
-                id: 11,
-                image: "/realisation/injf-yamoussoukro/021.jpg",
-                title: "",
-                category: "",
-                description: "",
-                color: "text-gray-900"
-            },
-        ]
-    },
-    {
-        id:"009",
+        id:"002",
         projet:"Immeuble la villa",
         description:"Un immeuble résidentiel avec des solutions de menuiserie aluminium innovantes. Des portes pliantes et des fenêtres à haute isolation thermique pour un confort optimal.",        
         star:5,
@@ -1128,7 +647,7 @@ export const REALISATIONS = [
         ]
     },
     {
-        id:"010",
+        id:"003",
         projet:"Hotel la clarté",
         description:"Un hôtel moderne avec des solutions de menuiserie aluminium innovantes. Des portes pliantes et des fenêtres à haute isolation thermique pour un confort optimal.",        
         star:5,
@@ -1177,6 +696,487 @@ export const REALISATIONS = [
             {
                 id: 7,
                 image: "/realisation/hotel-la-clarte/038.jpeg",
+                title: "",
+                category: "",
+                description: "",
+                color: "text-gray-900"
+            },
+        ]
+    },
+    {
+        id:"004",
+        projet:"Villa S",
+        couverture:"/realisation/v-s/059.jpg",
+        description:
+      "Un projet phare qui a mis en lumière notre savoir-faire en menuiserie aluminium. Des baies vitrées panoramiques et des portes coupe-feu élégantes, fusionnant fonctionnalité et esthétique.",
+        star:5,
+        groups:[
+            {
+                id: 1,
+                image: "/realisation/v-s/060.jpg",
+                title: "Bureaux Plateau - Tour Administrative",
+                category: " ",
+                description: "Cloisons vitrées et portes coupe-feu",
+                color: "text-gray-900"
+            },
+            {
+                id: 2,
+                image: "/realisation/v-s/061.jpg",
+                title: "Bureaux Plateau - Tour Administrative",
+                category: " ",
+                description: "Cloisons vitrées et portes coupe-feu",
+                color: "text-gray-900"
+            },{
+                id: 3,
+                image: "/realisation/v-s/062.jpg",
+                title: "",
+                category: " ",
+                description: "",
+                color: "text-gray-900"
+            },
+            {
+                id: 4,
+                image: "/realisation/v-s/063.jpg",
+                title: "",
+                category: " ",
+                description: "",
+                color: "text-gray-900"
+            },
+            {
+                id: 5,
+                image: "/realisation/v-s/064.jpg",
+                title: "",
+                category: " ",
+                description: "",
+                color: "text-gray-900"
+            },
+            {
+                id: 6,
+                image: "/realisation/v-s/065.jpg",
+                title: "",
+                category: " ",
+                description: "",
+                color: "text-gray-900"
+            },
+            {
+                id: 7,
+                image: "/realisation/v-s/066.jpg",
+                title: "",
+                category: " ",
+                description: "",
+                color: "text-gray-900"
+            },
+            {
+                id: 8,
+                image: "/realisation/v-s/067.jpg",
+                title: "",
+                category: " ",
+                description: "",
+                color: "text-gray-900"
+            },
+            {
+                id: 9,
+                image: "/realisation/v-s/068.jpg",
+                title: "",
+                category: " ",
+                description: "",
+                color: "text-gray-900"
+            },
+        ]
+    },
+    {
+        id:"005",
+        projet:"Villa B",
+        description:"Une villa moderne avec des façades vitrées toute hauteur. Notre équipe a réalisé les menuiseries extérieures avec des profils aluminium thermique haute performance.",        star:4,
+        couverture:"/realisation/v-b/029.jpg",
+        groups:[
+            {
+                id: 1,
+                image: "/realisation/v-b/030.jpg",
+                title: "Bureaux Plateau - Tour Administrative",
+                category: " ",
+                description: "Cloisons vitrées et portes coupe-feu",
+                color: "text-gray-900"
+            },
+            {
+                id: 2,
+                image: "/realisation/v-b/031.jpg",
+                title: "Bureaux Plateau - Tour Administrative",
+                category: " ",
+                description: "Cloisons vitrées et portes coupe-feu",
+                color: "text-gray-900"
+            },{
+                id: 3,
+                image: "/realisation/v-b/032.jpg",
+                title: "Bureaux Plateau - Tour Administrative",
+                category: " ",
+                description: "Cloisons vitrées et portes coupe-feu",
+                color: "text-gray-900"
+            },
+            {
+                id: 4,
+                image: "/realisation/v-b/033.jpg",
+                title: "",
+                category: " ",
+                description: "",
+                color: "text-gray-900"
+            },
+            {
+                id: 5,
+                image: "/realisation/v-b/034.jpg",
+                title: "",
+                category: " ",
+                description: "",
+                color: "text-gray-900"
+            },
+            {
+                id: 6,
+                image: "/realisation/v-b/035.jpg",
+                title: "",
+                category: " ",
+                description: "",
+                color: "text-gray-900"
+            },
+            {
+                id: 7,
+                image: "/realisation/v-b/036.jpg",
+                title: "",
+                category: " ",
+                description: "",
+                color: "text-gray-900"
+            },
+            {
+                id: 8,
+                image: "/realisation/v-b/037.jpg",
+                title: "",
+                category: " ",
+                description: "",
+                color: "text-gray-900"
+            },
+        ]
+    },
+    {
+        id:"006",
+        projet:"Villa CR",
+        description:"Projet résidentiel de standing avec des volets roulants aluminium et des fenêtres à coulissant dernier cri. Une finition soignée sur chaque détail.",        star:5,
+        couverture:"/realisation/v-cr/039.jpg",
+        groups:[
+            {
+                id: 1,
+                image: "/realisation/v-cr/040.jpg",
+                title: "Bureaux Plateau - Tour Administrative",
+                category: " ",
+                description: "Cloisons vitrées et portes coupe-feu",
+                color: "text-gray-900"
+            },{
+                id: 2,
+                image: "/realisation/v-cr/041.jpg",
+                title: "Bureaux Plateau - Tour Administrative",
+                category: " ",
+                description: "Cloisons vitrées et portes coupe-feu",
+                color: "text-gray-900"
+            },
+            {
+                id: 3,
+                image: "/realisation/v-cr/042.jpg",
+                title: "",
+                category: " ",
+                description: "",
+                color: "text-gray-900"
+            },
+            {
+                id:4 ,
+                image: "/realisation/v-cr/044.jpg",
+                title: "",
+                category: " ",
+                description: "",
+                color: "text-gray-900"
+            },
+            {
+                id: 5,
+                image: "/realisation/v-cr/045.jpg",
+                title: "",
+                category: " ",
+                description: "",
+                color: "text-gray-900"
+            },
+            {
+                id: 6,
+                image: "/realisation/v-cr/046.jpg",
+                title: "",
+                category: " ",
+                description: "",
+                color: "text-gray-900"
+            },
+            {
+                id: 7,
+                image: "/realisation/v-cr/047.jpg",
+                title: "",
+                category: " ",
+                description: "",
+                color: "text-gray-900"
+            },
+        ]
+    },
+    {
+        id:"007",
+        projet:"Cloisonnement",
+        description:"Aménagement en espaces de travail avec des cloisons vitrées modularisées. Une solution adaptative qui offre à la fois ouverture visuelle et isolation phonique.",        star:5,
+        couverture:"/realisation/csl/0001.jpg",
+        groups:[
+            {
+                id: 1,
+                image: "/realisation/csl/0002.jpg",
+                title: "Bureaux Plateau - Tour Administrative",
+                category: " ",
+                description: "Cloisons vitrées et portes coupe-feu",
+                color: "text-gray-900"
+            },
+            {
+                id: 2,
+                image: "/realisation/csl/0003.jpg",
+                title: "Bureaux Plateau - Tour Administrative",
+                category: " ",
+                description: "Cloisons vitrées et portes coupe-feu",
+                color: "text-gray-900"
+            },
+            {
+                id: 3,
+                image: "/realisation/csl/0004.jpg",
+                title: "",
+                category: " ",
+                description: "",
+                color: "text-gray-900"
+            },
+            {
+                id: 4,
+                image: "/realisation/csl/0005.jpg",
+                title: "",
+                category: " ",
+                description: "",
+                color: "text-gray-900"
+            },
+        ]
+    },
+    {
+        id:"008",
+        projet:"Villa Ramy-D",
+        description:"Une réalisation emblématique avec des portes d'entrée monumentales en aluminium et verre feuilleté. Le mariage de la solidité et du design contemporain.",        star:5,
+        couverture:"/realisation/v-ramy-d/049.jpg",
+        groups:[
+            {
+                id: 1,
+                image: "/realisation/v-ramy-d/050.jpg",
+                title: "Bureaux Plateau - Tour Administrative",
+                category: " ",
+                description: "Cloisons vitrées et portes coupe-feu",
+                color: "text-gray-900"
+            },
+            {
+                id: 2,
+                image: "/realisation/v-ramy-d/051.jpg",
+                title: "Bureaux Plateau - Tour Administrative",
+                category: " ",
+                description: "Cloisons vitrées et portes coupe-feu",
+                color: "text-gray-900"
+            },
+            {
+                id: 3,
+                image: "/realisation/v-ramy-d/052.jpg",
+                title: "",
+                category: "",
+                description: "",
+                color: "text-gray-900"
+            },
+             {
+                id: 4,
+                image: "/realisation/v-ramy-d/053.jpg", 
+                title: "",
+                category: "",
+                description: "",
+                color: "text-gray-900"
+            },
+            {
+                id: 5,
+                image: "/realisation/v-ramy-d/054.jpg",
+                title: "",
+                category: "",
+                description: "",
+                color: "text-gray-900"
+            },
+             {
+                id: 6,
+                image: "/realisation/v-ramy-d/055.jpg",
+                title: "",
+                category: "",
+                description: "",
+                color: "text-gray-900"
+            },
+             {
+                id: 7,
+                image: "/realisation/v-ramy-d/056.jpg",
+                title: "",
+                category: "",
+                description: "",
+                color: "text-gray-900"
+            },
+             {
+                id: 8,
+                image: "/realisation/v-ramy-d/057.jpg",
+                title: "",
+                category: "",
+                description: "",
+                color: "text-gray-900"
+            },
+        ]
+    },
+    {
+        id:"009",
+        projet:"Villa anna",
+        description:"Une villa contemporaine avec des solutions de menuiserie aluminium innovantes. Des portes pliantes et des fenêtres à haute isolation thermique pour un confort optimal.",        
+        star:5,
+        couverture:"/realisation/villa-anna/022.jpg",
+        groups:[
+            {
+                id: 1,
+                image: "/realisation/villa-anna/023.jpg",
+                title: "Bureaux Plateau - Tour Administrative",
+                category: " ",
+                description: "Cloisons vitrées et portes coupe-feu",
+                color: "text-gray-900"
+            },
+            {
+                id: 2,
+                image: "/realisation/villa-anna/024.jpg",
+                title: "Bureaux Plateau - Tour Administrative",
+                category: " ",
+                description: "Cloisons vitrées et portes coupe-feu",
+                color: "text-gray-900"
+            },
+            {
+                id: 3,
+                image: "/realisation/villa-anna/025.jpg",
+                title: "",
+                category: "",
+                description: "",
+                color: "text-gray-900"
+            },
+             {
+                id: 4,
+                image: "/realisation/villa-anna/026.jpg", 
+                title: "",
+                category: "",
+                description: "",
+                color: "text-gray-900"
+            },
+            {
+                id: 5,
+                image: "/realisation/villa-anna/027.jpg",
+                title: "",
+                category: "",
+                description: "",
+                color: "text-gray-900"
+            },
+             {
+                id: 6,
+                image: "/realisation/villa-anna/028.jpg",
+                title: "",
+                category: "",
+                description: "",
+                color: "text-gray-900"
+            }
+        ]
+    },
+    {
+        id:"010",
+        projet:"INJF Yamoussoukro",
+        description:"Une institut de formation avec des solutions de menuiserie aluminium innovantes. Des portes pliantes et des fenêtres à haute isolation thermique pour un confort optimal.",        
+        star:5,
+        couverture:"/realisation/injf-yamoussoukro/010.jpg",
+        groups:[
+            {
+                id: 1,
+                image: "/realisation/injf-yamoussoukro/011.jpg",
+                title: "Bureaux Plateau - Tour Administrative",
+                category: " ",
+                description: "Cloisons vitrées et portes coupe-feu",
+                color: "text-gray-900"
+            },
+            {
+                id: 2,
+                image: "/realisation/injf-yamoussoukro/012.jpg",
+                title: "Bureaux Plateau - Tour Administrative",
+                category: " ",
+                description: "Cloisons vitrées et portes coupe-feu",
+                color: "text-gray-900"
+            },
+            {
+                id: 3,
+                image: "/realisation/injf-yamoussoukro/013.jpg",
+                title: "",
+                category: "",
+                description: "",
+                color: "text-gray-900"
+            },
+             {
+                id: 4,
+                image: "/realisation/injf-yamoussoukro/014.jpg", 
+                title: "",
+                category: "",
+                description: "",
+                color: "text-gray-900"
+            },
+            {
+                id: 5,
+                image: "/realisation/injf-yamoussoukro/015.jpg",
+                title: "",
+                category: "",
+                description: "",
+                color: "text-gray-900"
+            },
+             {
+                id: 6,
+                image: "/realisation/injf-yamoussoukro/016.jpg",
+                title: "",
+                category: "",
+                description: "",
+                color: "text-gray-900"
+            },
+             {
+                id: 7,
+                image: "/realisation/injf-yamoussoukro/017.jpg",
+                title: "",
+                category: "",
+                description: "",
+                color: "text-gray-900"
+            },
+             {
+                id: 8,
+                image: "/realisation/injf-yamoussoukro/018.jpg",
+                title: "",
+                category: "",
+                description: "",
+                color: "text-gray-900"
+            },
+            {
+                id: 9,
+                image: "/realisation/injf-yamoussoukro/019.jpg",
+                title: "",
+                category: "",
+                description: "",
+                color: "text-gray-900"
+            },
+            {
+                id: 10,
+                image: "/realisation/injf-yamoussoukro/020.jpg",
+                title: "",
+                category: "",
+                description: "",
+                color: "text-gray-900"
+            },
+            {
+                id: 11,
+                image: "/realisation/injf-yamoussoukro/021.jpg",
                 title: "",
                 category: "",
                 description: "",
