@@ -52,7 +52,7 @@ export const Projects = [
 export const NOSPRODUITS = [
     {
         id: 1,
-        image: "/products/facademur.jpg",
+        image: "/products/murrideau.jpg",
         title: "Facade mur rideaux",
         category: "Facade mur rideaux",
         description: "",
@@ -60,7 +60,7 @@ export const NOSPRODUITS = [
     },
     {
         id: 2,
-        image: "/products/fenetreetporte.jpg",
+        image: "/products/coulissant.jpg",
         title: "Fenêtres et portes",
         category: "Fenêtres et portes",
         description: "",
@@ -68,7 +68,7 @@ export const NOSPRODUITS = [
     },
     {
         id: 3,
-        image: "/products/pergola1.jpg",
+        image: "/products/PERGOLA.jpg",
         title: "Pergola",
         category: "Pergola",
         description: "",
@@ -92,7 +92,7 @@ export const NOSPRODUITS = [
     },
     {
         id: 6,
-        image: "/products/gardecorp.jpg",
+        image: "/products/gardecorps1.jpg",
         title: "Garde corps",
         category: "Garde corps",
         description: "",
@@ -132,7 +132,7 @@ export const NOSPRODUITS = [
     },
     {
         id: 11,
-        image: "/products/rampe-en-verre-escalier.webp",
+        image: "/products/roulant.jpg",
         title: "Accessoires",
         category: "Accessoires",
         description: "",
