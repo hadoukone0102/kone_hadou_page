@@ -27,8 +27,8 @@ export default function SiglassProducts() {
                         <div className="bg-primary">
                             <GrildSlide title="Nos produits" produits={NOSPRODUITS}/>
                             <AboutHabitat/>
-                            <GrildSlide title="Autres categorie de produits" produits={Produits}/>
-                            <PartnersCarousel/> 
+                            {/* <GrildSlide title="Autres categorie de produits" produits={Produits}/> */}
+                            {/* <PartnersCarousel/> */}
                         </div>
                     </div>
                 </main>

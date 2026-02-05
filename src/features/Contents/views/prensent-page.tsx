@@ -193,7 +193,7 @@ export default function SiglassAbout() {
                                 <Users size={20} className="text-[#3193bd]" />
                                 <div>
                                     <p className="text-xs text-gray-600">Clients satisfaits</p>
-                                    <p className="text-lg font-bold text-gray-900">98%</p>
+                                    <p className="text-lg font-bold text-gray-900">100%</p>
                                 </div>
                             </div>
                         </div>

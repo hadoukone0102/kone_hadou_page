@@ -196,7 +196,7 @@ export default function PartnersCarousel() {
                         <div className="text-gray-600">Produits certifiés</div>
                     </div>
                     <div className="text-center">
-                        <div className="text-4xl font-bold text-secondary mb-2">98%</div>
+                        <div className="text-4xl font-bold text-secondary mb-2">100%</div>
                         <div className="text-gray-600">Satisfaction client</div>
                     </div>
                 </div>

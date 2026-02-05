@@ -70,7 +70,7 @@ export default function ActualityContent() {
                         LES ACTUALITÉS DE SIGLASS
                     </h2>
                     <p className="text-lg text-gray-600 max-w-3xl">
-                        Produits, innovations, salons, conseils, réglementations... découvrez toute l&apos;actualité de SIGLASS et du secteur de la menuiserie aluminium en Côte d&apos;Ivoire.
+                        Produits, innovations, salons et conseils : suivez l&apos;actualité de SIGLASS et du secteur de la menuiserie aluminium en Côte d&apos;Ivoire.
                     </p>
                 </div>
 
@@ -146,14 +146,16 @@ export default function ActualityContent() {
            <div className="max-w-7xl mx-auto mt-16 pt-16 border-t border-gray-200">
                 <div className="text-center mb-8">
                     <h3 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-                    Notre engagement d&apos;entreprise ivoirienne en vitrerie et menuiserie
+                    Notre engagement ivoirien en vitrerie et menuiserie
                     </h3>
                 </div>
 
                 <p className="text-lg text-gray-700 leading-relaxed text-center max-w-5xl mx-auto">
-                    Spécialisée dans la vitrerie et la menuiserie aluminium et PVC, SIGLASS met son savoir-faire au service de projets durables, esthétiques et performants. De la conception à la fabrication, jusqu&apos;à l&apos;installation, nous maîtrisons chaque étape afin de garantir des solutions sur mesure répondant aux exigences techniques, sécuritaires et architecturales actuelles.
+                    Spécialisée dans la vitrerie et la menuiserie aluminium/PVC, SIGLASS met son savoir-faire au service de projets durables et performants.
+                    De la conception à l&apos;installation, nous maîtrisons chaque étape pour garantir des solutions sur mesure répondant aux exigences techniques et architecturales actuelles.
                     <br /><br />
-                    Acteur engagé du secteur du bâtiment en Côte d&apos;Ivoire, SIGLASS accompagne professionnels et particuliers dans la réalisation de fenêtres, portes, baies vitrées, murs-rideaux, vérandas et autres ouvrages, en privilégiant la qualité, la fiabilité et la satisfaction client.
+                    Acteur engagé du secteur du bâtiment en Côte d&apos;Ivoire, SIGLASS accompagne professionnels et particuliers dans la réalisation de façades, murs-rideaux,
+                    fenêtres, portes, baies vitrées, vérandas et brise-soleil, en privilégiant la qualité, la fiabilité et la satisfaction client.
                 </p>
             </div>
 

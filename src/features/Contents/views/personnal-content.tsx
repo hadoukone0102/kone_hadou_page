@@ -133,10 +133,10 @@ const solutions = [
                     <div className="lg:col-span-4 text-white">
                         <h2 className="text-3xl md:text-4xl font-bold mb-6 leading-tight text-center italic">
                             {/* DES SOLUTIONS POUR LES PROFESSIONNELS DE LA MENUISERIE */}
-                            CONCEPTEUR ET PRODUCTEUR DE SYSTEME MENUISERIE.
+                            CONCEPTEUR ET PRODUCTEUR DE SYSTEMES DE MENUISERIE.
                         </h2>
                         <p className="text-lg text-gray-300 leading-relaxed border-l-4 border-secondary px-2">
-                            {"« "}Un accompagnement de qualité et des solutions personnalisées pour contribuer ensemble à la réussite de tous vos projets.{" »"}
+                            {"« "}Des solutions sur mesure et un accompagnement clair pour faire aboutir vos projets en toute sérénité.{" »"}
                         </p>
 
                         {/* Statistiques */}
@@ -146,7 +146,7 @@ const solutions = [
                                 <p className="text-sm text-gray-300">Projets réalisés</p>
                             </div>
                             <div className="bg-white/10 backdrop-blur-sm p-4 rounded-lg">
-                                <p className="text-4xl font-bold text-orange-500">98%</p>
+                                <p className="text-4xl font-bold text-orange-500">100%</p>
                                 <p className="text-sm text-gray-300">Clients satisfaits</p>
                             </div>
                         </div>
@@ -212,7 +212,8 @@ const solutions = [
                 <div className="mt-12 max-w-5xl mx-auto">
                     <blockquote className="border-l-4 border-orange-500 pl-6 py-4 bg-white/5 backdrop-blur-sm rounded-r-lg">
                         <p className="text-gray-300 italic text-lg leading-relaxed">
-                            « Artisan Créateur » pour les Fabricants Installateurs auprès des particuliers, « I-Process » pour les industriels, « Project » pour les Fabricants Chantier, ou encore « International » pour les Fabricants hors-métropoles, découvrez nos 4 Services Premium. Une offre de services et produits spécifique et adaptée selon votre activité, votre taille, votre atelier, vos typologies de clients et de chantier.
+                            SIGLASS accompagne fabricants, installateurs, industriels, chantiers et prescripteurs avec une offre adaptée à chaque marché. 
+                            Conseil, fabrication et pose : nous structurons des solutions fiables selon vos contraintes, vos délais et vos objectifs de qualité.
                         </p>
                     </blockquote>
                 </div>

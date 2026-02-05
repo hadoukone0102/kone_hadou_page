@@ -52,68 +52,100 @@ export const Projects = [
 export const NOSPRODUITS = [
     {
         id: 1,
-        image: "/products/aa.jpg",
-        title: "Aménagements",
-        category: "Aménagements",
+        image: "/products/facademur.jpg",
+        title: "Facade mur rideaux",
+        category: "Facade mur rideaux",
         description: "",
         color: "text-orange-500"
     },
     {
         id: 2,
-        image: "/products/c-Kevin.jpg",
-        title: "Fenêtres et portes-fenêtres",
-        category: "Fenêtres et portes-fenêtres",
+        image: "/products/fenetreetporte.jpg",
+        title: "Fenêtres et portes",
+        category: "Fenêtres et portes",
         description: "",
         color: "text-orange-500"
     },
     {
         id: 3,
-        image: "/siglass/h-02.jpg",
-        title: "Portes",
-        category: "Portes",
+        image: "/products/pergola1.jpg",
+        title: "Pergola",
+        category: "Pergola",
         description: "",
         color: "text-orange-500"
     },
     {
         id: 4,
-        image: "/products/R.jpg",
-        title: "Garde-Corps",
-        category: "Garde-Corps",
+        image: "/siglass/h-01.png",
+        title: "Veranda",
+        category: "Veranda",
         description: "",
         color: "text-orange-500"
     },
     {
         id: 5,
-        image: "/siglass/h-01.png",
-        title: "Verandas",
-        category: "Verandas",
+        image: "/products/brise-soleil-bon-format.webp",
+        title: "Système de brise soleil",
+        category: "Système de brise soleil",
         description: "",
         color: "text-orange-500"
     },
     {
         id: 6,
-        image: "/siglass/h-06.jpg",
-        title: "Solutions pour zones Tropicales",
-        category: "Solutions pour zones Tropicales",
+        image: "/products/gardecorp.jpg",
+        title: "Garde corps",
+        category: "Garde corps",
         description: "",
         color: "text-orange-500"
     },
     {
         id: 7,
-        image: "/products/rangi05.jpg",
-        title: "Façades",
-        category: "Façades",
+        image: "/products/cloisonnement.jpg",
+        title: "Cloisonnement de bureaux",
+        category: "Cloisonnement de bureaux",
         description: "",
         color: "text-orange-500"
     },
     {
         id: 8,
-        image: "/products/lit.jpg",
-        title: "Baies Coulissantes",
-        category: "Baies Coulissantes",
+        image: "/products/securite.jpg",
+        title: "Securite",
+        category: "Securite",
         description: "",
         color: "text-orange-500"
     },
+    {
+        id: 9,
+        image: "/products/fermeture.jpg",
+        title: "Fermeture",
+        category: "Fermeture",
+        description: "",
+        color: "text-orange-500"
+    },
+    {
+        id: 10,
+        image: "/products/zonetropical.webp",
+        title: "Solutions pour zones tropicales",
+        category: "Solutions pour zones tropicales",
+        description: "",
+        color: "text-orange-500"
+    },
+    {
+        id: 11,
+        image: "/products/rampe-en-verre-escalier.webp",
+        title: "Accessoires",
+        category: "Accessoires",
+        description: "",
+        color: "text-orange-500"
+    },
+    {
+        id: 12,
+        image: "/products/couleur.jpg",
+        title: "Couleurs",
+        category: "Couleurs",
+        description: "",
+        color: "text-orange-500"
+    }
 ]
 
 export const Produits = [

@@ -56,29 +56,26 @@ export default function AboutContent() {
                         </h2>
                         <h3 className="text-2xl md:text-xl text-center font-bold text-gray-800 mb-6 uppercase">
                             {/* GAMMISTE ALUMINIUM ET PVC */}
-                            Vitreries & Menuiseries SIGLASS-CI s&apos;engage à vous fournir Des produits de qualité sur tous les plans
+                            VITRERIES & MENUISERIES SIGLASS-CI S&apos;ENGAGE À VOUS FOURNIR DES PRODUITS DE QUALITÉ SUR TOUS LES PLANS
                         </h3>
-                        <h4 className="text-xl md:text-2xl font-bold text-[#3193bd] mb-8">
-                            DEPUIS PLUS DE 20 ANS
-                        </h4>
+                       
 
                         {/* Description */}
                         <div className="space-y-4 text-gray-700 leading-relaxed">
-                           <p className="text-lg">
-                                SIGLASS conçoit, fabrique et installe des solutions de vitrerie et de menuiserie en aluminium et PVC, destinées aussi bien aux professionnels du bâtiment qu&apos;aux particuliers en Côte d&apos;Ivoire.
+                            <p className="text-lg">
+                                SIGLASS conçoit, fabrique et installe en Côte d&apos;Ivoire des solutions sur mesure en vitrerie et menuiserie aluminium/PVC pour les professionnels du bâtiment et les particuliers.
                             </p>
 
                             <p className="text-lg">
-                                Grâce à une parfaite compréhension de vos besoins, de vos contraintes techniques et de vos ambitions architecturales, SIGLASS propose des fenêtres, portes, baies vitrées coulissantes, murs-rideaux, vérandas, pergolas, garde-corps et brise-soleil alliant performance, sécurité et esthétisme.
+                                En s&apos;appuyant sur une écoute attentive de vos besoins, de vos contraintes techniques et de vos ambitions architecturales, SIGLASS propose des façades et murs-rideaux, fenêtres et portes, baies coulissantes, pergolas, vérandas, brise-soleil, garde-corps et cloisonnements de bureaux.
                             </p>
 
                             <p className="text-lg">
-                                Nos solutions sur mesure s&apos;adaptent à tous vos projets résidentiels et commerciaux, en garantissant une excellente luminosité, une durabilité optimale et une finition soignée, répondant aux standards actuels de qualité et de design.
+                                Nos solutions s&apos;adaptent à tous vos projets, résidentiels ou commerciaux, en assurant une luminosité optimale, une durabilité à toute épreuve et une finition irréprochable, conformes aux exigences contemporaines en matière de qualité et de design.
                             </p>
 
-                            {/* Citation en italique avec bordure gauche */}
                             <blockquote className="border-l-4 border-orange-500 pl-6 py-4 my-6 bg-gray-50 italic text-gray-600">
-                                La profondeur de gamme SIGLASS permet à nos partenaires fabricants et installateurs de proposer les solutions de menuiseries adaptées à leur client.
+                                Grâce à une gamme complète et évolutive, SIGLASS offre également à ses partenaires fabricants et installateurs les solutions de menuiserie les plus adaptées à leurs marchés et à leurs clients.
                             </blockquote>
 
                             {/* Bouton "En savoir plus" */}
@@ -101,7 +98,7 @@ export default function AboutContent() {
                         {/* Image principale */}
                         <div className="relative h-[600px] md:h-[600px] rounded-lg overflow-hidden shadow-2xl">
                             <Image
-                                src="/banner/first.jpg"
+                                src="/images/angle.jpg"
                                 alt="Profil aluminium SIGLASS"
                                 fill
                                 className="object-cover"
@@ -109,14 +106,6 @@ export default function AboutContent() {
                             
                             {/* Overlay gradient */}
                             <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent"></div>
-                        </div>
-
-                        {/* Badge "20+ ans " */}
-                        <div className="absolute -bottom-6 -left-6 bg-[#3193bd] text-white px-8 py-6 rounded-lg shadow-xl">
-                            <div className="text-center flex flex-col items-center justify-center">
-                                <p className="text-5xl font-bold">20+</p>
-                                <p className="text-sm uppercase tracking-wider">Ans d&apos;expertise</p>
-                            </div>
                         </div>
 
                         {/* Badge "Qualité Premium" */}

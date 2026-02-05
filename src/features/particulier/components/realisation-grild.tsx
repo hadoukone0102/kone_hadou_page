@@ -376,33 +376,17 @@ export default function RealisationGrildSlide({
                                     {selectedProject.groups.map((item) => (
                                         <div
                                             key={item.id}
-                                            className="flex-shrink-0 px-1.5 sm:px-2 h-full flex items-center"
-                                            style={{ width: 500 }}
+                                            className="flex-shrink-0 px-1 sm:px-1.5 h-full flex items-center"
+                                            style={{ width: `${cardWidth}%` }}
                                         >
-                                            <div className="relative  overflow-hidden">
+                                            <div className="relative w-full aspect-[4/3] overflow-hidden bg-transparent">
                                                 <Image
                                                     src={item.image}
                                                     alt={item.title || selectedProject.projet}
-                                                    width={100}
-                                                    height={100}
-                                                    // fill
-                                                    // sizes="(max-width: 640px) 95vw, (max-width: 1024px) 45vw, 30vw object-cover"
-                                                    className=" w-full h-1/2"
+                                                    fill
+                                                    sizes="(max-width: 640px) 90vw, (max-width: 1024px) 60vw, 600px"
+                                                    className="object-contain"
                                                 />
-                                                {/* Overlay bas avec titre si présent */}
-                                                {item.title && (
-                                                    <div
-                                                        className="absolute bottom-0 left-0 right-0 p-3 sm:p-4"
-                                                        style={{
-                                                            background: 'linear-gradient(to top, rgba(0,0,0,0.7) 0%, transparent 100%)',
-                                                        }}
-                                                    >
-                                                        <h3 className="text-white text-sm sm:text-base font-semibold">{item.title}</h3>
-                                                        {item.description && (
-                                                            <p className="text-white/50 text-xs mt-0.5">{item.description}</p>
-                                                        )}
-                                                    </div>
-                                                )}
                                             </div>
                                         </div>
                                     ))}

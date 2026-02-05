@@ -4,6 +4,7 @@ import Image from "next/image";
 import { ArrowRight } from 'lucide-react';
 import { Routes } from '@/lib/utils/route';
 import { useRouter } from 'next/navigation';
+import { NOSPRODUITS } from '@/features/Contents';
 
 export default function EspacesDeVie() {
     const [titleVisible, setTitleVisible] = useState(false);
@@ -29,55 +30,13 @@ export default function EspacesDeVie() {
         return () => observer.disconnect();
     }, []);
 
-    const spaces = [
-        {
-            id: 1,
-            number: "01",
-            title: "",
-            subtitle: "DOUCHE EN VERRE",
-            // image: "/banner/first.jpg",
-            // image: "/siglass/h-12.jpg",
-            image: "/products/douche.webp",
-            size: "large" // Occupe 2 colonnes en haut à gauche
-        },
-        {
-            id: 2,
-            number: "02",
-            title: "PLEIN AIR",
-            subtitle: "",
-            // image: "/banner/second.jpg",
-            image: "/siglass/h-13.jpg",
-            size: "large-right" // Occupe 1 colonne mais grande hauteur à droite
-        },
-        {
-            id: 3,
-            number: "03",
-            title: "CLOTURE",
-            subtitle: "DE PISCINE",
-            // image: "/banner/firts.jpg",
-            image: "/products/piscine.webp",
-            // image: "/siglass/h-15.jpg",
-            size: "large"
-        },
-        {
-            id: 4,
-            number: "04",
-            title: "",
-            subtitle: "GARD-CORPS",
-            // image: "/banner/four.jpg",
-            image: "/images/gard_corps.jpg",
-            size: "large"
-        },
-        {
-            id: 5,
-            number: "05",
-            title: "TERTIAIRE",
-            subtitle: "",
-            // image: "/banner/five.jpg",
-            image: "/siglass/h-02.jpg",
-            size: "small-bottom"
-        }
-    ];
+    const spaces = NOSPRODUITS.slice(0, 4).map((item, index) => ({
+        id: item.id,
+        number: String(index + 1).padStart(2, "0"),
+        title: item.title,
+        subtitle: "",
+        image: item.image,
+    }));
 
     return (
         <div className="bg-primary px-4 sm:px-6 mx-10">

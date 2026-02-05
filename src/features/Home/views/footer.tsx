@@ -12,7 +12,7 @@ export default function Footer() {
                         <div>
                             <h3 className="text-2xl font-bold mb-6">SIGLASS</h3>
                             <p className="text-white text-opacity-90 leading-relaxed mb-8">
-                                SIGLASS est une entreprise spécialisée dans le travail et la fourniture de matériel du verre. Nous sommes experts en menuiserie aluminium et systèmes de vitrage pour projets résidentiels et commerciaux.
+                                SIGLASS conçoit, fabrique et installe des solutions sur mesure en vitrerie et menuiserie aluminium/PVC, pour les professionnels du bâtiment et les particuliers.
                             </p>
                             <div className="w-20 h-20 bg-white bg-opacity-10 flex items-center justify-center rounded">
                                <Image

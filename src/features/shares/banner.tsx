@@ -38,7 +38,7 @@ export default function Banner({
                         {isSpecialMode ? (
                             <div className="flex flex-col items-center justify-center">
 
-                                <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
+                                <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight text-center">
                                     {activeData?.title || (particulier ? "Produits" : "Entreprises")}
                                 </h1>
 
@@ -46,7 +46,7 @@ export default function Banner({
                                     {activeData?.description || "Nos menuiseries : la signature des beaux espaces"}
                                 </h2>
 
-                                <p className="text-lg md:text-xl text-white/80 leading-relaxed mb-6 max-w-3xl">
+                                <p className="text-lg md:text-xl text-white/80 leading-relaxed mb-6 max-w-3xl text-center mx-auto">
                                     {activeData?.subDescription || desc}
                                 </p>
 

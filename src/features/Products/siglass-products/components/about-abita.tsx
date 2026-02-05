@@ -146,20 +146,18 @@ export default function AboutHabitat() {
                     }`}
                     >
                     <p>
-                        Parce que l&apos;habitat est avant tout un espace de bien-être, de confort et de sécurité, 
-                        <strong> SIGLASS</strong> conçoit et fabrique des solutions de menuiserie aluminium et de vitrerie pensées pour améliorer durablement votre cadre de vie.
+                        Parce que chaque projet a ses contraintes et ses ambitions, <strong> SIGLASS</strong> conçoit, fabrique et installe
+                        des solutions sur mesure en vitrerie et menuiserie aluminium/PVC, adaptées aux besoins des particuliers et des professionnels du bâtiment.
                     </p>
 
                     <p>
-                        La finesse de nos profils en aluminium permet de maximiser l&apos;apport de lumière naturelle, 
-                        tout en garantissant solidité, isolation et élégance. Les lignes épurées, les finitions soignées 
-                        et les nombreuses possibilités de personnalisation assurent une parfaite intégration à votre intérieur comme à votre extérieur.
+                        Façades et murs-rideaux, fenêtres et portes, baies coulissantes, brise-soleil, garde-corps et cloisonnements de bureaux :
+                        nous combinons performance, sécurité et esthétique pour des espaces lumineux, durables et faciles à vivre.
                     </p>
 
                     <p>
-                        Fenêtres aluminium, portes, baies vitrées coulissantes, façades vitrées ou verrières sur mesure : 
-                        SIGLASS propose une gamme complète de solutions contemporaines, appréciées aussi bien par les particuliers 
-                        que par les architectes et professionnels du bâtiment pour des réalisations esthétiques, modernes et durables.
+                        Du conseil à la pose, nous vous accompagnons avec des finitions soignées, des profils élégants et des solutions fiables,
+                        conçues pour s&apos;intégrer harmonieusement à tous les styles architecturaux.
                     </p>
                 </div>
             </div>
