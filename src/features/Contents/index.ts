@@ -133,8 +133,8 @@ export const NOSPRODUITS = [
     {
         id: 11,
         image: "/products/roulant.jpg",
-        title: "Accessoires",
-        category: "Accessoires",
+        title: "Volets roulants",
+        category: "Volets roulants",
         description: "",
         color: "text-orange-500"
     },
