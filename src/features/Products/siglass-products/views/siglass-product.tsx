@@ -17,7 +17,7 @@ export default function SiglassProducts() {
                     {
                         title:"Nos Produits",
                         description:"Des produits de haute gamme",
-                        subDescription:"Bienvenue, parcourez les produits de siglass et n'hésiter surtout pas à nous contacté"
+                        subDescription:"Bienvenue, parcourez les produits de siglass et n'hésiter surtout pas à nous contacter"
                     }
                 }
             />

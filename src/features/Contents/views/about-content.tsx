@@ -75,7 +75,7 @@ export default function AboutContent() {
                             </p>
 
                             <blockquote className="border-l-4 border-orange-500 pl-6 py-4 my-6 bg-gray-50 italic text-gray-600">
-                                Grâce à une gamme complète et évolutive, SIGLASS offre également à ses partenaires fabricants et installateurs les solutions de menuiserie les plus adaptées à leurs marchés et à leurs clients.
+                            Grâce à une gamme complète et évolutive , Siglass offre à ses clients un large choix de profils et de verres alliant design , performances et innovation. Toujours en phase avec les technologies et les tendances de chaque année, nous faisons évoluer nos solutions pour rester à la pointe et répondre aux exigences actuelles du marché
                             </blockquote>
 
                             {/* Bouton "En savoir plus" */}

@@ -10,6 +10,15 @@ export default function ActualityContent() {
     const actualites = [
         {
             id: 1,
+            image: "/images/archibat.jpg",
+            title: "ARCHIBAT 2023",
+            date: "12 au 16 décembre 2023",
+            description:
+              "Retrouvez SIGLASS à ARCHIBAT 2023 : présentation de nos solutions de menuiserie aluminium/PVC et vitrages sur mesure, démonstrations produits et échanges avec nos experts.",
+            category: "Événements",
+          },
+        {
+            id: 2,
             image: "/images/angle.jpg",
             title: "CATALOGUE SIGLASS 2025 : DÉCOUVREZ NOS NOUVELLES GAMMES",
             date: "15 janvier 2025",
@@ -17,21 +26,14 @@ export default function ActualityContent() {
             category: "Produits"
         },
         {
-            id: 2,
+            id: 3,
             image: "/images/pergola.jpg",
             title: "SIGLASS AU SALON BATIMAT ABIDJAN 2025",
             date: "5 mars 2025",
             description: "Venez nous rencontrer au salon du bâtiment à Abidjan. Découvrez nos dernières innovations et solutions sur mesure.",
             category: "Événements"
-        },
-        {
-            id: 3,
-            image: "/images/veranda.jpg",
-            title: "NOUVEAU SHOWROOM À COCODY : VISITEZ-NOUS",
-            date: "20 décembre 2024",
-            description: "Découvrez notre tout nouveau showroom à Cocody avec des espaces d'exposition modernisés et des conseillers experts à votre service.",
-            category: "Entreprise"
         }
+        
     ];
 
     useEffect(() => {

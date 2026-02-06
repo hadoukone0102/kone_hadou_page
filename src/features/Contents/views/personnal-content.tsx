@@ -53,48 +53,31 @@ export default function PersonnalContent() {
 
 
 const solutions = [
-  {
-    id: 1,
-    category: "Fabricants Installateurs",
-    title: "PARTICULIERS",
-    image: "/img/one.jpeg",
-    description: "Solutions de menuiserie et vitrerie sur mesure pour un habitat confortable, lumineux et durable."
-  },
-  {
-    id: 2,
-    category: "Fabricants Installateurs",
-    title: "CHANTIERS",
-    image: "/img/tow.jpeg",
-    description: "Accompagnement technique et solutions performantes pour vos projets de construction et de rénovation."
-  },
-  {
-    id: 3,
-    category: "Fabricants Installateurs",
-    title: "INDUSTRIELS",
-    image: "/img/three.jpeg",
-    description: "Solutions robustes et sécurisées adaptées aux exigences des sites industriels et tertiaires."
-  },
-  {
-    id: 4,
-    category: "Fabricants Internationaux et",
-    title: "ULTRAMARINS",
-    image: "/img/four.jpeg",
-    description: "Projets d'envergure internationale réalisés avec des solutions vitrées fiables et sur mesure."
-  },
-  {
-    id: 5,
-    category: "Prescripteurs du",
-    title: "BÂTIMENT",
-    image: "/img/five.jpeg",
-    description: "Un partenaire de confiance pour les architectes et bureaux d'études, au service de projets innovants."
-  },
-  {
-    id: 6,
-    category: "Promoteurs &",
-    title: "INVESTISSEURS",
-    image: "/img/sixe.jpeg",
-    description: "Des solutions durables et esthétiques pour valoriser vos programmes immobiliers."
-  }
+    {
+        id: 1,
+        
+        title: "PARTICULIERS",
+        image: "/img/one.jpeg",
+        description:
+          "Solutions de menuiserie et vitrerie sur mesure pour un habitat confortable, lumineux et durable.",
+      },
+      {
+        id: 2,
+        
+        title: "ARCHITECTES",
+        image: "/img/tow.jpeg",
+        description:
+          "Accompagnement technique et solutions performantes pour vos projets de construction.",
+      },
+      {
+        id: 3,
+        category: "",
+        title: "INDUSTRIELS",
+        image: "/img/three.jpeg",
+        description:
+          "Solutions robustes et sécurisées adaptées aux exigences des sites industriels et tertiaires.",
+      },
+  
 ];
 
     useEffect(() => {
@@ -133,7 +116,7 @@ const solutions = [
                     <div className="lg:col-span-4 text-white">
                         <h2 className="text-3xl md:text-4xl font-bold mb-6 leading-tight text-center italic">
                             {/* DES SOLUTIONS POUR LES PROFESSIONNELS DE LA MENUISERIE */}
-                            CONCEPTEUR ET PRODUCTEUR DE SYSTEMES DE MENUISERIE.
+                            FABRIQUANT ET POSEUR DE SYSTEMES DE MENUISERIE.
                         </h2>
                         <p className="text-lg text-gray-300 leading-relaxed border-l-4 border-secondary px-2">
                             {"« "}Des solutions sur mesure et un accompagnement clair pour faire aboutir vos projets en toute sérénité.{" »"}
@@ -212,9 +195,8 @@ const solutions = [
                 <div className="mt-12 max-w-5xl mx-auto">
                     <blockquote className="border-l-4 border-orange-500 pl-6 py-4 bg-white/5 backdrop-blur-sm rounded-r-lg">
                         <p className="text-gray-300 italic text-lg leading-relaxed">
-                            SIGLASS accompagne fabricants, installateurs, industriels, chantiers et prescripteurs avec une offre adaptée à chaque marché. 
-                            Conseil, fabrication et pose : nous structurons des solutions fiables selon vos contraintes, vos délais et vos objectifs de qualité.
-                        </p>
+                        SIGLASS accompagne fabricants, installateurs, industriels, particuliers, chantiers et prescripteurs avec une offre adaptée à chaque besoin.
+Conseil, fabrication et pose : nous concevons des solutions de menuiserie et de vitrerie sur mesure, fiables et durables, selon vos contraintes, vos délais et vos exigences de qualité.</p>
                     </blockquote>
                 </div>
             </div>
