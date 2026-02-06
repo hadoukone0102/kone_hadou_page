@@ -2,8 +2,7 @@ import Footer from "@/features/Home/views/footer";
 import MainHeader from "@/features/shares/main-head";
 import AboutHabitat from "../components/about-abita";
 import GrildSlide from "@/features/particulier/components/gril-slide";
-import PartnersCarousel from "@/features/Contents/views/partenaire";
-import { NOSPRODUITS, Produits } from "@/features/Contents";
+import { NOSPRODUITS } from "@/features/Contents";
 
 export default function SiglassProducts() {
     return (
