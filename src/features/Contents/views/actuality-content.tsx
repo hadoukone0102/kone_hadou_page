@@ -10,29 +10,34 @@ export default function ActualityContent() {
     const actualites = [
         {
             id: 1,
+            image: "/images/angle.jpg",
+            title: "CATALOGUE SIGLASS 2025 : DÉCOUVREZ NOS NOUVELLES GAMMES",
+            date: "15 janvier 2025",
+            description: "Explorez notre nouveau catalogue avec des innovations en menuiserie aluminium et PVC pour vos projets résidentiels et commerciaux.",
+            category: "Produits",
+            link: ""
+        },
+        {
+            id: 2,
             image: "/images/archibat.jpg",
             title: "ARCHIBAT 2023",
             date: "12 au 16 décembre 2023",
             description:
               "Retrouvez SIGLASS à ARCHIBAT 2023 : présentation de nos solutions de menuiserie aluminium/PVC et vitrages sur mesure, démonstrations produits et échanges avec nos experts.",
             category: "Événements",
+            link: ""
           },
-        {
-            id: 2,
-            image: "/images/angle.jpg",
-            title: "CATALOGUE SIGLASS 2025 : DÉCOUVREZ NOS NOUVELLES GAMMES",
-            date: "15 janvier 2025",
-            description: "Explorez notre nouveau catalogue avec des innovations en menuiserie aluminium et PVC pour vos projets résidentiels et commerciaux.",
-            category: "Produits"
-        },
+       
         {
             id: 3,
             image: "/images/pergola.jpg",
-            title: "SIGLASS AU SALON BATIMAT ABIDJAN 2025",
-            date: "5 mars 2025",
-            description: "Venez nous rencontrer au salon du bâtiment à Abidjan. Découvrez nos dernières innovations et solutions sur mesure.",
-            category: "Événements"
+            title: "Sepalumic signe une collaboration en Côte d'Ivoire",
+            date: "18 Septembre 2023",
+            description: "Sepalumic annonce en Côte d'Ivoire un nouveau partenariat avec VERALU CI et SIGLASS pour fabriquer et installer la collection de pergolas modulables haut de gamme ILO, inaugurée au Radisson Abidjan lors d'une première réunion technique avec des architectes.",
+            category: "Événements",
+            link: "https://www.lechodelabaie.fr/actualites/sepalumic-signe-une-collaboration-en-cote-divoire/"
         }
+        
         
     ];
 
@@ -126,10 +131,22 @@ export default function ActualityContent() {
                                 </p>
 
                                 {/* Lien "Lire la suite" */}
-                                <button className="inline-flex items-center gap-2 text-orange-500 font-semibold hover:gap-4 transition-all duration-300 group/btn">
-                                    <span className="border-b-2 border-orange-500">LIRE LA SUITE</span>
-                                    <ArrowRight size={20} className="transform group-hover/btn:translate-x-2 transition-transform" />
-                                </button>
+                                {actu.link ? (
+                                    <a
+                                        href={actu.link}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="inline-flex items-center gap-2 text-orange-500 font-semibold hover:gap-4 transition-all duration-300 group/btn"
+                                    >
+                                        <span className="border-b-2 border-orange-500">LIRE LA SUITE</span>
+                                        <ArrowRight size={20} className="transform group-hover/btn:translate-x-2 transition-transform" />
+                                    </a>
+                                ) : (
+                                    <button className="inline-flex items-center gap-2 text-orange-500 font-semibold hover:gap-4 transition-all duration-300 group/btn">
+                                        <span className="border-b-2 border-orange-500">LIRE LA SUITE</span>
+                                        <ArrowRight size={20} className="transform group-hover/btn:translate-x-2 transition-transform" />
+                                    </button>
+                                )}
                             </div>
                         </div>
                     ))}

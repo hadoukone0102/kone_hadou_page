@@ -27,7 +27,7 @@ export default function TopBar() {
         {/* User Profile */}
         <div className="flex items-center gap-3 pl-4 border-l border-gray-200">
           <div className="text-right">
-            <p className="text-sm font-medium text-gray-900">Kone Hadou</p>
+            <p className="text-sm font-medium text-gray-900">SIGLASS</p>
             <p className="text-xs text-gray-500 text-center">Admin</p>
           </div>
           <div className="w-10 h-10 bg-secondary rounded-full flex items-center justify-center text-white">

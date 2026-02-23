@@ -11,7 +11,7 @@ export default function ProductSelectedView({id}:{id:string}) {
                 className="" 
                 BruncumbTitle="Nos Produits" 
                 BannerSrc="/banner/second.jpg"
-                BannerDesc="Profitez de nos offres spéciales ce mois-ci !"
+                BannerDesc=""
                 BannerTitle="Les produits de siglass"
                 BruncumbType="Produits"
                 BannerType={

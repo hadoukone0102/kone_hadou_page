@@ -125,7 +125,7 @@ const solutions = [
                         {/* Statistiques */}
                         <div className="mt-8 grid grid-cols-2 gap-6">
                             <div className="bg-white/10 backdrop-blur-sm p-4 rounded-lg">
-                                <p className="text-4xl font-bold text-[#3193bd]">500+</p>
+                                <p className="text-4xl font-bold text-[#3193bd]">100+</p>
                                 <p className="text-sm text-gray-300">Projets réalisés</p>
                             </div>
                             <div className="bg-white/10 backdrop-blur-sm p-4 rounded-lg">

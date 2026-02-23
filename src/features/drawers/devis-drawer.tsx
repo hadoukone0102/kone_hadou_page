@@ -38,13 +38,19 @@ export default function DevisDrawer({ isOpen, onClose }: DevisDrawerProps) {
         });
     };
 
-    const handleSubmit = (e: React.FormEvent) => {
+    const handleSubmit = async (e: React.FormEvent) => {
         e.preventDefault();
-        console.log('Form submitted:', formData);
-        // Ajoutez ici la logique d'envoi du formulaire
-        alert('Demande de devis envoyée avec succès !');
-        
-        // Réinitialiser le formulaire
+        const res = await fetch('/api/devis', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(formData),
+        });
+
+        if (!res.ok) {
+            alert("Erreur lors de l'envoi du message");
+            return;
+        }
+
         setFormData({
             nom: '',
             prenom: '',
@@ -56,7 +62,7 @@ export default function DevisDrawer({ isOpen, onClose }: DevisDrawerProps) {
             ville: '',
             message: ''
         });
-        
+
         onClose();
     };
 
@@ -116,7 +122,7 @@ export default function DevisDrawer({ isOpen, onClose }: DevisDrawerProps) {
                                     required
                                     value={formData.nom}
                                     onChange={handleInputChange}
-                                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#3193bd] focus:border-transparent transition-all"
+                                    className="w-full px-4 py-3 border border-gray-300 rounded-lg text-gray-900 focus:ring-2 focus:ring-[#3193bd] focus:border-transparent transition-all"
                                     placeholder="Votre nom"
                                 />
                             </div>
@@ -130,7 +136,7 @@ export default function DevisDrawer({ isOpen, onClose }: DevisDrawerProps) {
                                     required
                                     value={formData.prenom}
                                     onChange={handleInputChange}
-                                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#3193bd] focus:border-transparent transition-all"
+                                    className="w-full px-4 py-3 border border-gray-300 rounded-lg text-gray-900 focus:ring-2 focus:ring-[#3193bd] focus:border-transparent transition-all"
                                     placeholder="Votre prénom"
                                 />
                             </div>
@@ -144,7 +150,7 @@ export default function DevisDrawer({ isOpen, onClose }: DevisDrawerProps) {
                                     required
                                     value={formData.email}
                                     onChange={handleInputChange}
-                                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#3193bd] focus:border-transparent transition-all"
+                                    className="w-full px-4 py-3 border border-gray-300 rounded-lg text-gray-900 focus:ring-2 focus:ring-[#3193bd] focus:border-transparent transition-all"
                                     placeholder="exemple@email.com"
                                 />
                             </div>
@@ -158,7 +164,7 @@ export default function DevisDrawer({ isOpen, onClose }: DevisDrawerProps) {
                                     required
                                     value={formData.telephone}
                                     onChange={handleInputChange}
-                                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#3193bd] focus:border-transparent transition-all"
+                                    className="w-full px-4 py-3 border border-gray-300 rounded-lg text-gray-900 focus:ring-2 focus:ring-[#3193bd] focus:border-transparent transition-all"
                                     placeholder="+225 XX XX XX XX XX"
                                 />
                             </div>
@@ -181,7 +187,7 @@ export default function DevisDrawer({ isOpen, onClose }: DevisDrawerProps) {
                                     name="entreprise"
                                     value={formData.entreprise}
                                     onChange={handleInputChange}
-                                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#3193bd] focus:border-transparent transition-all"
+                                    className="w-full px-4 py-3 border border-gray-300 rounded-lg text-gray-900 focus:ring-2 focus:ring-[#3193bd] focus:border-transparent transition-all"
                                     placeholder="Nom de votre entreprise"
                                 />
                             </div>
@@ -194,7 +200,7 @@ export default function DevisDrawer({ isOpen, onClose }: DevisDrawerProps) {
                                     required
                                     value={formData.typeProjet}
                                     onChange={handleInputChange}
-                                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#3193bd] focus:border-transparent transition-all"
+                                    className="w-full px-4 py-3 border border-gray-300 rounded-lg text-gray-900 focus:ring-2 focus:ring-[#3193bd] focus:border-transparent transition-all"
                                 >
                                     <option value="">Sélectionnez un type</option>
                                     <option value="residentiel">Projet Résidentiel</option>
@@ -212,7 +218,7 @@ export default function DevisDrawer({ isOpen, onClose }: DevisDrawerProps) {
                                     name="budget"
                                     value={formData.budget}
                                     onChange={handleInputChange}
-                                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#3193bd] focus:border-transparent transition-all"
+                                    className="w-full px-4 py-3 border border-gray-300 rounded-lg text-gray-900 focus:ring-2 focus:ring-[#3193bd] focus:border-transparent transition-all"
                                 >
                                     <option value="">Sélectionnez une fourchette</option>
                                     <option value="moins-5m">Moins de 5M FCFA</option>
@@ -231,7 +237,7 @@ export default function DevisDrawer({ isOpen, onClose }: DevisDrawerProps) {
                                     required
                                     value={formData.ville}
                                     onChange={handleInputChange}
-                                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#3193bd] focus:border-transparent transition-all"
+                                    className="w-full px-4 py-3 border border-gray-300 rounded-lg text-gray-900 focus:ring-2 focus:ring-[#3193bd] focus:border-transparent transition-all"
                                     placeholder="Abidjan, Yamoussoukro..."
                                 />
                             </div>
@@ -249,7 +255,7 @@ export default function DevisDrawer({ isOpen, onClose }: DevisDrawerProps) {
                             rows={6}
                             value={formData.message}
                             onChange={handleInputChange}
-                            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#3193bd] focus:border-transparent transition-all resize-none"
+                            className="w-full px-4 py-3 border border-gray-300 rounded-lg text-gray-900 focus:ring-2 focus:ring-[#3193bd] focus:border-transparent transition-all resize-none"
                             placeholder="Décrivez votre projet en détail : type de menuiserie, dimensions, délais souhaités..."
                         />
                     </div>

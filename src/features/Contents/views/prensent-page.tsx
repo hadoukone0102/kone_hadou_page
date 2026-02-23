@@ -99,7 +99,7 @@ export default function SiglassAbout() {
                             <div className="bg-white p-4 rounded-lg shadow-sm">
                                 <div className="flex items-center gap-2 text-[#3193bd] mb-2">
                                     <Briefcase size={24} />
-                                    <span className="text-2xl font-bold">500+</span>
+                                    <span className="text-2xl font-bold">100+</span>
                                 </div>
                                 <p className="text-sm text-gray-600">Projets réalisés</p>
                             </div>

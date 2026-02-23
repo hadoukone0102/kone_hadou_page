@@ -11,7 +11,7 @@ export default function SiglassRealisation() {
                 className="" 
                 BruncumbTitle="Nos realisations" 
                 BannerSrc="/banner/second.jpg"
-                BannerDesc="Profitez de nos offres spéciales ce mois-ci !"
+                BannerDesc=""
                 BannerTitle="Les realisation de siglass"
                 BruncumbType="Produits"
                 BannerType={
